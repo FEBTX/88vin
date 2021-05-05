@@ -1,0 +1,24 @@
+<font>
+	<info face="Rocker" size="120" />
+	<common lineHeight="120" scaleW="274" scaleH="333" pages="1" />
+	<pages>
+		<page id="0" file="Rocker.png" />
+	</pages>
+	<chars count="13">
+		<char id="46" x="145" y="113" width="36" height="35" xoffset="0" yoffset="65" xadvance="31" /><!-- . -->
+		<char id="48" x="145" y="0" width="65" height="112" xoffset="0" yoffset="13" xadvance="60" /><!-- 0 -->
+		<char id="49" x="75" y="224" width="66" height="108" xoffset="0" yoffset="13" xadvance="61" /><!-- 1 -->
+		<char id="50" x="0" y="110" width="75" height="113" xoffset="0" yoffset="10" xadvance="70" /><!-- 2 -->
+		<char id="51" x="209" y="113" width="64" height="109" xoffset="0" yoffset="11" xadvance="59" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="77" height="109" xoffset="0" yoffset="10" xadvance="72" /><!-- 4 -->
+		<char id="53" x="76" y="110" width="68" height="109" xoffset="0" yoffset="11" xadvance="63" /><!-- 5 -->
+		<char id="54" x="78" y="0" width="64" height="109" xoffset="0" yoffset="11" xadvance="59" /><!-- 6 -->
+		<char id="55" x="0" y="224" width="74" height="108" xoffset="0" yoffset="11" xadvance="69" /><!-- 7 -->
+		<char id="56" x="142" y="220" width="66" height="112" xoffset="0" yoffset="10" xadvance="61" /><!-- 8 -->
+		<char id="57" x="209" y="223" width="64" height="109" xoffset="0" yoffset="11" xadvance="59" /><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="20" /><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="160" /><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

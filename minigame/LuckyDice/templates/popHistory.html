@@ -1,0 +1,35 @@
+<div class="popup popup-tx-history show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn3')}</div>
+<div class="head-tab-ctrls">
+<div class="tab-ctrl active"><span class="lasvegas"></span></div>
+<div class="tab-ctrl"><span class="hongkong"></span></div>
+<div class="tab-ctrl"><span class="macau"></span></div>
+</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type active" id="t1History"><span>{Config.MoneyText[1]}</span></span>
+<span class="type"  id="t2History"><span>{Config.MoneyText[0]}</span></span>
+</div>
+<div class="list-tabs">
+<table class="table" width="100%">
+<thead>
+<tr>
+<th align="center">{Message.GetMessage('hi08')}</th>
+<th align="center">{Message.GetMessage('hi09')}</th>
+<th align="center">{Message.GetMessage('hi10')}</th>
+<th align="center">{Message.GetMessage('hi11')}</th>
+<th align="right">{Message.GetMessage('hi12')}</th>
+<th align="right">{Message.GetMessage('tx11')}</th>
+<th align="right">{Message.GetMessage('hi14')}</th>
+</tr>
+</thead>
+<tbody id="itemHis"></tbody>
+</table>
+</div>
+<div class="page-ljp pages" id="pager">
+</div>
+</div>
+</div>
+</div>

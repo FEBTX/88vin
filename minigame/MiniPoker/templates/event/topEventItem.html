@@ -1,0 +1,29 @@
+{#foreach $T as item}
+<tr class="{#if ($T.item$index == 0)}top-tx{#/if} {#if ($T.item$index % 2 == 0)}bg2{#/if} {#if ($T.item.PortalID == $P.PortalID && $T.item.AccountID == $P.AccountID)}my-tx{#/if}" style="{#if ($T.item$index == 0)}font-size:130%; color: #fff800{#/if}">
+    <td>{libs.Util.ParseMoney($T.item.Position)}</td>
+    <td>
+        <p>
+        {#if ($T.item.PrizeID == 1 && $P.Type == 'bxh1')}{Message.GetMessage('minipoker.event.special')}{#/if}
+        {#if ($T.item.PrizeID > 1 && $P.Type == 'bxh1')}{Message.GetMessage('minipoker.event.consolation')}{#/if}
+        {#if ($P.Type != 'bxh1' && $T.item.Nickname)}{libs.Util.getNameSetStyle($T.item.Nickname)}{#/if}
+        &nbsp;</p>
+    </td>
+    <td>
+        {#if ($P.Type == 'bxh1' && $T.item.Nickname)}{libs.Util.getNameSetStyle($T.item.Nickname)}{#/if}
+        {#if ($P.Type != 'bxh1' && $T.item.TicketCount > 0)}{$T.item.TicketCount}{#/if}
+    </td>
+    <td>
+        {#if ($P.Type == 'bxh1' && $T.item.TicketID > 0)}{$T.item.TicketName}{#/if}
+        {#if ($P.Type != 'bxh1' && $T.item.SpinID > 0)}#{$T.item.SpinID}{#/if}
+    </td>
+    <td class="money-gold">&nbsp;
+        {#if ($P.Type == 'bxh1')}
+            {libs.Util.ParseMoney($T.item.PrizeValue)} <span>{Config.MoneyText[1]}</span>
+        {#else}
+            {#if ($T.item.Position == 1)}200.000 <span>{Config.MoneyText[1]}</span>{#/if}
+            {#if ($T.item.Position > 1 && $T.item.Position < 4)}100.000 <span>{Config.MoneyText[1]}</span>{#/if}
+            {#if ($T.item.Position > 3 && $T.item.Position < 6)}50.000 <span>{Config.MoneyText[1]}</span>{#/if}
+        {#/if}
+    </td>
+</tr>
+{#/for}

@@ -1,0 +1,76 @@
+
+Pig.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10 Chan N
+  rotate: false
+  xy: 2, 2
+  size: 62, 33
+  orig: 62, 33
+  offset: 0, 0
+  index: -1
+11 Duoi
+  rotate: false
+  xy: 408, 139
+  size: 27, 30
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+12 Bong
+  rotate: false
+  xy: 187, 171
+  size: 250, 70
+  orig: 250, 70
+  offset: 0, 0
+  index: -1
+3 Mat Mo
+  rotate: false
+  xy: 2, 37
+  size: 84, 53
+  orig: 84, 53
+  offset: 0, 0
+  index: -1
+4 Dau
+  rotate: false
+  xy: 187, 38
+  size: 158, 131
+  orig: 158, 131
+  offset: 0, 0
+  index: -1
+5 Tay N
+  rotate: false
+  xy: 88, 57
+  size: 61, 33
+  orig: 61, 33
+  offset: 0, 0
+  index: -1
+6 Canh 1
+  rotate: false
+  xy: 439, 171
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+7 THan
+  rotate: false
+  xy: 2, 92
+  size: 183, 149
+  orig: 183, 149
+  offset: 0, 0
+  index: -1
+8 Tay T
+  rotate: true
+  xy: 347, 42
+  size: 62, 32
+  orig: 62, 32
+  offset: 0, 0
+  index: -1
+9 Canh 2
+  rotate: false
+  xy: 347, 106
+  size: 59, 63
+  orig: 59, 63
+  offset: 0, 0
+  index: -1

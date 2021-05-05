@@ -1,0 +1,124 @@
+{"frames": {
+
+"catte-toitrang-en.png":
+{
+	"frame": {"x":1,"y":1,"w":412,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":167},
+	"sourceSize": {"w":412,"h":167}
+},
+"catte-toitrang-fr.png":
+{
+	"frame": {"x":415,"y":1,"w":412,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":167},
+	"sourceSize": {"w":412,"h":167}
+},
+"catte-toitrang-id.png":
+{
+	"frame": {"x":1,"y":170,"w":412,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":167},
+	"sourceSize": {"w":412,"h":167}
+},
+"catte-toitrang-km.png":
+{
+	"frame": {"x":415,"y":170,"w":412,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":167},
+	"sourceSize": {"w":412,"h":167}
+},
+"catte-toitrang-vi.png":
+{
+	"frame": {"x":415,"y":339,"w":406,"h":168},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":406,"h":168},
+	"sourceSize": {"w":406,"h":168}
+},
+"catte-toitrang-zh.png":
+{
+	"frame": {"x":1,"y":339,"w":412,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":412,"h":167},
+	"sourceSize": {"w":412,"h":167}
+},
+"thang-tung-en.png":
+{
+	"frame": {"x":301,"y":671,"w":423,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":423,"h":63},
+	"sourceSize": {"w":423,"h":63}
+},
+"thang-tung-fr.png":
+{
+	"frame": {"x":352,"y":588,"w":490,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":490,"h":81},
+	"sourceSize": {"w":490,"h":81}
+},
+"thang-tung-id.png":
+{
+	"frame": {"x":352,"y":509,"w":522,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":522,"h":77},
+	"sourceSize": {"w":522,"h":77}
+},
+"thang-tung-km.png":
+{
+	"frame": {"x":1,"y":599,"w":298,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":298,"h":93},
+	"sourceSize": {"w":298,"h":93}
+},
+"thang-tung-vi.png":
+{
+	"frame": {"x":1,"y":508,"w":349,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":349,"h":89},
+	"sourceSize": {"w":349,"h":89}
+},
+"thang-tung-zh.png":
+{
+	"frame": {"x":829,"y":103,"w":149,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":81},
+	"sourceSize": {"w":149,"h":81}
+},
+"thua-tung-en.png":
+{
+	"frame": {"x":829,"y":1,"w":186,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":100},
+	"sourceSize": {"w":186,"h":100}
+},
+"thua-tung-vi.png":
+{
+	"frame": {"x":823,"y":339,"w":197,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":197,"h":100},
+	"sourceSize": {"w":197,"h":100}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "catte.png",
+	"format": "RGBA8888",
+	"size": {"w":1021,"h":735},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:33c8597d3d3af85e2793697c8e0026e9:edf6c33d9026dd9a5e282821b3da6fe1:7bf67b1b7af71b3961bfd2afa91a4405$"
+}
+}

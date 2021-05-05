@@ -1,0 +1,28 @@
+{"frames": {
+
+"quickspin-active.png":
+{
+	"frame": {"x":1,"y":1,"w":22,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":22},
+	"sourceSize": {"w":22,"h":22}
+},
+"quickspin.png":
+{
+	"frame": {"x":25,"y":1,"w":20,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":20},
+	"sourceSize": {"w":20,"h":20}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/quick.png",
+	"format": "RGBA8888",
+	"size": {"w":46,"h":24},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f8494315ab499d8160bdc7f5c38c3bb1:60362dbcebb328eed2731a6bd4c7d11e:870b1ad61df73642b1cb550afb40d94f$"
+}
+}

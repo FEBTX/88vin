@@ -1,0 +1,22 @@
+{#foreach $T as item}
+<tr class="{#if ($T.item.Rank > 0 && $T.item.Rank < 4)}top-tx{#/if} {#if ($T.item$index % 2 == 0)}bg2{#/if} {#if ($T.item$index == 10 || ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID))}my-tx{#/if}" {#if ($T.item.Rank == 1)}style="font-weight: bold;font-size: 120% !important"{#/if}>
+    <td>{libs.Util.ParseMoney($T.item.Rank)}</td>
+    <td class="name" {#if ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID)}style="color: #ff0"{#/if}>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+    <td>{libs.Util.ParseMoney($T.item.ContinuousCount)}</td>
+    <td>{libs.Util.ParseMoney($T.item.TotalBet)}</td>
+    <td>#{$T.item.GameSessionID}</td>
+    <td class="money-gold">
+        {#if ($T.item.Rank == 1 && $P.Type < 3)}2.000.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Rank == 2 && $P.Type < 3)}1.000.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Rank == 3 && $P.Type < 3)}500.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Rank == 1 && $P.Type == 3)}Iphone 12 Pro{#/if}
+        {#if ($T.item.Rank == 1 && $P.Type == 4)}Iphone 12 Pro Max{#/if}
+    </td>
+</tr>
+
+    {#if ($T.item$index == 9)}
+<tr class="morebxh">
+    <th colspan="6"><span class="more-tx">{Message.GetMessage('ev32')}</span></th>
+</tr>
+    {#/if}
+{#/for}

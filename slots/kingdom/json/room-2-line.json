@@ -1,0 +1,172 @@
+{"frames": {
+
+"room-2-line-1.png":
+{
+	"frame": {"x":1166,"y":1194,"w":612,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":23},
+	"sourceSize": {"w":612,"h":23}
+},
+"room-2-line-2.png":
+{
+	"frame": {"x":1166,"y":1219,"w":612,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":23},
+	"sourceSize": {"w":612,"h":23}
+},
+"room-2-line-3.png":
+{
+	"frame": {"x":1166,"y":1219,"w":612,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":23},
+	"sourceSize": {"w":612,"h":23}
+},
+"room-2-line-4.png":
+{
+	"frame": {"x":580,"y":388,"w":612,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":171},
+	"sourceSize": {"w":612,"h":171}
+},
+"room-2-line-5.png":
+{
+	"frame": {"x":1176,"y":688,"w":612,"h":213},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":213},
+	"sourceSize": {"w":612,"h":213}
+},
+"room-2-line-6.png":
+{
+	"frame": {"x":1173,"y":903,"w":612,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":166},
+	"sourceSize": {"w":612,"h":166}
+},
+"room-2-line-7.png":
+{
+	"frame": {"x":1166,"y":1071,"w":612,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":612,"h":121},
+	"sourceSize": {"w":612,"h":121}
+},
+"room-2-line-8.png":
+{
+	"frame": {"x":604,"y":1,"w":599,"h":258},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":599,"h":258},
+	"sourceSize": {"w":599,"h":258}
+},
+"room-2-line-9.png":
+{
+	"frame": {"x":1,"y":1,"w":601,"h":281},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":601,"h":281},
+	"sourceSize": {"w":601,"h":281}
+},
+"room-2-line-10.png":
+{
+	"frame": {"x":1,"y":571,"w":591,"h":265},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":591,"h":265},
+	"sourceSize": {"w":591,"h":265}
+},
+"room-2-line-11.png":
+{
+	"frame": {"x":594,"y":561,"w":580,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":580,"h":261},
+	"sourceSize": {"w":580,"h":261}
+},
+"room-2-line-12.png":
+{
+	"frame": {"x":1194,"y":426,"w":580,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":580,"h":260},
+	"sourceSize": {"w":580,"h":260}
+},
+"room-2-line-13.png":
+{
+	"frame": {"x":1,"y":838,"w":587,"h":262},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":587,"h":262},
+	"sourceSize": {"w":587,"h":262}
+},
+"room-2-line-14.png":
+{
+	"frame": {"x":1205,"y":1,"w":584,"h":260},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":584,"h":260},
+	"sourceSize": {"w":584,"h":260}
+},
+"room-2-line-15.png":
+{
+	"frame": {"x":1,"y":1102,"w":587,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":587,"h":131},
+	"sourceSize": {"w":587,"h":131}
+},
+"room-2-line-16.png":
+{
+	"frame": {"x":1197,"y":263,"w":584,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":584,"h":161},
+	"sourceSize": {"w":584,"h":161}
+},
+"room-2-line-17.png":
+{
+	"frame": {"x":604,"y":261,"w":591,"h":125},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":591,"h":125},
+	"sourceSize": {"w":591,"h":125}
+},
+"room-2-line-18.png":
+{
+	"frame": {"x":590,"y":1061,"w":574,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":574,"h":182},
+	"sourceSize": {"w":574,"h":182}
+},
+"room-2-line-19.png":
+{
+	"frame": {"x":594,"y":824,"w":577,"h":235},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":577,"h":235},
+	"sourceSize": {"w":577,"h":235}
+},
+"room-2-line-20.png":
+{
+	"frame": {"x":1,"y":284,"w":577,"h":285},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":577,"h":285},
+	"sourceSize": {"w":577,"h":285}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/room-2-line.png",
+	"format": "RGBA8888",
+	"size": {"w":1790,"h":1244},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88e5fdd634eceb304f2bbc2c7a5ff50a:6fa92e376660499f5ac1f45ee5d8a330:d6d7cdaef13116f4a6446ebd2e70baa6$"
+}
+}

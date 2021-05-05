@@ -1,0 +1,137 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev20')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameHighLow.showTopEvent('bxhngay')"><span>{Message.GetMessage('ev15')}</span></span>
+<span class="type" onclick="gameHighLow.showTopEvent('bxhchung')"><span>{Message.GetMessage('ev16')}</span></span>
+<span class="type active" onclick="gameHighLow.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="font-size: 120%; color: yellow"><strong><em>Sự kiện: “Săn bài đẹp, kẹp Iphone” của minigame Cao Thấp</em></strong></p>
+<p>Thời gian: sự kiện diễn ra hằng tháng, từ ngày 1 đến ngày cuối cùng của tháng.</p>
+<p>&nbsp;</p>
+<p style="font-size: 120%;"><strong><em>Nội dung: </em></strong></p>
+<p>- Áp dụng cho tất cả người chơi minigame Cao Thấp bằng đồng <span class="money-gold">{Config.MoneyText[1]}</span> trên cổng game dân gian <a href="{Config.STATIC_URL}" style="color: #fff;">{Config.PortalHost}</a></p>
+<p>&nbsp;</p>
+<p style="font-size: 120%;"><strong><em>Thể lệ: </em></strong></p>
+<p>Trong suốt thời gian diễn ra sự kiện, khách hàng tham gia chơi minigame Cao Thấp bằng đồng <span class="money-gold">{Config.MoneyText[1]}</span> có cơ hội nhận được nhiều giải thưởng <span class="money-gold">{Config.MoneyText[1]}</span> có giá trị cho giải ngày và 01 <span style="color: #Fc0">Iphone 12 Pro Max</span> cho giải chung cuộc.</p>
+<ul>
+<li>- Trong một phiên chơi minigame Cao thấp, hệ thống sẽ tự động chọn ra 5 lá bài trong những lá bài được mở để ghép thành bộ bài cao nhất theo luật game Poker (không tính chất của bộ bài).</li>
+<li>- Phiên chơi hợp lệ là phiên chơi có ít nhất 5 lượt chơi và lượt chơi cuối cùng là lượt thắng.</li>
+<li>- Giải ngày thống kê từ 0h00 đến 23h59.</li>
+</ul>
+<p>&nbsp;</p>
+<p style="font-size: 120%;"><strong><em>Tiêu chí xếp hạng:</em></strong></p>
+<ol>
+<li>- Bộ bài cao nhất mà hệ thống ghi nhận từng ngày</li>
+<li>- Tiền thắng lớn nhất</li>
+<li>- Thời gian đạt được bộ bài cao nhất sớm hơn (thời điểm kết thúc phiên chơi)</li>
+</ol>
+<p>&nbsp;</p>
+<p style="font-size: 120%;"><strong><em>Giải thưởng </em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">Giải ngày</p>
+</th>
+<th style="width:115px;">
+<p>Giá trị giải thưởng</p>
+</th>
+<th style="width:66px;">
+<p>Số lượng</p>
+</th>
+</tr>
+<tr>
+ <td>
+<p align="center">1</p>
+</td>
+<td>
+<p>2.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p>1.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p>500.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Giải chung cuộc</p>
+</th>
+<th style="width:115px;">
+<p align="right">&nbsp;</p>
+</th>
+<th style="width:66px;">
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p><span style="color: #Fc0">Iphone 12 Pro Max</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">33.990.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>Giải chung cuộc dành cho người đạt được bộ bài lớn nhất theo tiêu chí xếp hạng ở trên mà hệ thống ghi nhận từng ngày trong suốt thời gian diễn ra sự kiện.</p>
+<p style="font-size: 120%;"></p>
+<p style="font-size: 120%;"><strong><em>Lưu ý:</em></strong></p>
+ <p>- Giải thưởng <span class="money-gold">{Config.MoneyText[1]}</span> sẽ được trao vào lúc 0h30 ngày kế tiếp.</p>
+<p>- Giải thưởng vật lý sẽ được trao trong vòng 1 tuần ngay sau khi kết thúc sự kiện, giải thưởng vật lý không bao gồm các phụ phí liên quan.</p>
+<p>- Giải thưởng vật lý có thể quy đổi thành <span class="money-gold">{Config.MoneyText[1]}</span>.</p>
+<p>- Một tài khoản có thể nhận được nhiều giải thưởng ngày khác nhau.</p>
+<p>- Trong trường hợp có tranh chấp, quyết định của BTC là quyết định cuối cùng.</p>
+<p style="color: yellow">- Từ tháng 12 năm 2020 giải thưởng Iphone 11 Pro Max ở event sẽ được nâng cấp lên Iphone 12 Pro Max 128GB.</p>
+</div>
+</div>
+</div>
+</div>
+</div>

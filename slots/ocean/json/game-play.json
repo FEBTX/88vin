@@ -1,0 +1,36 @@
+{"frames": {
+
+"line-18.png":
+{
+	"frame": {"x":1046,"y":588,"w":839,"h":250},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":839,"h":250},
+	"sourceSize": {"w":839,"h":250}
+},
+"line-19.png":
+{
+	"frame": {"x":951,"y":840,"w":839,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":839,"h":312},
+	"sourceSize": {"w":839,"h":312}
+},
+"line-20.png":
+{
+	"frame": {"x":1,"y":1181,"w":862,"h":396},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":862,"h":396},
+	"sourceSize": {"w":862,"h":396}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/game-play.png",
+	"format": "RGBA8888",
+	"size": {"w":1973,"h":1710},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1e286f9c3c7d6cce27664d06ba0f24be:aef645597feda5fed68807fd9ab8443f:46487e41a5488a67f32768111fee76bd$"
+}
+}

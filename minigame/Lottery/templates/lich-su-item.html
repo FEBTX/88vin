@@ -1,0 +1,14 @@
+{#foreach $T as item}
+    <li style="font-size: 20px;" class="{#if ($T.item$index % 2 == 0)}bg2{#/if} area-{$T.item.AreaID} {#if ($T.item.IsAwarded)}awarded{#/if} {#if ($T.item.PrizeValue > 0)}prized{#/if}">
+        <span>
+            {libs.Util.formDateTimehms($T.item.CreatedTime, 2)} <br>
+            {libs.Util.formDateTimehms($T.item.CreatedTime, 1)}
+        </span>
+        <span>{gameLottery.GetLocationName($T.item.LocationID, $T.item.LocationName)}</span>
+        <span>#{$T.item.GameSessionID}</span>
+        <span>{gameLottery.GetBetTypeName($T.item.BetType)}: <span class="{#if ($T.item.PrizeValue > 0)}blue-lottery{#/if}">{$T.item.BetData}</span></span>
+        <span>{libs.Util.ParseMoney($T.item.BetValue)}</span>
+        <span>{#if ($T.item.IsAwarded > 0)}{libs.Util.ParseMoney($T.item.PrizeValue)}{#/if}</span>
+        <span>{#if ($T.item.IsAwarded > 0)}<a href="javascript:;" style="color:white;" onclick="gameLottery.KetQua('{libs.Util.formDateTimehms($T.item.DateAward,1)}', '{$T.item.LocationID}', '{gameLottery.GetLocationName($T.item.LocationID)}')">{Message.GetMessage('tx21')}</a>{#/if}</span>
+    </li>
+{#/foreach}

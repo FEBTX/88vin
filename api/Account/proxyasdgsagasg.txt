@@ -1,0 +1,3 @@
+lum-customer-hl_6fea3c69-zone-zone2-ip-89.185.76.253:fxrn4rfdu2it
+lum-customer-hl_6fea3c69-zone-zone2-ip-89.185.76.254:fxrn4rfdu2it
+lum-customer-hl_6fea3c69-zone-zone2-ip-89.185.76.255:fxrn4rfdu2it

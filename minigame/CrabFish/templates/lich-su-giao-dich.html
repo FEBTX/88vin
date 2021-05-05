@@ -1,0 +1,45 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn1')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types" style="background: none; -webkit-box-shadow: none; box-shadow:none">
+</div>
+<div class="list-tabs">
+<table class="table" style="width:100%">
+<thead>
+<tr>
+<th align="center">{Message.GetMessage('hi08')}</th>
+<th align="center">{Message.GetMessage('hi09')}</th>
+<th align="center">{Message.GetMessage('hi34')}</th>
+<th align="center">{Message.GetMessage('hi11')}</th>
+<th align="right">{Message.GetMessage('hi12')}</th>
+<th align="right">{Message.GetMessage('hi14')}</th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody id="itemHis">
+{#foreach $T.data as item}
+<tr>
+<td align="right" title="{$T.item.GameSessionID}">{$T.item.GameSessionID}</td>
+<td align="center" title="{$T.item.GameSessionID}">{libs.Util.formDateTimehms($T.item.StartTime)}</td>
+<td align="center" title="{$T.item.GameSessionID}">{gameCrabFish.getRoomValue($T.item.RoomID,$T.item.BetType)}</td>
+<td align="center" title="{$T.item.GameSessionID}">{gameCrabFish.getGateResultName($T.item.ResultData)}</td>
+{#if $T.item.BetType==1}
+<td align="right" class="money-gold" title="{$T.item.GameSessionID}">{libs.Util.ParseMoney($T.item.TotalBetValue)}</td>
+<td align="right" class="money-gold" title="{$T.item.GameSessionID}">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+{#else}
+<td align="right" class="money-coin" title="{$T.item.GameSessionID}">{libs.Util.ParseMoney($T.item.TotalBetValue)}</td>
+<td align="right" class="money-coin" title="{$T.item.GameSessionID}">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+{#/if}
+<td align="center"><a onclick="gameCrabFish.historyDetail({$T.item.GameSessionID},{$T.item.RoomID})">{Message.GetMessage('hi07')}</a></td>
+</tr>
+{#/for}
+</tbody>
+</table>
+<div class="page-ljp pages" id="pager">
+</div>
+</div>
+</div>
+</div>
+</div>

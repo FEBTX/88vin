@@ -1,0 +1,71 @@
+<h3>
+{Message.GetMessage('ev9')}
+</h3>
+<div class="tablepop">
+<div class="tablescroll-tx">
+<table style="width:100%">
+<tbody id="topEven1">
+{#foreach $T.Win as item}
+<tr class="my-tx {#if ($T.item$index % 2 == 0)}bg2{#/if}">
+<td>{$T.item$index + 1}</td>
+<td>{$T.item.TicketName}</td>
+<td>
+{#if ($T.item.Position == 1)}{Message.GetMessage('minipoker.event.special')}{#/if}
+{#if ($T.item.Position > 1)}{Message.GetMessage('minipoker.event.consolation')}{#/if}
+</td>
+<td>{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+</tr>
+{#/for}
+{#if ($T.Win.length == 0)}
+<tr class="my-tx"><td colspan="4">
+{#if ($T.NoResult == true)}
+{Message.Get{Message('minipoker.event.no-result')}
+{#/if}
+{#if ($T.NoResult != true)}
+{Message.Get{Message('minipoker.event.no-win-ticket')}
+{#/if}
+</td></tr>{#/if}
+</tbody>
+</table>
+</div>
+</div>
+<h3>
+<span class="select-tx">
+<select id="myTicketSort" style="display: none;">
+<option value="">{Message.GetMessage('sort.default')}</option>
+<option value="1">{Message.GetMessage('sort.ascending')}</option>
+<option value="2">{Message.GetMessage('sort.descending')}</option>
+</select>
+</span>
+{Message.GetMessage('ev3')}
+</h3>
+<div class="tablepop">
+<div class="tablescroll-tx">
+<table style="width:100%">
+<thead>
+<tr>
+<th width="10%">{Message.GetMessage('#')}</th>
+<th width="23%">{Message.GetMessage('ev7')}</th>
+<th width="10%">{Message.GetMessage('#')}</th>
+<th width="23%">{Message.GetMessage('ev7')}</th>
+<th width="10%">{Message.GetMessage('#')}</th>
+<th width="23%">{Message.GetMessage('ev7')}</th>
+</tr>
+</thead>
+<tbody class="full">
+{#foreach $T.MyTicket as item}
+{#if ($T.item$index % 3 == 0)}
+<tr class="{#if ($T.item$index % 6 < 3)}bg2{#/if}">
+{#/if}
+<td>{$T.item$index + 1}</td>
+<td {#if ($T.item.PrizeValue > 0)}style="color: #fff800"{#/if}>{$T.item.TicketName}</td>
+{#if ($T.item$index % 3 == 2)}
+</tr>
+{#/if}
+{#/for}
+{#if ($T.MyTicket.length == 0)}
+<tr class="my-tx"><td colspan="6">{Message.GetMessage('minipoker.event.you-have-no-ticket')}</td></tr>{#/if}
+</tbody>
+</table>
+</div>
+</div>

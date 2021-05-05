@@ -1,0 +1,75 @@
+<div id="gameLuckyWild" class="mg-lw" style="top:200px; left:200px; display: none;">
+<div class="game">
+<div class="buttons">
+<span class="button button-guide">
+<i class="ic-guide"></i>
+</span>
+<span class="button button-history">
+<i class="ic-history"></i>
+</span>
+<span class="button button-trophy">
+<i class="ic-trophy"></i>
+</span>
+<span class="button button-close">
+<i class="ic-close"></i>
+</span>
+</div>
+<div class="bets">
+<span class="bet active" id="lw-room1" data-value="1">
+<span></span>
+</span>
+<span class="bet" id="lw-room2" data-value="2">
+<span></span>
+</span>
+<span class="bet" id="lw-room3" data-value="3">
+<span></span>
+</span>
+</div>
+<div class="jackpot">
+<span class="money" id="divJackpot">0</span>
+<i class="ic-money money-1 active"></i>
+</div>
+<span class="line line-1" style="display: none;"></span>
+<span class="line line-2" style="display: none;"></span>
+<span class="line line-3" style="display: none;"></span>
+<span class="ic-wild"></span>
+<span class="multiple x1" style="display: none;"></span>
+<div class="effect" id="divBigValue" style="display: none;">
+<span class="light" style="display: none;"></span>
+<span class="jackpot" id="bigjackpot" style="display: none;"></span>
+<span class="bigwin" id="bigwin" style="display: none;"></span>
+<span class="win" id="reward-money" style="display: none;">0</span>
+
+</div>
+<span class="session">#0</span>
+<span class="button button-spin">
+<span>{Message.GetMessage('lw1')}</span>
+</span>
+<div class="speed">
+<span class="text">{Message.GetMessage('lw3')}</span>
+<span class="button button-speed" data-value="1">X1</span>
+</div>
+<div class="win">
+<span class="text">{Message.GetMessage('lw4')}</span>
+<span class="text-win" id="totalWin">0</span>
+</div>
+<div class="auto">
+<span class="text">{Message.GetMessage('lw5')}</span>
+<span class="button button-auto" id="scrollwild">0</span>
+</div>
+<div class="auto-dropup">
+<div class="number" data-autoValue="5000">5.000</div>
+<div class="number" data-autoValue="1000">1.000</div>
+<div class="number" data-autoValue="100">100</div>
+<div class="number" data-autoValue="50">50</div>
+<div class="number" data-autoValue="20">20</div>
+<div class="number" data-autoValue="10">10</div>
+</div>
+<div class="slots">
+<div class="box box-1"></div>
+<div class="box box-2"></div>
+<div class="box box-3"></div>
+<canvas id="canvas-SlotLW"></canvas>
+</div>
+</div>
+</div>

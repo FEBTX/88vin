@@ -1,0 +1,234 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev14')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameLuckyDice.showTopEvent('bxhngay')"><span>{Message.GetMessage('ev15')}</span></span>
+<span class="type" onclick="gameLuckyDice.showTopEvent('bxhchung')"><span>{Message.GetMessage('ev16')}</span></span>
+<span class="type active" onclick="gameLuckyDice.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="color: yellow"><strong><em>Sự kiện: &ldquo;T&igrave;m kiếm ti&ecirc;n tri&rdquo; của minigame T&agrave;i Xỉu</em></strong></p>
+<p>Thời gian: diễn ra hằng tháng, từ ngày 1 đến ngày cuối cùng của tháng. Diễn ra từ 9h09 ngày 20/01/2019</p>
+<p style="color: yellow"><strong><em>Nội dung: </em></strong></p>
+<p>- &Aacute;p dụng cho tất cả người chơi minigame T&agrave;i Xỉu bằng đồng <span class="money-gold">{Config.MoneyText[1]}</span> tr&ecirc;n cổng game d&acirc;n gian <a href="{Config.STATIC_URL}" style="color: #fff;">{Config.PortalHost}</a></p>
+<p style="color: yellow"><strong><em>Thể lệ: </em></strong></p>
+<p>Trong suốt thời gian diễn ra sự kiện, kh&aacute;ch h&agrave;ng tham gia chơi minigame T&agrave;i Xỉu bằng đồng <span class="money-gold">{Config.MoneyText[1]}</span> thắng v&agrave; thua li&ecirc;n tiếp nhiều v&aacute;n li&ecirc;n tục, sẽ c&oacute; c&oacute; cơ hội nhận được nhiều giải thưởng <span class="money-gold">{Config.MoneyText[1]}</span> c&oacute; gi&aacute; trị cho giải ng&agrave;y v&agrave; 02 <span style="color: #Fc0">Iphone 12 Pro</span>,&nbsp; <span style="color: #Fc0">Iphone 12 Pro Max</span> cho giải chung cuộc.</p>
+<ul>
+<li>Giải ng&agrave;y thống k&ecirc; từ 0h00 đến 23h59.</li>
+<li>Số v&aacute;n thắng hoặc thua li&ecirc;n tiếp kh&ocirc;ng cần phải l&agrave; c&aacute;c phi&ecirc;n li&ecirc;n tiếp nhau.</li>
+<li>
+Điều kiện t&iacute;nh v&aacute;n thắng hoặc thua li&ecirc;n tiếp:
+<ul>
+<li style="margin-left:50pt;">+ C&aacute;c v&aacute;n c&oacute; lệnh khớp tối thiểu <span class="money-gold">2.000 {Config.MoneyText[1]}</span></li>
+<li style="margin-left:50pt;">+ C&oacute; &iacute;t nhất 1 v&aacute;n lệnh khớp tối thiểu <span class="money-gold">10.000 {Config.MoneyText[1]}</span></li>
+</ul>
+</li>
+<li>Những v&aacute;n kh&ocirc;ng khớp lệnh (ho&agrave;n trả 100% số tiền đặt) th&igrave; hệ thống sẽ kh&ocirc;ng ghi nhận bất chấp kết quả của v&aacute;n đ&oacute; &ndash; coi như l&agrave; người chơi kh&ocirc;ng tham gia.</li>
+</ul>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Ti&ecirc;u ch&iacute; xếp hạng:</em></strong></p>
+<ol>
+<li>Số v&aacute;n thắng hoặc thua li&ecirc;n tiếp d&agrave;i nhất m&agrave; hệ thống ghi nhận từng ng&agrave;y</li>
+<li>Tổng tiền thắng (chuỗi thắng li&ecirc;n tiếp) v&agrave; tổng tiền thua (chuỗi thua li&ecirc;n tiếp)</li>
+<li>Thời gian đạt chuỗi thắng hoặc thua li&ecirc;n tiếp trước.</li>
+</ol>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Giải thưởng Top thắng li&ecirc;n tiếp</em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:96%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">Giải ng&agrave;y</p>
+</th>
+<th>
+<p>Gi&aacute; trị giải thưởng</p>
+</th>
+<th>
+<p>Số lượng</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Giải chung cuộc</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro</span></p>
+</td>
+<td class="money-gold">
+<p align="right">30.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>Giải chung cuộc d&agrave;nh cho người đạt được chuỗi thắng li&ecirc;n tiếp d&agrave;i nhất theo ti&ecirc;u ch&iacute; xếp hạng ở tr&ecirc;n m&agrave; hệ thống ghi nhận từng ng&agrave;y trong suốt thời gian diễn ra sự kiện.</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Giải thưởng Top thua li&ecirc;n tiếp</em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">Giải ng&agrave;y</p>
+</th>
+<th>
+<p>Gi&aacute; trị giải thưởng</p>
+</th>
+<th>
+<p>Số lượng</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+ <p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Giải chung cuộc</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro Max</span></p>
+</td>
+<td class="money-gold">
+<p align="right">33.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>Giải chung cuộc d&agrave;nh cho người đạt được chuỗi thua li&ecirc;n tiếp d&agrave;i nhất theo ti&ecirc;u ch&iacute; xếp hạng ở tr&ecirc;n m&agrave; hệ thống ghi nhận từng ng&agrave;y trong suốt thời gian diễn ra sự kiện.</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Lưu &yacute;:</em></strong></p>
+<p>- Giải thưởng <span class="money-gold">{Config.MoneyText[1]}</span> sẽ được trao v&agrave;o l&uacute;c 0h30 ng&agrave;y kế tiếp.</p>
+<p>- Giải thưởng vật l&yacute; sẽ được trao trong v&ograve;ng 1 tuần ngay sau khi kết th&uacute;c sự kiện, giải thưởng vật l&yacute; kh&ocirc;ng bao gồm c&aacute;c phụ ph&iacute; li&ecirc;n quan.</p>
+<p>- Giải thưởng vật l&yacute; c&oacute; thể quy đổi th&agrave;nh <span class="money-gold">{Config.MoneyText[1]}</span>.</p>
+<p>- Một t&agrave;i khoản c&oacute; thể nhận được nhiều giải thưởng ng&agrave;y kh&aacute;c nhau.</p>
+<p>- Trong trường hợp c&oacute; tranh chấp, quyết định của BTC l&agrave; quyết định cuối c&ugrave;ng.</p>
+<p style="color: yellow">- Từ tháng 12 năm 2020 giải thưởng Iphone 11 Pro, Iphone 11 Pro Max ở event sẽ được nâng cấp tương ứng là Iphone 12 Pro 128GB, Iphone 12 Pro Max 128GB.</p>
+</div>
+</div>
+</div>
+</div>
+</div>

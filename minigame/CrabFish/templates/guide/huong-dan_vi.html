@@ -1,0 +1,130 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn22')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types" style="background: none; -webkit-box-shadow: none; box-shadow:none">
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="color: yellow"><strong><em>Giới thiệu game</em></strong></p>
+<p>
+Bầu cua là mini game trên hệ thống <span style="color: yellow">{Config.PortalName}</span> sử
+dụng 3 xúc xắc, mỗi xúc xắc có 6 mặt. Người chơi đặt cược vào 1 trong 6 cửa sau:<br />
+<span style="padding-left: 20px">
+* Hươu
+</span><br />
+<span style="padding-left: 20px">
+* Bầu
+</span><br />
+<span style="padding-left: 20px">
+* Gà
+</span><br />
+<span style="padding-left: 20px">
+* Cá
+</span><br />
+<span style="padding-left: 20px">
+* Cua
+</span><br />
+<span style="padding-left: 20px">
+* Tôm
+</span>
+</p>
+<p style="color: yellow"><strong><em>Cách chơi</em></strong></p>
+<p>
+<span style="padding-left: 20px">
+* Bước 1: Chọn bàn và mệnh giá chơi. Bàn {Config.MoneyText[1]} gồm các mệnh giá 1.000
+{Config.MoneyText[1]}, 10.000 {Config.MoneyText[1]}, 100.000 {Config.MoneyText[1]}. Bàn
+{Config.MoneyText[0]} gồm các mệnh giá 10.000 {Config.MoneyText[0]}, 100.000
+{Config.MoneyText[0]}, 1.000.000 {Config.MoneyText[0]}. Người chơi có thể chơi nhiều bàn tại
+1 thời điểm
+</span><br />
+<span style="padding-left: 20px">
+* Bước 2: Chọn cửa đặt. Mỗi cửa đặt tối thiểu 1 lần mệnh giá bàn, tối đa 100 lần mệnh giá
+bàn. Ví dụ bàn 1.000 {Config.MoneyText[1]} đặt tối thiểu 1.000 {Config.MoneyText[1]}, tối đa
+100.000 {Config.MoneyText[1]}
+</span><br />
+<span style="padding-left: 20px">
+* Bước 3: Click button Xác nhận để gửi giao dịch. Sau khi gửi Xác nhận, người chơi có thể
+tiếp tục đặt cửa. Sau khi đặt thêm click button Xác nhận để gửi
+</span><br />
+<span style="padding-left: 20px">
+* Bước 4: Chờ kết quả và nhận thưởng. Trong thời gian chờ, người chơi không thể chuyển bàn
+</span>
+</p>
+<p style="color: yellow"><strong><em>Trả thưởng</em></strong></p>
+<p>
+Hệ thống mở bát, dựa vào kết quả 3 mặt của 3 xúc xắc để phân định thắng thua. Người chơi đặt cửa
+có kết quả giống với mặt xúc xắc sẽ thắng: <br />
+<span style="padding-left: 20px">
+* Xúc xắc về 1 biểu tượng: người chơi ăn được 1 lần tổng đặt
+</span>
+ <span style="padding-left: 20px">
+* Xúc xắc về 2 biểu tượng: người chơi ăn được 2 lần tổng đặt
+</span>
+<span style="padding-left: 20px">
+* Xúc xắc về 3 biểu tượng: người chơi ăn được 3 lần tổng đặt
+</span>
+<span style="padding-left: 20px">
+* Đặc biệt người chơi có cơ hội nhận được 9 lần tổng đặt nếu giá trị nhân về X3 và kết quả 3
+biểu tượng.
+</span>
+</p>
+<p style="color: yellow"><strong><em>Luật X2/X3</em></strong></p>
+<p>
+* Trước khi gieo xúc xắc, hệ thống chọn ngẫu nhiên giá trị X1/X2/X3 cho 1 cửa. Nếu kết quả về
+cửa này, người chơi sẽ nhận được gấp đôi (X2) hoặc gấp ba (X3) giá trị tổng đặt<br />
+<table class="table" border="0" cellspacing="0" cellpadding="0" width="96%">
+<tbody>
+<tr>
+<th>
+<p>Kết quả</p>
+</th>
+<th>
+X2
+</th>
+<th>
+X3
+</th>
+</tr>
+<tr>
+<td align="center">
+1 biểu tượng
+</td>
+<td align="center">
+2 lần tổng đặt
+</td>
+<td align="center">
+3 lần tổng đặt
+</td>
+</tr>
+<tr>
+<td align="center">
+2 biểu tượng
+</td>
+<td align="center">
+4 lần tổng đặt
+</td>
+<td align="center">
+6 lần tổng đặt
+</td>
+</tr>
+<tr>
+<td align="center">
+3 biểu tượng
+</td>
+<td align="center">
+6 lần tổng đặt
+</td>
+<td align="center">
+9 lần tổng đặt
+</td>
+</tr>
+<tbody>
+</table>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,73 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev35')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameLuckyDice.showEventChest('lichsu')"><span>{Message.GetMessage('mn3')}</span></span>
+<span class="type" onclick="gameLuckyDice.showEventChest('thongke')"><span>{Message.GetMessage('ev36')}</span></span>
+<span class="type active" onclick="gameLuckyDice.showEventChest('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="color: yellow"><strong><em>1. Thời gian:</em></strong></p>
+<p>Sự kiện “Chơi hay nhận ngay SH” diễn ra từ 09h09 ngày 20/01/2019</p>
+<p style="color: yellow"><strong><em>2. Đối tượng:</em></strong></p>
+<p>Tất cả người chơi game Tài Xỉu trên cổng {Config.PortalHost} bàn {Config.MoneyText[1]}</p>
+<p style="color: yellow"><strong><em>3. Thể lệ:</em></strong></p>
+<p>Người chơi tham gia game Tài Xỉu nếu đạt đủ điều kiện sẽ được tặng 5 loại hộp quà chứa nhiều phần thưởng rất giá trị.</p>
+<p>Người chơi có nhiều ván thắng liên thắng liên tiếp (không cần phải các phiên liên tiếp nhau) và có tổng đặt (khớp lệnh) đạt mức tối thiểu sẽ nhận được các loại hộp tương ứng như sau:</p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:96%;">
+<thead>
+<tr>
+<th><p>Hộp quà</p></th>
+<th><p>Tổng đặt (khớp lệnh) tối thiểu {(Config.MoneyText[1])}</p></th>
+<th><p>Số ván thắng liên tiếp</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th><ul><li class="rule prize-1"></li></ul> Đồng</th>
+<td class="money-gold"><p align="center">10,000</p></td>
+<td><p align="center">5</p></td>
+</tr>
+<tr>
+<th><ul><li class="rule prize-2"></li></ul> Bạc</th>
+<td class="money-gold"><p align="center">100,000</p></td>
+<td><p align="center">4</p></td>
+</tr>
+<tr>
+<th><ul><li class="rule prize-3"></li></ul> Vàng</th>
+<td class="money-gold"><p align="center">1,000,000</p></td>
+<td><p align="center">3</p></td>
+</tr>
+<tr>
+<th><ul><li class="rule prize-4"></li></ul> Bạch Kim</th>
+<td class="money-gold"><p align="center">3,000,000</p></td>
+<td><p align="center">3</p></td>
+</tr>
+<tr>
+<th><ul><li class="rule prize-5"></li></ul> Kim Cương</th>
+<td class="money-gold"><p align="center">10,000,000</p></td>
+<td><p align="center">3</p></td>
+</tr>
+</tbody>
+</table>
+<p>Những ván không khớp lệnh (hoàn trả 100% số tiền đặt) thì hệ thống sẽ không ghi nhận và bất chấp kết quả của ván chơi đó.</p>
+<p>Nếu trong chuỗi thắng, người chơi đồng thời đạt điều kiện được tặng thưởng 2 hộp quà thì hệ thống sẽ tặng cho người chơi hộp quà có giá trị nhỏ nhất và kết thúc chuỗi thắng này để bắt đầu ghi nhận chuỗi thắng mới.</p>
+<p>Ví dụ: người chơi thắng ván thứ nhất 1M, thắng ván thứ hai 3M, thắng ván thứ ba 5M thì người chơi cùng đạt điều kiện nhận hòm quà Vàng và Bạch Kim nhưng hệ thống sẽ trao thưởng cho người chơi hòm quà Vàng và kết thúc chuỗi thắng này để bắt đầu ghi nhận chuỗi thắng mới.</p>
+<p>Người chơi có 4 vị trí để chứa quà, trong trường hợp đã 4 vị trí đã đủ 4 hộp quà (hoặc quà) thì sẽ không thể nhận thêm hộp quà cho dù đã đạt đủ điều kiện chuỗi thắng khác.</p>
+<p>Mỗi hộp quà có thời hạn 24 tiếng tính từ thời điểm nhận hộp quà. Nếu người chơi không mở trong 24 tiếng sau khi nhận, hộp quà sẽ biến mất.</p>
+<p>Sau khi mở hộp quà, người chơi sẽ nhận được ngẫu nhiên một trong nhiều phần quà giá trị (<span style="color: yellow">{Config.MoneyText[1]}</span>, <span style="color: yellow">Iphone 12 Pro Max</span> hoặc <span style="color: yellow">SH150i</span>) và thời gian tương ứng để chờ nhận thưởng.</p>
+<p style="color: yellow"><strong><em>4. Lưu ý:</em></strong></p>
+<p>- Giải thưởng {Config.MoneyText[1]} sẽ cộng trực tiếp vào tài khoản ngay sau khi hết thời gian chờ nhận thưởng</p>
+<p>- Giải thưởng vật lý được trao trong vòng 1 tuần tính từ thời điểm nhận, giải thưởng vật lý không bao gồm các phụ phí liên quan.</p>
+<p>- Giải thưởng vật lý có thể quy đổi thành {Config.MoneyText[1]}</p>
+<p>- Không hạn chế số lượng quà của 1 tài khoản</p>
+<p>- Trong thường hợp có tranh chấp, quyết định của ban tổ chức là quyết định cuối cùng.</p>
+<p style="color: yellow">- Từ ngày 01.12.2020 giải thưởng Iphone 11 Pro Max ở event sẽ được nâng cấp lên Iphone 12 Pro Max 128GB.</p>
+</div>
+</div>
+</div>
+</div>
+</div>

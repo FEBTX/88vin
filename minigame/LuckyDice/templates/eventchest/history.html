@@ -1,0 +1,81 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev35')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type active" onclick="gameLuckyDice.showEventChest('lichsu')"><span>{Message.GetMessage('mn3')}</span></span>
+<span class="type" onclick="gameLuckyDice.showEventChest('thongke')"><span>{Message.GetMessage('ev36')}</span></span>
+<span class="type" onclick="gameLuckyDice.showEventChest('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<div class="tablepop">
+<table style="width: 100%">
+<thead>
+<tr>
+<th>{Message.GetMessage('ev41')}</th>
+<th>{Message.GetMessage('tx4')}</th>
+<th width="90">{Message.GetMessage('ev37')}</th>
+<th width="100">{Message.GetMessage('hi02')}</th>
+<th width="90">{Message.GetMessage('ev38')}</th>
+<th width="90">{Message.GetMessage('ev39')}</th>
+<th width="190">{Message.GetMessage('ev40')}</th>
+</tr>
+</thead>
+<tbody id="topEven1">
+{#foreach $T.ListChest as item}
+{#foreach $T.item.BetsData as item1}
+<tr class="{#if ($T.item$index % 2 == 0)}bg2{#/if} {#if ($T.item1$index % 2 == 1)}bg3{#/if}">
+{#if ($T.item1$index == 0)}
+<td style="text-align: right" rowspan="{$T.item.BetsData.length}">{$T.item.ChestID}<br />({gameLuckyDice.gameNameShort[parseInt($T.item1.GameID) - 1]})</td>
+{#/if}
+<td>#{$T.item1.GameSessionID}</td>
+<td class="money-gold">{libs.Util.ParseMoney($T.item1.BetValue)}</td>
+{#if ($T.item1$index == 0)}
+<td rowspan="{$T.item.BetsData.length}">
+{#if ($T.item.PrizeValue > 0 || $T.item.SpecialGift > 0)}
+{libs.Util.formDateTimehms($T.item.AwardTime)}
+{#else}
+{libs.Util.formDateTimehms($T.item.ExpireTime)}
+{#/if}
+</td>
+<td rowspan="{$T.item.BetsData.length}"><ul><li class="history prize-{$T.item.PrizeID}"></li></ul></td>
+<td rowspan="{$T.item.BetsData.length}">
+{#if ($T.item.PrizeValue > 0 || $T.item.SpecialGift > 0)}
+{#if $T.item.AwardTimeCount > 0}
+{Message.GetMessage('ev43')}
+{#else}
+{Message.GetMessage('ev44')}
+{#/if}
+{#else}
+{#if $T.item.IsNew == 1}
+{Message.GetMessage('ev42')}
+{#else}
+{Message.GetMessage('ev45')}
+{#/if}
+{#/if}
+ </td>
+<td rowspan="{$T.item.BetsData.length}" class="money-gold">
+{#if $T.item.SpecialGift > 0}
+{Message.GetMessage('ev' + (45 + $T.item.SpecialGift))}
+{#/if}
+{#if $T.item.SpecialGift == 0 && $T.item.PrizeValue > 0}
+{libs.Util.ParseMoney($T.item.PrizeValue)} {Config.MoneyText[1]}
+{#/if}
+{#if $T.item.IsNew > 0 && $T.item.AwardTimeCount > 0}
+<div data-time="{$T.item.AwardTimeCount}">({libs.Util.formatTime($T.item.AwardTimeCount)})</div>
+{#/if}
+</td>
+{#/if}
+</tr>
+{#/for}
+{#/for}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

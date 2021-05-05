@@ -1,0 +1,146 @@
+<div class="popup popup-tx-event popup-mini-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev1')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameMiniPoker.showTopEvent('bxh1')"><span>{Message.GetMessage('ev1')}</span></span>
+<span class="type" onclick="gameMiniPoker.showTopEvent('bxh2')"><span>{Message.GetMessage('ev2')}</span></span>
+<span class="type" onclick="gameMiniPoker.showTopEvent('thanhtich')"><span>{Message.GetMessage('ev3')}</span></span>
+<span class="type active" onclick="gameMiniPoker.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="font-size: 120%; color: yellow"><strong><em>Sự kiện: “Vé số vàng” của minigame Minipoker</em></strong></p>
+<p>Thời gian: diễn ra hằng ngày, tính từ 18h00 ngày hiện tại đến 18h00 ngày kế tiếp.</p>
+<p style="font-size: 120%;color: yellow"><strong><em>Nội dung: </em></strong></p>
+<p>- Áp dụng cho tất cả người chơi minigame Minipoker bằng đồng <span class="money-gold">{Config.MoneyText[1]}</span> trên cổng game dân gian <a href="{Config.STATIC_URL}" style="color: #fff;">{Config.PortalHost}</a></p>
+<p>&nbsp;</p>
+<p style="font-size: 120%;color: yellow"><strong><em>Thể lệ: </em></strong></p>
+<p>Trong suốt thời gian diễn ra sự kiện, khách hàng tham gia chơi minigame Minipoker bằng đồng <span style="color: yellow">{Config.MoneyText[1]}</span> trên cổng game <span style="color: yellow">{Config.PortalName}</span> sẽ ngẫu nhiên nhận được biểu tượng Vé số vàng trong một lượt chơi (phiên). </p>
+<p>Mỗi lần hệ thống sẽ phát ngẫu nhiên 1 vé (từ 00000 đến 99999) từ 18h00 ngày hôm trước đến 18h00 ngày hôm sau (ngày mở thưởng kết quả Xổ Số Miền Bắc). Những vé được phát sau 18h00 thì hệ thống sẽ ghi nhận cho ngày hôm sau.</p>
+<p>Tích lũy được càng nhiều Vé vàng, người chơi càng có cơ hội nhận được nhiều giải thưởng {Config.MoneyText[1]} có giá trị.</p>
+<p>Với một Vé vàng nhận được người chơi có cơ hội trúng 1 giải đặc biệt trị giá 2.000.000 {Config.MoneyText[1]} và 9 giải {Config.MoneyText[1]} mỗi giải trị giá 200.000 {Config.MoneyText[1]}</p>
+<ol>
+<li>Giải đặc biệt: là giải có vé trùng 5 số với giải đặc biệt xổ số miền Bắc mở thưởng vào 18h00 hằng ngày.</li>
+<li>Giải khuyến khích: 9 giải khuyến khích có sai lệch hàng đơn vị với giải đặc biệt mở thưởng cùng ngày (trùng khớp hàng vạn, nghìn, trăm và chục).</li>
+</ol>
+<p>Ngoài ra, để khuyến khích người chơi mỗi ngày người chơi có nhiều Vé vàng nhất sẽ được nhận giải thưởng trị giá 500.000 {Config.MoneyText[1]} dựa theo tiêu chí số vé nhiều nhất và thời gian sớm nhất.</p>
+<p style="font-size: 120%;"><strong><em>Giải thưởng </em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Giải</p>
+</th>
+<th>
+ <p align="center">Giải ngày</p>
+</th>
+<th style="width:170px;" align="center">
+<p>Giá trị giải thưởng</p>
+</th>
+<th style="width:100px;">
+<p>Số lượng</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center"><span style="color: #Fc0">Đặc Biệt</span></p>
+</td>
+<td>
+<p style="margin-left: 20px">2.000.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">Khuyến Khích</p>
+</td>
+<td>
+<p style="margin-left: 20px">200.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">200.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">9</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Giải Siêu cày</p>
+</th>
+<th style="width:115px;">
+<p align="right"></p>
+</th>
+<th style="width:66px;">
+<p align="right"></p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 20px">200.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">200.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2 - 3</p>
+</td>
+<td>
+<p style="margin-left: 20px">100.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">100.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">2</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">4 - 5</p>
+</td>
+<td>
+<p style="margin-left: 20px">50.000 <span class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td style="width:115px;" class="money-gold">
+<p align="right">50.000</p>
+</td>
+<td style="width:66px;">
+<p align="center">2</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p><em>Ghi chú:</em></p>
+<ol>
+<li>Một giải thưởng nếu có nhiều hơn 1 vé trúng thì giải thưởng tương ứng sẽ được chia đều cho số vé. Ví dụ: có 2 vé trúng giải đặc biệt thì mỗi giải được nhận 1.000.000 {Config.MoneyText[1]}</li>
+<li>Nếu không có vé trúng thưởng giải đặc biệt hoặc khuyến khích thì những giải thưởng đó được cộng dồn vào giải đặc biệt của ngày kế tiếp.</li>
+</ol>
+<p style="font-size: 120%;"><strong><em>Lưu ý:</em></strong></p>
+<p>- Giải thưởng <span class="money-gold">{Config.MoneyText[1]}</span> sẽ được trao vào lúc 19h00 ngày kế tiếp.</p>
+<p>- Một tài khoản có thể nhận được nhiều giải thưởng khác nhau.</p>
+<p>- Trong trường hợp có tranh chấp, quyết định của BTC là quyết định cuối cùng.</p><br><br>
+</div>
+</div>
+</div>
+</div>
+</div>

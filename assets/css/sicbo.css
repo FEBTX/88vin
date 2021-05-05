@@ -1,0 +1,240 @@
+.btn-statistic-game {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -300px;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+  }
+  .sicbo{
+    margin: 0 auto;
+    font-family: "Roboto-Bold";
+    position: relative;
+    z-index: 3;
+  }
+  .sicbo .show-statistic-game {
+    background: #fff;
+    border: none;
+    width: 325px;
+    left: 50%;
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+    margin-left: -300px;
+  }
+  .sicbo .content-show-statistic {
+    width: 760px;
+    height: 100px;
+}
+  .sicbo .btn-close-statistic {
+    background: url(/assets/images/x.png) no-repeat;
+    background-size: 90%;
+  }
+  .btn-statistic-game a img {
+    opacity: .7;
+  }
+  
+  .btn-statistic-game a:hover img {
+    opacity: 1;
+  }
+  
+  .show-statistic-game {
+    display: block;
+    width: 715px;
+    background: #fff;
+    border: solid 3px #7251a4;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    margin-left: -380px;
+    z-index: 20;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+  }
+  .top-statistic li {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+  }
+  
+  .top-statistic {
+    position: relative;
+  }
+  
+  .top-statistic li:last-child {
+    margin-right: 0;
+  }
+  
+  .top-statistic li span.even {
+    background: #202266;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 1px;
+    position: relative;
+    top: -1px;
+    text-transform: uppercase;
+  }
+  
+  .top-statistic li span.odd {
+    background: #ff2570;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 1px;
+    position: relative;
+    top: -1px;
+    text-transform: uppercase;
+  }
+  
+  .top-statistic:after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .top-statistic li input.checkbox {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: solid 1px #898989;
+    display: inline-block;
+    position: relative;
+    float: left;
+    top: 1px;
+    margin-right: 5px;
+  }
+
+  .content-show-statistic {
+    padding-top: 10px;
+  }
+  
+  a.btn-close-statistic {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background: #000;
+    z-index: 30;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  }
+  
+  .show-statistic-game.active {
+    top: -3px;
+    opacity: 1;
+    z-index: 1000;
+  }
+
+  .sicbo .content-show-statistic.vi {
+    background: url(/assets/images/sicbo/cau-vi.png) no-repeat;
+}
+ .sicbo .content-show-statistic.km {
+    background: url(/assets/images/sicbo/cau-km.png) no-repeat;
+}
+.sicbo .content-show-statistic.zh {
+    background: url(/assets/images/sicbo/cau-zh.png) no-repeat;
+}
+.sicbo .content-show-statistic.fr {
+    background: url(/assets/images/sicbo/cau-fr.png) no-repeat;
+}
+.sicbo .content-show-statistic.en {
+    background: url(/assets/images/sicbo/cau-en.png) no-repeat;
+}
+.sicbo .content-show-statistic.id {
+	background: url(/assets/images/sicbo/cau-id.png) no-repeat;
+}
+.sicbo .content-show-statistic ul {
+    width: 679px;
+    height: 67px;
+    margin-top: 16px;
+    margin-left: 75px;
+}
+.sicbo .content-show-statistic ul li.fleft {
+    float: left;
+    margin-right: 1px;
+}
+
+.sicbo .content-show-statistic ul li.fright {
+    float: right;
+    margin-left: 1px;
+}
+
+.sicbo .content-show-statistic ul li {
+    height: 83px;
+}
+
+.sicbo .content-show-statistic ul li span {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2px;
+    color: black;
+}
+.sicbo .content-show-statistic ul li span.current {
+    background-color: #00fff5;
+    color: white;
+}
+.sicbo .content-show-statistic ul li span.under {
+    color: #ff2672;
+    font-weight: bold;
+    border-radius: 25px;
+    /*border: 2px solid #ff2672;
+    padding-top: 0 !important;*/
+}
+.sicbo .content-show-statistic ul li span.over {
+    color: #352db4;
+    font-weight: bold;
+    border-radius: 25px;
+    /*border: 2px solid #352db4;
+    padding-top: 0 !important;*/
+}
+.sicbo .content-show-statistic ul li span.three {
+    color: #3ab54a;
+    font-weight: bold;
+    border-radius: 25px;
+    /*border: 2px solid #3ab54a;
+    padding-top: 0 !important;*/
+}
+.sicbo .button-statistic {
+    float: left;
+    display: block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    font-size: 12px;
+}
+
+.sicbo .show-statistic-game.active {
+    width: auto !important;
+    height: 145px;
+}
+.sicbo #txt-auto {
+    float: right;
+}

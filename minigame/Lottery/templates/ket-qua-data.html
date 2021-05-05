@@ -1,0 +1,87 @@
+{#if $T[0].Result.length>0}
+    <div class="table-primary area-{$P.AreaID}">
+        <table cellpadding="0" cellspacing="0">
+            <thead>
+                <tr>
+                    <th width="19%" style="background:transparent"></th>
+                    {#for index = 0 to ($T.length-1) }
+                        <th width="{(81/$T.length) + '%'}">{gameLottery.GetLocationName($T[$T.index].LocationID, $T[$T.index].LocationName)}</th>
+                    {#/for}
+                </tr>
+            </thead>
+            <tbody>
+                {#if $P.AreaID == 1}
+                    {#for index = 0 to ($T[0].Result.length-1)}
+                    {#if (gameLottery.GetKetQuaXoSo($T[0].Result[$T.index].Type))}
+                    <tr class="num-type{$T[0].Result[$T.index].Type}">
+                        <td>
+                            {gameLottery.GetKetQuaXoSo($T[0].Result[$T.index].Type)}
+                        </td>
+                        {#for idx = 0 to ($T.length-1) }
+                        <td {#if $T[$T.idx].LocationID == $P.LocationID}style="background:none;"{#/if} class="normal-num {#if $T[0].Result[$T.index].Type == 0}special-num{#/if} {#if $T[0].Result[$T.index].Type == 8}big-num{#/if} num-{$T[$T.idx].Result[$T.index].ResultData.length}">
+                            {#foreach $T[$T.idx].Result[$T.index].ResultData as item1}
+                            <p>{$T.item1}</p>
+                            {#/for}
+                        </td>
+                        {#/for}
+                    </tr>
+                    {#/if}
+                    {#/for}
+                {#else}
+                    {#for index = ($T[0].Result.length-1) to 0 step=-1}
+                    {#if (gameLottery.GetKetQuaXoSo($T[0].Result[$T.index].Type))}
+                    <tr class="num-type{$T[0].Result[$T.index].Type}">
+                        <td>
+                            {gameLottery.GetKetQuaXoSo($T[0].Result[$T.index].Type)}
+                        </td>
+                        {#for idx = 0 to ($T.length-1) }
+                        <td {#if $T[$T.idx].LocationID == $P.LocationID}style="background:none;"{#/if} class="normal-num {#if $T[0].Result[$T.index].Type == 0}special-num{#/if} {#if $T[0].Result[$T.index].Type == 8}big-num{#/if} num-{$T[$T.idx].Result[$T.index].ResultData.length} {#if $P.LocationID == $T[$T.idx].LocationID}bg2{#/if}">
+                            {#foreach $T[$T.idx].Result[$T.index].ResultData as item1}
+                            <p>{$T.item1}</p>
+                            {#/for}
+                        </td>
+                        {#/for}
+                    </tr>
+                    {#/if}
+                    {#/for}
+                {#/if}
+            </tbody>
+        </table>
+    </div>
+    {#else}
+    <div class="table-primary">
+        <table>
+            <thead>
+                <tr>
+                    <th>{Message.GetMessage('xs60')}</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    {#/if}
+    <div class="table-secondary">
+        <!-- <span>{Message.GetMessage('xs61')}</span> -->
+        {#if $T.length > 0}
+            {#for idx = 0 to ($T.length-1) }
+                    <table cellpadding="0" cellspacing="0">
+                        <thead>
+                        <tr>
+                            <td colspan="3">{gameLottery.GetLocationName($T[$T.idx].LocationID)}</td>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td width="40%">{Message.GetMessage('xs62')}</td>
+                            <td width="20%">{Message.GetMessage('xs63')}</td>
+                            <td>{Message.GetMessage('xs64')}</td>
+                        </tr>
+                        {#foreach $T[$T.idx].Statistics as item1}
+                        <tr>
+                            <td>{$T.item1.Before}</td>
+                            <td>{$T.item1.Num}</td>
+                            <td>{$T.item1.After}</td>
+                        </tr>
+                        {#/for}
+                    </table>
+            {#/for}
+        {#/if}
+    </div>

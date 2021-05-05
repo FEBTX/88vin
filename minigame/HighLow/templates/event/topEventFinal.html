@@ -1,0 +1,41 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev20')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameHighLow.showTopEvent('bxhngay')"><span>{Message.GetMessage('ev15')}</span></span>
+<span class="type active" onclick="gameHighLow.showTopEvent('bxhchung')"><span>{Message.GetMessage('ev16')}</span></span>
+<span class="type" onclick="gameHighLow.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<h3>
+<span class="select-tx">
+<select id="eventMonthSelect"></select>
+</span>
+{Message.GetMessage('highlow.rank.top-win')}
+</h3>
+<div class="tablepop">
+<div class="tablescroll-tx">
+<table style="width: 100%">
+<thead>
+<tr>
+<th width="30">{Message.GetMessage('#')}</th>
+<th width="300">{Message.GetMessage('hi21')}</th>
+<th>{Message.GetMessage('ev21')}</th>
+<th width="150">{Message.GetMessage('hi17')}</th>
+<th width="150">{Message.GetMessage('hi02')}</th>
+<th width="150">{Message.GetMessage('ev40')}</th>
+</tr>
+</thead>
+<tbody id="topEven1" class="full">
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

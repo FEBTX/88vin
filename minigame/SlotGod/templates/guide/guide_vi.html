@@ -1,0 +1,106 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn22')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types" style="background: none; -webkit-box-shadow: none; box-shadow:none">
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<div class="egg-detail-guide">
+<p class="norB yellow" style="color: #fff200;">Giới thiệu</p>
+<p>Phục Sinh là game thuộc thể loại slot đơn giản dễ chơi, dễ trúng. Với 6 item được sắp xếp thành 3 hàng, 3 cột tạo thành rất nhiều tổ hợp trả thưởng theo 20 dòng cho trước. </p>
+</div>
+<div class="tablepop">
+<table width="100%" class="goldtable">
+<thead>
+<tr>
+<th>Hình ảnh</th>
+<th>Tỷ lệ nhân</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /></td>
+<td>Nổ hũ</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /></td>
+<td>x 85 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/2.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/2.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/2.png" alt="" /></td>
+<td>x 40 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/3.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/3.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/3.png" alt="" /></td>
+<td>x 20 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /></td>
+<td>x 8 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /></td>
+<td>x 0.8 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /></td>
+<td>x 3 lần</td>
+</tr>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /></td>
+<td>x 0.4 lần</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br />
+<p>Ví dụ (vị trí xuất hiện của các biểu tượng có thể thay đổi): </p>
+<div class="egg-detail-guide">
+<div class="tablepop">
+<table width="100%" class="goldtable">
+<tbody>
+<tr>
+<td><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /></td>
+<td><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /></td>
+<td><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/1.png" alt="" /></td>
+<td>= x 85 lần</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br />
+<p>* Lưu ý: trường hợp xuất hiện tổ hợp biểu tượng sau (vị trí xuất hiện có thể thay đổi)</p>
+<div class="tablepop">
+<table width="100%" class="goldtable">
+<tbody>
+<tr>
+<td>
+<img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/wild.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /> =
+<img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/4.png" alt="" /> +
+<img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" /><img src="{gameSlotGod.mediaUrl}/images/5.png" alt="" />
+</td>
+<td>x 0.8 lần + x 0.4 lần = x1.2 lần</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br />
+<p class="norB yellow" style="color: #fff200;">2. Các bước chơi và thể lệ trả thưởng</p>
+<p>Người chơi cần phải tuân theo các bước sau để chơi:</p>
+<p class="norB yellow" style="color: #fff200;">B1: Khách hàng chọn mức cược 100; 1.000; 10.000 {Config.MoneyText[1]}</p>
+<p style="color: #fff200;">B2: khách hàng chọn số lượng dòng cược. Dòng cược là các tổ hợp các biểu tượng nằm theo vị trí đã được thiết kế trước. Có tất cả 20 dòng cược. Người chơi có thể chọn từng dòng, tất cả các dòng mang số lẻ, tất cả các dòng mang số chắn, toàn bộ 20 dòng cược hoặc bỏ toàn bộ. </p>
+<p>Tổng tiền cược sẽ được tính như sau: Tổng tiền cược = Mức cược * số dòng</p>
+<p class="norB yellow" style="color: #fff200;">B3: Chọn nút Quay để thực hiện việc quay ngẫu nhiên. Khách hàng có thể chọn hình thức Tự quay để quay Liên tục</p>
+<p align="center"><img src="{gameSlotGod.mediaUrl}/images/dongcuoc.png" alt="" /></p>
+<p>* Hệ thống sẽ trả thưởng lý thuyết: lên đến 98% số {Config.MoneyText[1]} đặt</p>
+ <p>* Cách chơi Phục Sinh độc lập hoàn toàn với kết quả chơi game hiện tại!</p>
+<p>* Tại mỗi thời điểm, mỗi mức cược sẽ chỉ có duy nhất một Hũ {Config.MoneyText[1]}.</p>
+<p>Giá trị Hũ {Config.MoneyText[1]} liên tục tăng cao, đưa ra mức giải thưởng vô cùng hấp dẫn!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

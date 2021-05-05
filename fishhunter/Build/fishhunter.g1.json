@@ -1,0 +1,14 @@
+{
+"companyName": "Family Software",
+"productName": "FishHunter - G1",
+"dataUrl": "fishhunter.g1.data.unityweb",
+"wasmCodeUrl": "fishhunter.g1.wasm.code.unityweb",
+"wasmFrameworkUrl": "fishhunter.g1.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "fishhunter.g1.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

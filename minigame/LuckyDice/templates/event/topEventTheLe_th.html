@@ -1,0 +1,259 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev14')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type"
+                    onclick="gameLuckyDice.showTopEvent('bxhngay')"><span>{Message.GetMessage('ev15')}</span></span>
+<span class="type"
+                    onclick="gameLuckyDice.showTopEvent('bxhchung')"><span>{Message.GetMessage('ev16')}</span></span>
+<span class="type active"
+                    onclick="gameLuckyDice.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="color: yellow"><strong><em>กิจกรรม: "คำทำนาย" ของ Big Small minigame</em></strong></p>
+<p>เวลา: เกิดขึ้นทุกเดือนตั้งแต่วันที่ 1 ถึงวันสุดท้ายของเดือน เกิดขึ้นตั้งแต่ 09h09 ในวันที่ 20
+มกราคม 2019</p>
+<p style="color: yellow"><strong><em>เนื้อหา: </em></strong></p>
+<p>- ใช้กับผู้เล่น minigame ขนาดเล็ก Big Copper ทั้งหมด <span
+                            class="money-gold">{Config.MoneyText[1]}</span> บนพอร์ทัลเกมพื้นบ้าน <a
+                            href="{Config.STATIC_URL}" style="color: #fff;">{Config.PortalHost}</a></p>
+<p style="color: yellow"><strong><em>กฎ: </em></strong></p>
+<p>ในช่วงระยะเวลากิจกรรมลูกค้าที่เข้าร่วมในมินิเกมขนาดเล็กที่มี <span
+                            class="money-gold">{Config.MoneyText[1]}</span>
+ชนะและแพ้เกมติดต่อกันหลายครั้งจะมีโอกาสได้รับรางวัลมากมาย <span
+                            class="money-gold">{Config.MoneyText[1]}</span> ใช้ได้สำหรับรางวัลวันและ 02 Iphone 12 Pro,
+Iphone 12 Pro Max สำหรับรางวัลสุดท้าย
+</p>
+<ul>
+<li>วันสถิติที่ดีจาก 0:00 ถึง 23:59</li>
+<li>จำนวนของการชนะหรือการสูญเสียติดต่อกันไม่จำเป็นต้องเป็นเซสชันที่ต่อเนื่องกัน</li>
+<li>
+เงื่อนไขสำหรับการชนะหรือแพ้เกมติดต่อกัน
+<ul>
+<li style="margin-left:50pt;">+ เกมมีการแข่งขันอย่างน้อย 2,000 คำสั่ง
+<span class="money-gold">{Config.MoneyText[1]}</span></li>
+<li style="margin-left:50pt;">+ มีคำสั่งจับคู่อย่างน้อย 1 รายการและมีอย่างน้อย 10,000 รายการ
+thiểu <span class="money-gold">{Config.MoneyText[1]}</span></li>
+</ul>
+</li>
+<li>สำหรับเกมที่ไม่ตรงกับคำสั่ง (ผลตอบแทน 100% ของการเดิมพัน) ระบบจะไม่บันทึกโดยไม่คำนึงถึงผลลัพธ์ของเกมนั้น - ราวกับว่าผู้เล่นไม่ได้เข้าร่วม</li>
+</ul>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>เกณฑ์การจัดอันดับ:</em></strong></p>
+<ol>
+<li>จำนวนที่มากที่สุดของการชนะหรือการสูญเสียติดต่อกันที่ระบบบันทึกในแต่ละวัน</li>
+<li>การจ่ายเงินทั้งหมด (การชนะติดต่อกัน) และการสูญเสียทั้งหมด (การแพ้ติดต่อกัน)</li>
+<li>เวลาที่จะชนะหรือแพ้ติดต่อกัน</li>
+</ol>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>รางวัลสูงสุดชนะติดต่อกัน</em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:96%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">ขอให้เป็นวันที่ดี</p>
+</th>
+<th>
+<p>มูลค่ารางวัล</p>
+</th>
+<th>
+<p>จำนวน</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+ </td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">รางวัลสุดท้าย</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro</span></p>
+</td>
+<td class="money-gold">
+<p align="right">30.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>รางวัลสุดท้ายสำหรับผู้ที่ประสบความสำเร็จในการชนะติดต่อกันยาวนานที่สุดตามเกณฑ์การจัดอันดับข้างต้นซึ่งระบบบันทึกทุกวันในช่วงระยะเวลากิจกรรม
+</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>รางวัลยอดนิยมที่ขาดทุนติดต่อกัน</em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">ขอให้เป็นวันที่ดี</p>
+</th>
+<th>
+<p>มูลค่ารางวัล</p>
+</th>
+<th>
+<p>จำนวน</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+ </td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">รางวัลสุดท้าย</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro Max</span></p>
+</td>
+<td class="money-gold">
+<p align="right">33.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>รางวัลสุดท้ายสำหรับผู้ที่ประสบความสำเร็จแบบต่อเนื่องยาวนานที่สุดของการสูญเสียตามเกณฑ์การจัดอันดับข้างต้นที่ระบบบันทึกในแต่ละวันในช่วงระยะเวลาของเหตุการณ์
+</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>บันทึก:</em></strong></p>
+<p>- รางวัล <span class="money-gold">{Config.MoneyText[1]}</span> จะได้รับรางวัลในเวลา 0h30
+ของวันถัดไป </p>
+<p>- รางวัลทางกายภาพจะมอบให้ภายใน 1
+ สัปดาห์หลังจากจบกิจกรรมรางวัลทางกายภาพไม่รวมค่าธรรมเนียมที่เกี่ยวข้อง</p>
+<p>- รางวัลกายภาพสามารถแลกได้สำหรับ <span class="money-gold">{Config.MoneyText[1]}</span>.</p>
+<p>- บัญชีสามารถรับรางวัลมากมายในแต่ละวัน</p>
+<p>- ในกรณีที่มีข้อพิพาทคำตัดสินของผู้ดูแลระบบถือเป็นที่สิ้นสุด
+</p>
+<p style="color: yellow">- ตั้งแต่เดือนธันวาคม 2020 รางวัลของ iPhone 11 Pro, Iphone 11 Pro Max
+ในงานจะถูกอัพเกรดเป็น Iphone 12 Pro 128GB, Iphone 12 Pro Max 128GB ตามลำดับ</p>
+</div>
+</div>
+</div>
+</div>
+</div>

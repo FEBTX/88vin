@@ -1,0 +1,54 @@
+<div class="popup popup-tx-session show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('hi07')}</div>
+<div class="session-head">
+<span class="prev" id="txSessionPrev"></span>
+<div class="detail">
+<p>{Message.GetMessage('tx4')} #<span id="txSessionID"></span></p>
+<p id="txDate"></p>
+</div>
+<span class="next" id="txSessionNext"></span>
+</div>
+<div class="money-types">
+<span id="t1Detail" class="type" onclick="gameLuckyDice.showSessionDetail(1)"><span>{Config.MoneyText[1]}</span></span>
+<span id="t2Detail" class="type" onclick="gameLuckyDice.showSessionDetail(2)"><span>{Config.MoneyText[0]}</span></span>
+</div>
+<div class="sd-head">
+<span class="left">TÀI</span>
+<div class="center" id="txResult">
+</div>
+<span class="right">XỈU</span>
+</div>
+<div class="sd-tbl-head">
+<div class="left">
+<div class="tbl-h">
+<span class="col time">{Message.GetMessage('hi09')}</span>
+<span class="col name">{Message.GetMessage('hi21')}</span>
+<span class="col m1">{Message.GetMessage('tx11')}</span>
+<span class="col m2">{Message.GetMessage('tx12')}</span>
+</div>
+</div>
+<div class="right">
+<div class="tbl-h">
+<span class="col m2">{Message.GetMessage('tx12')}</span>
+<span class="col m1">{Message.GetMessage('tx11')}</span>
+<span class="col name">{Message.GetMessage('hi21')}</span>
+<span class="col time">{Message.GetMessage('hi09')}</span>
+</div>
+</div>
+</div>
+<div class="sd-tbl-body dropup-scroll-container" id="txDetails">
+</div>
+<div class="sd-tbl-foot">
+<div class="left">
+<span class="text">{Message.GetMessage('tx45')}</span>
+<span class="m1" id="txTongHoanTai">0</span>
+<span class="m2" id="txTongDatTai">0</span>
+</div>
+<div class="right">
+<span class="m2" id="txTongDatXiu">0</span>
+<span class="m1" id="txTongHoanXiu">0</span>
+<span class="text">{Message.GetMessage('tx10')}</span>
+</div>
+</div>
+</div>

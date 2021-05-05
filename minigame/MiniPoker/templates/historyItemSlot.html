@@ -1,0 +1,9 @@
+{#foreach $T as item}
+<tr>
+    <td align="center">{$T.item.SpinID}</td>
+    <td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+    <td align="center" class="money-gold">{libs.Util.ParseMoney($T.item.BetValue)}</td>
+    <td align="center">{gameMiniPoker.displayCard($T.item.CardResult)}</td>
+    <td align="right" class="money-gold">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+</tr>
+{#/for}

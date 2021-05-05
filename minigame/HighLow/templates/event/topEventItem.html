@@ -1,0 +1,24 @@
+{#foreach $T as item}
+<tr class="{#if ($T.item.Position == 1 || $T.item.Position < 4 && $P.Type == 1)}top-tx{#/if} {#if ($T.item$index % 2 == 0)}bg2{#/if} {#if ($T.item.PortalID == $P.PortalID && $T.item.AccountID == $P.AccountID)}my-tx{#/if}" {#if ($T.item.Position == 1)}style="font-weight: bold;font-size: 120% !important"{#/if}>
+    <td><p>{libs.Util.ParseMoney($T.item.Position)}</p></td>
+    <td>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+    <td>{$T.item.CardWinData}</td>
+    <td>{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+    <td>
+        {#if ($P.Type == 1)}
+            {libs.Util.formDateTimehms($T.item.FinishedTime, 2)}
+        {#/if}
+        {#if ($P.Type == 2)}
+        {libs.Util.formDateTimehms($T.item.FinishedTime, 1)}
+        {#/if}
+    </td>
+    <td class="money-gold">
+        {#if ($T.item.Position == 1 && $P.Type == 1)}2.000.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Position == 2 && $P.Type == 1)}1.000.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Position == 3 && $P.Type == 1)}500.000 {Config.MoneyText[1]}{#/if}
+        {#if ($T.item.Position == 1 && $P.Type == 2 && $P.Month < 9 && $P.Year == 2019)}Iphone XS Max{#/if}
+        {#if ($T.item.Position == 1 && $P.Type == 2 && $P.Month < 11 && $P.Year == 2020)}Iphone 11 Pro Max{#/if}
+		{#if ($T.item.Position == 1 && $P.Type == 2 && $P.Month >= 11 && $P.Year >= 2020)}Iphone 12 Pro Max{#/if}
+    </td>
+</tr>
+{#/for}

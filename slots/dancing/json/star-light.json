@@ -1,0 +1,35 @@
+{"frames": {
+"star0.png":
+{
+	"frame": {"x":1,"y":135,"w":126,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":126,"h":118},
+	"sourceSize": {"w":129,"h":118}
+},
+"star1.png":
+{
+	"frame": {"x":1,"y":1,"w":130,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":7,"w":130,"h":132},
+	"sourceSize": {"w":136,"h":141}
+},
+"star2.png":
+{
+	"frame": {"x":129,"y":135,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":4,"w":78,"h":81},
+	"sourceSize": {"w":89,"h":89}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/star-light.png",
+	"format": "RGBA8888",
+	"size": {"w":208,"h":254},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6e17107e99f86f5b14e73d2e2c160a0e:68ada0556508f422f6c7b8c0dcd36c20:76e1e86ddbff5d83a0b659553e56a732$"
+}
+}

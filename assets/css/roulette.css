@@ -1,0 +1,127 @@
+.roulette .ro-ul .ro-li {
+    float: left;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.roulette .ro-ul .ro-li span {
+    width: 30px;
+    height: 30px;
+    display: block;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 16px;
+    padding-top: 7px;
+    position: relative;
+    top: 0px;
+}
+
+.roulette .ro-ul .ro-li span.red {
+    background-image: url("../images/roulette/red-number.png");
+}
+
+.roulette .ro-ul .ro-li span.green {
+    background-image: url("../images/roulette/green-number.png");
+}
+
+.roulette .ro-ul .ro-li span.black {
+    background-image: url("../images/roulette/black-number.png");
+}
+
+.roulette .ro-ul .ro-li span.active {
+    top: 0px;
+    transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -webkit-animation: updown2 .7s linear infinite;
+    -moz-animation: updown2 .7s linear infinite;
+    animation: updown2 .7s linear infinite;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(100, 100, 100, .9));
+}
+
+.roulette .btn-close-statistic {
+    background: url('../images/roulette/x.png') no-repeat;
+    background-size: 90%;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    z-index: 30;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.roulette .show-statistic-game {
+    display: block;
+    width: 715px;
+    background: #fff;
+    border: solid 3px #7251a4;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    position: absolute;
+    top: -180px;
+    left: 50%;
+    margin-left: -380px;
+    z-index: 20;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+.roulette .show-statistic-game.active {
+    top: -3px;
+    opacity: 1;
+    z-index: 1000;
+    width: 340px;
+    left: 58%;
+}
+
+@-webkit-keyframes updown2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+@-moz-keyframes updown2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes updown2 {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,266 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev14')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type"
+                    onclick="gameLuckyDice.showTopEvent('bxhngay')"><span>{Message.GetMessage('ev15')}</span></span>
+<span class="type"
+                    onclick="gameLuckyDice.showTopEvent('bxhchung')"><span>{Message.GetMessage('ev16')}</span></span>
+<span class="type active"
+                    onclick="gameLuckyDice.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<p style="color: yellow"><strong><em>Acara: "Nubuat" dari Big Small minigame</em></strong></p>
+<p>Waktu: berlangsung setiap bulan, dari tanggal 1 hingga hari terakhir bulan itu. Terjadi dari
+09h09 pada 20 Januari 2019</p>
+<p style="color: yellow"><strong><em>Konten: </em></strong></p>
+<p>- Berlaku untuk semua pemain minigame tembaga Big Small <span
+                            class="money-gold">{Config.MoneyText[1]}</span> di portal game rakyat <a
+                            href="{Config.STATIC_URL}" style="color: #fff;">{Config.PortalHost}</a></p>
+<p style="color: yellow"><strong><em>Aturan: </em></strong></p>
+<p>Selama periode acara, pelanggan yang berpartisipasi dalam minigame Besar Kecil dengan
+{Config.MoneyText[1]} menang dan kalah banyak game berturut-turut, akan memiliki kesempatan
+untuk menerima beberapa hadiah {Config. MoneyText[1]} berlaku untuk hadiah harian dan 02 Iphone
+11 Pro, Iphone 12 Pro Max untuk hadiah terakhir.</p>
+<ul>
+<li>Hari statistik yang baik dari 0:00 hingga 23:59</li>
+<li>Jumlah kemenangan atau kekalahan berurutan tidak harus berturut-turut</li>
+<li>
+Ketentuan untuk menang atau kalah dalam pertandingan berturut-turut
+<ul>
+<li style="margin-left:50pt;">+ Permainan memiliki minimal 2.000 pesanan pertandingan
+<span class="money-gold">2.000 {Config.MoneyText[1]}</span></li>
+<li style="margin-left:50pt;">+ Setidaknya ada 1 pesanan pertandingan dengan minimal
+10.000 <span class="money-gold">10.000 {Config.MoneyText[1]}</span></li>
+</ul>
+</li>
+<li>Untuk permainan yang tidak cocok dengan urutan (pengembalian 100% dari taruhan), sistem
+tidak akan merekam terlepas dari hasil permainan itu - seolah-olah pemain tidak
+berpartisipasi.</li>
+</ul>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Kriteria peringkat:</em></strong></p>
+<ol>
+<li>Jumlah kemenangan atau kerugian terpanjang berurutan yang dicatat oleh sistem setiap hari
+</li>
+<li>Total pembayaran (kemenangan berturut-turut) dan total kekalahan (berturut-turut kalah
+beruntun)</li>
+<li>Saatnya menang atau kalah berturut-turut.</li>
+</ol>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Penghargaan teratas dimenangkan secara berurutan</em></strong>
+</p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:96%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">Selamat siang</p>
+</th>
+<th>
+<p>Nilai hadiah</p>
+</th>
+<th>
+<p>Jumlah</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Hadiah terakhir</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro</span></p>
+</td>
+<td class="money-gold">
+<p align="right">30.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>Hadiah akhir adalah untuk orang yang mencapai serangkaian kemenangan berurutan terpanjang menurut
+kriteria peringkat di atas, yang dicatat oleh sistem setiap hari selama periode acara.
+</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>Penghargaan atas kerugian berturut-turut</em></strong></p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" style="width:100%;">
+<tbody>
+<tr>
+<th>
+<p align="center">Top</p>
+</th>
+<th>
+<p align="center">Selamat siang</p>
+</th>
+<th>
+<p>Nilai hadiah</p>
+</th>
+<th>
+<p>Jumlah</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px">2.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">2.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">2</p>
+</td>
+<td>
+<p style="margin-left: 10px">1.000.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">1.000.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<td>
+<p align="center">3</p>
+</td>
+<td>
+<p style="margin-left: 10px">500.000 <span
+                                            class="money-gold">{Config.MoneyText[1]}</span></p>
+</td>
+<td class="money-gold">
+<p align="right">500.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+<tr>
+<th>
+<p align="center">&nbsp;</p>
+</th>
+<th>
+<p align="center">Hadiah terakhir</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+<th>
+<p align="right">&nbsp;</p>
+</th>
+</tr>
+<tr>
+<td>
+<p align="center">1</p>
+</td>
+<td>
+<p style="margin-left: 10px"><span style="color: #Fc0">Iphone 12 Pro Max</span></p>
+</td>
+<td class="money-gold">
+<p align="right">33.990.000</p>
+</td>
+<td>
+<p align="center">1</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="clear:both;">&nbsp;</div>
+<p>
+Hadiah akhir adalah untuk orang yang mencapai serangkaian kekalahan berurutan terpanjang menurut
+kriteria peringkat di atas yang dicatat oleh sistem setiap hari selama periode acara.</p>
+<p>&nbsp;</p>
+<p style="color: yellow"><strong><em>catatan:</em></strong></p>
+<p>- Hadiah <span class="money-gold">{Config.MoneyText[1]}</span> akan diberikan pada 0h30 hari
+berikutnya.</p>
+<p>- Hadiah fisik akan diberikan dalam waktu 1 minggu segera setelah akhir acara, hadiah fisik tidak
+termasuk biaya tambahan yang relevan.
+</p>
+<p>- Hadiah fisik dapat ditukarkan dengan <span class="money-gold">{Config.MoneyText[1]}</span>.</p>
+<p>- Akun dapat menerima banyak hadiah hari yang berbeda.
+</p>
+<p>- Dalam hal terjadi perselisihan, keputusan admin bersifat final.
+</p>
+<p style="color: yellow">- Dari Desember 2020, penghargaan Iphone 11 Pro, Iphone 11 Pro Max di acara tersebut
+akan ditingkatkan ke Iphone 12 Pro 128GB, Iphone 12 Pro Max 128GB masing-masing.</p>
+</div>
+</div>
+</div>
+</div>
+</div>

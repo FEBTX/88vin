@@ -1,0 +1,28 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn2')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" id="t1rank"><span>{Config.MoneyText[1]}</span></span>
+<span class="type" id="t2rank"><span>{Config.MoneyText[0]}</span></span>
+</div>
+<div class="list-tabs">
+<table class="table" style="width:100%">
+<thead>
+<tr>
+<th width="130" align="center">{Message.GetMessage('hi02')}</th>
+<th width="100" align="center">{Message.GetMessage('hi21')}</th>
+<th width="100" align="center">{Message.GetMessage('hi12')}</th>
+<th width="100" align="center">{Message.GetMessage('hi17')}</th>
+<th width="100" align="center">{Message.GetMessage('hi19')}</th>
+</tr>
+</thead>
+<tbody id="itemRank"></tbody>
+</table>
+<div class="page-ljp pages" id="pager">
+</div>
+</div>
+</div>
+</div>
+</div>

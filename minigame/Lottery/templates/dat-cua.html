@@ -1,0 +1,158 @@
+<h3><span>#{$P.GameSessionID}</span> {Message.GetMessage('xs75')}</h3>
+<ul class="xs-b-t" id="xs-tab-ctrls" style="display: none;">
+<li class="t active">Đánh lô</li>
+<li class="t">Lô xiên</li>
+<li class="t">Đánh đề</li>
+<li class="t">Đầu đuôi</li>
+<li class="select"></li>
+</ul>
+<div class="xs-ts">
+<div id="description4" class="t active">
+{#foreach $T as item}
+<div class="xs-r" id="ulDatCua{$T.item.BetType}">
+<div class="col" title="{$T.item.Description}">
+<p>{gameLottery.GetBetTypeName($T.item.BetType)}</p>
+{#if $T.item.BetType== 7 ||$T.item.BetType==17 ||$T.item.BetType==18 ||$T.item.BetType==19 ||$T.item.BetType==29 ||$T.item.BetType==30 ||$T.item.BetType==31 }
+<span>{Message.GetMessage('xs76', [3])}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-4" placeholder="999" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+</div>
+{#else}
+{#if $T.item.Elements == 1 && $T.item.Length == 2 }
+<span>{Message.GetMessage('xs9')} </span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-1" placeholder="15,66,88" onkeyup="gameLottery.isNumber(this, true, true);" onmouseup="gameLottery.ChonBangSo(this, '{$T.item.BetType}');">
+<div class="number-pad pad-100" id="divChonBangSo{$T.item.BetType}" style="display:none">
+<span class="choose-numbers" style="width: 495px; overflow: hidden; height: 23px;" id="lbChoose{$T.item.BetType}">{Message.GetMessage('xs78')}</span>
+<div class="numbers" id="tblChonBangSo{$T.item.BetType}">
+{#for index = 0 to 99}
+{#if $T.index < 10}
+<span href="javascript:;" id="0{$T.index}" onclick="gameLottery.ChonSoTrongBang(this, '{$T.item.BetType}')">0{$T.index}</span>
+{#/if}
+{#if $T.index >= 10}
+<span href="javascript:;" id="{$T.index}" onclick="gameLottery.ChonSoTrongBang(this, '{$T.item.BetType}')">{$T.index}</span>
+{#/if}
+{#/for}
+</div>
+<div class="action">
+<span class="button button-act" onclick="gameLottery.ChonBangSoOption( '{$T.item.BetType}', 1);">{Message.GetMessage('lb1')}</span>
+<span class="button button-act" onclick="gameLottery.ChonBangSoOption( '{$T.item.BetType}', 2);">{Message.GetMessage('xs79')}</span>
+<span class="button button-act" onclick="gameLottery.ChonBangSoOption( '{$T.item.BetType}', 3);">{Message.GetMessage('xs80')}</span>
+<span class="button button-act" onclick="gameLottery.ChonBangSoOption( '{$T.item.BetType}', 4);">{Message.GetMessage('xs81')}</span>
+<span class="button button-x" onclick="gameLottery.closeBangSo( '{$T.item.BetType}');">{Message.GetMessage('ib15')}</span>
+</div>
+</div>
+</div>
+{#/if}
+{#if $T.item.Elements == 1 && $T.item.Length == 3 }
+<span>{Message.GetMessage('xs9')}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-1" placeholder="156,668,868" onkeyup="gameLottery.isNumber(this, true, false)">
+</div>
+ {#/if}
+
+{#if $T.item.Elements == 2}
+<span>{Message.GetMessage('xs82', [2])}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="2">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="2">
+</div>
+{#/if}
+
+{#if $T.item.Elements == 3}
+<span>{Message.GetMessage('xs82', [3])}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="2">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="2">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="2">
+</div>
+{#/if}
+
+{#if $T.item.Elements == 4}
+<span>{Message.GetMessage('xs82', [4])}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+<input type="text" class="f-l-3" placeholder="99" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+</div>
+{#/if}
+
+{#if $T.item.Length == 1 }
+<span>{Message.GetMessage('xs76', [1])}</span>
+<div id="liChuoiSo{$T.item.BetType}">
+<input type="text" class="f-l-3" placeholder="0 - 9" onkeyup="gameLottery.isNumber(this)" maxlength="{$T.item.Length}">
+</div>
+{#/if}
+{#/if}
+</div>
+<div class="col">
+<p>x{$T.item.Multiple}</p>
+<span>
+{#if $T.item.Elements == 1 && $T.item.Length > 1 && !($T.item.BetType == 7
+||$T.item.BetType==17
+||$T.item.BetType==18
+||$T.item.BetType==19
+||$T.item.BetType==29
+||$T.item.BetType==30
+||$T.item.BetType==31) }
+{Message.GetMessage('xs31')}
+{#else}
+{Message.GetMessage('xs12')}
+{#/if}
+</span>
+<div>
+<input type="text" placeholder="{libs.Util.ParseMoney($T.item.MinBetValue/1000)}K - {libs.Util.ParseMoney($T.item.MaxBetValue/1000)}K" id="ipTienCuoc{$T.item.BetType}" onkeyup="gameLottery.isNumber(this)" onmouseup="gameLottery.FormDatTienNhanh(this, '{$T.item.BetType}');">
+{#if $T.item.BetType == 1 ||$T.item.BetType==2 ||$T.item.BetType==3 ||$T.item.BetType==8 ||$T.item.BetType==9 ||$T.item.BetType==10 ||$T.item.BetType==11 ||$T.item.BetType==12 ||$T.item.BetType==20 ||$T.item.BetType==21 ||$T.item.BetType==22 ||$T.item.BetType==23 ||$T.item.BetType==24 ||$T.item.BetType==32 ||$T.item.BetType==33}
+<div class="number-pad pad-price" style="display:none" id="divDatTienNhanh{$T.item.BetType}">
+<div class="prices">
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">100.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">200.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">500.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">1.000.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">5.000.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">10.000.000</span>
+</div>
+</div>
+{#elseif $T.item.BetType == 4 ||$T.item.BetType==6 ||$T.item.BetType==13 ||$T.item.BetType==15 ||$T.item.BetType==16 ||$T.item.BetType==25 ||$T.item.BetType==27 ||$T.item.BetType==27}
+<div class="number-pad pad-price" style="display:none" id="divDatTienNhanh{$T.item.BetType}">
+<div class="prices">
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">50.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">100.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">200.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">500.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">1.000.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">5.000.000</span>
+</div>
+</div>
+{#elseif $T.item.BetType == 4 ||$T.item.BetType==5 ||$T.item.BetType==7 ||$T.item.BetType==14 ||$T.item.BetType==17 ||$T.item.BetType==18 ||$T.item.BetType==19 ||$T.item.BetType==26 ||$T.item.BetType==29 ||$T.item.BetType==30 ||$T.item.BetType==31}
+<div class="number-pad pad-price" style="display:none" id="divDatTienNhanh{$T.item.BetType}">
+<div class="prices">
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">10.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">50.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">100.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">200.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">500.000</span>
+</div>
+</div>
+{#else}
+<div class="number-pad pad-price" style="display:none" id="divDatTienNhanh{$T.item.BetType}">
+<div class="prices">
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">50.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">100.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">200.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">500.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">1.000.000</span>
+<span class="button button-price" onclick="gameLottery.DatTienNhanh(this, '{$T.item.BetType}')">5.000.000</span>
+</div>
+</div>
+{#/if}
+</div>
+</div>
+<div class="act">
+<span class="button button-bet" onclick="gameLottery.FormDatCua('{$T.item.BetType}', '{$P.LocationID}', '{$T.item.Multiple}', '{$T.item.MinBetValue}', '{$T.item.MaxBetValue}')">{Message.GetMessage('xs13')}</span>
+</div>
+</div>
+{#/for}
+</div>
+</div>

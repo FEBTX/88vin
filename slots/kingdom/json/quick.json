@@ -1,0 +1,55 @@
+{"frames": {
+
+"btn-auto-2.png":
+{
+	"frame": {"x":1,"y":1,"w":107,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":42},
+	"sourceSize": {"w":107,"h":42}
+},
+"btn-auto-3.png":
+{
+	"frame": {"x":110,"y":1,"w":107,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":42},
+	"sourceSize": {"w":107,"h":42}
+},
+"btn-auto.png":
+{
+	"frame": {"x":219,"y":1,"w":107,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":42},
+	"sourceSize": {"w":107,"h":42}
+},
+"quickspin-active.png":
+{
+	"frame": {"x":328,"y":1,"w":17,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":18},
+	"sourceSize": {"w":17,"h":18}
+},
+"quickspin.png":
+{
+	"frame": {"x":328,"y":21,"w":17,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":18},
+	"sourceSize": {"w":17,"h":18}
+}},
+"animations": {
+	"btn-auto": ["btn-auto-2.png","btn-auto-3.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/quick.png",
+	"format": "RGBA8888",
+	"size": {"w":346,"h":44},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:21fd1e55b02596e7d2fc5b8cf54dcd65:3899ac84e356d13f23432c67561a5c46:870b1ad61df73642b1cb550afb40d94f$"
+}
+}

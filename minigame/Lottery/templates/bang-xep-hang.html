@@ -1,0 +1,35 @@
+<div class="tab tab-achievement active">
+<span class="title">Thành tích</span>
+<div class="xs-b">
+<ul class="xs-tab-m">
+<li class="t {#if $P.Type ==1 } active {#/if}" onclick="gameLottery.BangXepHang(1);">{Message.GetMessage('xs25')}</li>
+<li class="t {#if $P.Type ==2 } active {#/if}" onclick="gameLottery.BangXepHang(2);">{Message.GetMessage('xs26')}</li>
+<li class="t {#if $P.Type ==3 } active {#/if}" onclick="gameLottery.BangXepHang(3);">{Message.GetMessage('xs27')}</li>
+<li class="select"></li>
+</ul>
+</div>
+<ul class="list-view-rank-head">
+<li>{Message.GetMessage('iap213')}</li>
+<li>{Message.GetMessage('hi21')}</li>
+<li>{Message.GetMessage('hi17')}</li>
+</ul>
+<ul class="list-view-rank-body" id="tbodyBangXepHang">
+{#foreach $T as item}
+<li>
+<span class="rank">
+{#if $T.item$index == 0 }
+<i class="ic-rank-1"></i>
+{#elseif $T.item$index == 1 }
+<i class="ic-rank-2"></i>
+{#elseif $T.item$index == 2 }
+<i class="ic-rank-3"></i>
+{#else}
+{$T.item$index+1}
+{#/if}
+</span>
+<span class="name">{$T.item.Nickname}</span>
+<span class="win">{libs.Util.ParseMoney($T.item.PrizeValue)} <i class="gold_1x"></i></span>
+</li>
+{#/for}
+</ul>
+</div>

@@ -1,0 +1,55 @@
+<div class="popup popup-tx-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev35')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameLuckyDice.showEventChest('lichsu')"><span>{Message.GetMessage('mn3')}</span></span>
+<span class="type active" onclick="gameLuckyDice.showEventChest('thongke')"><span>{Message.GetMessage('ev36')}</span></span>
+<span class="type" onclick="gameLuckyDice.showEventChest('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="event-chest-tab">
+<ul>
+<li class="top prize-1" onclick="gameLuckyDice.showEventChest('thongke', 1)"></li>
+<li class="top prize-2" onclick="gameLuckyDice.showEventChest('thongke', 2)"></li>
+<li class="top prize-3" onclick="gameLuckyDice.showEventChest('thongke', 3)"></li>
+<li class="top prize-4" onclick="gameLuckyDice.showEventChest('thongke', 4)"></li>
+<li class="top prize-5" onclick="gameLuckyDice.showEventChest('thongke', 5)"></li>
+</ul>
+</div>
+<div class="scroll-tx">
+<div class="tablepop">
+<table style="width: 100%">
+<thead>
+<tr>
+<th>{Message.GetMessage('hi02')}</th>
+<th>{Message.GetMessage('hi21')}</th>
+<th>{Message.GetMessage('ev48')}</th>
+<th>{Message.GetMessage('ev40')}</th>
+</tr>
+</thead>
+<tbody id="topEven1">
+{#foreach $T as item}
+<tr class="{#if ($T.item$index % 2 == 0)}bg2{#/if}">
+<td>{libs.Util.formDateTimehms($T.item.AwardTime)}</td>
+<td class="name" {#if ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID)}style="color: #ff0"{#/if}>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+<td><ul><li class="history prize-{$T.item.PrizeID}"></li></ul></td>
+<td class="money-gold">
+{#if $T.item.SpecialGift > 0}
+{Message.GetMessage('ev' + (45 + $T.item.SpecialGift))}
+{#/if}
+{#if $T.item.SpecialGift == 0 && $T.item.PrizeValue > 0}
+{libs.Util.ParseMoney($T.item.PrizeValue)} {gameLuckyDice.MoneyPortal[$T.item.PortalID]}
+{#/if}
+</td>
+</tr>
+{#/for}
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

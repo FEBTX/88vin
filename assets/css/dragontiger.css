@@ -1,0 +1,379 @@
+.btn-statistic-game {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -300px;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.dragontiger{
+  margin: 0 auto;
+  font-family: "Roboto-Bold";
+  position: relative;
+  z-index: 3;
+}
+.dragontiger .show-statistic-game .top-statistic li {
+  margin-right: 4px;
+}
+
+.dragontiger .show-statistic-game .top-statistic li span.name {
+    background: #5daf00;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 1px;
+    position: relative;
+    top: 0px;
+    text-transform: uppercase;
+}
+.dragontiger .show-statistic-game .top-statistic li span.name.dragon {
+    background: #241d68;
+    float: left;
+}
+
+.dragontiger .show-statistic-game .top-statistic li span.name.tiger {
+    background: #f72373;
+    float: left;
+}
+
+.dragontiger .show-statistic-game .top-statistic li span.name.tie {
+    background: #5daf00;
+    float: left;
+}
+
+.dragontiger .show-statistic-game .top-statistic li span.name.oddeven {
+    width: 20px;
+    height: 20px;
+    top: -4px;
+    float: left;
+}
+.dragontiger .show-statistic-game .top-statistic li span.name.oddeven.dragoneven {
+    background: url(/assets/images/dragontiger/anhbia2.png) 672px 23px;
+}
+.dragontiger .show-statistic-game .top-statistic li span.name.oddeven.dragonodd {
+    background: url(/assets/images/dragontiger/anhbia2.png) 561px 23px;
+}
+.dragontiger .show-statistic-game .top-statistic li span.name.oddeven.tigereven {
+    background: url(/assets/images/dragontiger/anhbia2.png) 470px 23px;
+}
+.dragontiger .show-statistic-game .top-statistic li span.name.oddeven.tigerodd {
+    background: url(/assets/images/dragontiger/anhbia2.png) 359px 23px;
+}
+.dragontiger .show-statistic-game .top-statistic li span.count {
+    float: none;
+}
+.dragontiger .left-content-statistic {
+  /* width: 464px; */
+}
+.dragontiger .left-content-statistic span {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  content: "";
+  position: relative;
+  top: 0px;
+  line-height: 16px;
+  color: #25276a;
+  font-size: 11px;
+}
+
+.dragontiger .left-content-statistic span.tie {
+    background: #5daf00;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.dragontiger .left-content-statistic span.dragon {
+    background: url(/assets/images/dragontiger/history-dragontiger-asset.png?v1) 0px 0px;
+}
+
+    .dragontiger .left-content-statistic span.dragon.tie {
+        background: #5daf00;
+    }
+
+.dragontiger .left-content-statistic span.tiger.tie {
+    background: #5daf00;
+}
+
+.dragontiger .left-content-statistic span.tiger {
+    background: url(/assets/images/dragontiger/history-dragontiger-asset.png?v1) -14px 0px;
+    color: #ff2a73;
+}
+.dragontiger .right-content-statistic {
+  position: relative;
+  top: 0px;
+  left: -5px;
+  width: 226px;
+}
+.dragontiger .right-content-statistic ul li ul li {
+    height: 15px;
+}
+.dragontiger .right-content-statistic span {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    content: "";
+    position: relative;
+    top: 0px;
+    line-height: 16px;
+    color: #25276a;
+    font-size: 11px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.dragontiger .right-content-statistic span.tie {
+    background: #5daf00;
+}
+.dragontiger .right-content-statistic span.dragon {
+    background: #25276a;
+}
+.dragontiger .right-content-statistic span.tiger {
+    background: #f72373;
+}
+.dragontiger .show-statistic-game {
+  font-size: 11px;
+  color: black;
+  font-weight: normal;
+  width: 720px !important;
+}
+.dragontiger .btn-close-statistic {
+  background: url(/assets/images/x.png) no-repeat;
+  background-size: 90%;
+}
+.btn-statistic-game a img {
+  opacity: .7;
+}
+
+.btn-statistic-game a:hover img {
+  opacity: 1;
+}
+
+.show-statistic-game {
+  display: block;
+  width: 715px;
+  background: #fff;
+  border: solid 3px #7251a4;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  position: absolute;
+  top: -180px;
+  left: 50%;
+  margin-left: -380px;
+  z-index: 20;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+}
+.top-statistic li {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+
+.top-statistic {
+  position: relative;
+}
+
+.top-statistic li:last-child {
+  margin-right: 0;
+}
+
+.top-statistic li span.even {
+  background: #202266;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 14px;
+  margin-right: 1px;
+  position: relative;
+  top: -1px;
+  text-transform: uppercase;
+}
+
+.top-statistic li span.odd {
+  background: #ff2570;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  line-height: 14px;
+  margin-right: 1px;
+  position: relative;
+  top: -1px;
+  text-transform: uppercase;
+}
+
+.top-statistic:after,
+.left-content-statistic:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.top-statistic li input.checkbox {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border: solid 1px #898989;
+  display: inline-block;
+  position: relative;
+  float: left;
+  top: 1px;
+  margin-right: 5px;
+}
+
+.left-content-statistic {
+  border: solid 1px #ccc;
+  display: inline-block;
+  border-right: 0 none;
+  border-bottom: 0 none;
+  width: 436px;
+}
+
+.left-content-statistic li,
+.right-content-statistic li {
+  float: left;
+  display: block;
+  width: 15px;
+  border: solid 1px #ccc;
+  position: relative;
+  border-left: 0 none;
+  border-top: 0 none;
+  text-align: center;
+}
+
+.left-content-statistic li ul li:last-child,
+.right-content-statistic li ul li:last-child {
+  border-bottom: 0 none;
+}
+
+.left-content-statistic li ul li,
+.right-content-statistic li ul li {
+  height: 15px;
+  display: block;
+  overflow: hidden;
+}
+
+.content-show-statistic {
+  padding-top: 10px;
+}
+
+.left-content-statistic li span.odd {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border: solid 1px #ff2570;
+  content: "";
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: relative;
+  top: 1px;
+  line-height: 12px;
+  background: #ff2570;
+  color: #fff;
+  font-size: 11px;
+}
+
+.left-content-statistic li span.even {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border: solid 1px #202266;
+  content: '';
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: relative;
+  top: 1px;
+  line-height: 12px;
+  background: #202266;
+  color: #fff;
+  font-size: 11px;
+}
+
+.right-content-statistic {
+  float: right;
+  width: 240px;
+  border: solid 1px #ccc;
+  display: inline-block;
+  border-right: 0 none;
+  border-bottom: 0 none;
+}
+
+.right-content-statistic li span.odd {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background: #ff2570;
+  content: "";
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: relative;
+  top: 1px;
+}
+
+.right-content-statistic li span.even {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  background: #202266;
+  content: '';
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: relative;
+  top: 1px;
+}
+
+a.btn-close-statistic span {
+  display: inline-block;
+  background: url(../../images/portal/asset.png) no-repeat -214px -55px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 7px;
+}
+
+a.btn-close-statistic {
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  background: #000;
+  z-index: 30;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.show-statistic-game.active {
+  top: -3px;
+  opacity: 1;
+  z-index: 1000;
+}

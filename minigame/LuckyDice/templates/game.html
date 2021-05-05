@@ -1,0 +1,90 @@
+
+<div id="gameLuckyDice" class="mg-tx" style="top: 320px; left: 300px; display: none">
+<div class="event-1"></div>
+<div class="event-2">
+<span class="event-title"></span>
+<div class="content">
+<div class="box">
+<span class="reward"></span>
+</div>
+<div class="box">
+<span class="reward"></span>
+</div>
+<div class="box">
+<span class="reward"></span>
+</div>
+<div class="box">
+<span class="reward"></span>
+</div>
+</div>
+</div>
+<div class="game">
+<div class="mini-tables">
+
+</div>
+<span class="table-name" name="lasvegas" id="ld-table-name"></span>
+<span class="session" id="session-ld"></span>
+<span class="button button-mg button-guide"><i class="ic-guide"></i></span>
+<span class="button button-mg button-history"><i class="ic-history"></i></span>
+<span class="button button-mg button-trophy"><i class="ic-trophy"></i></span>
+<span class="button button-mg button-light on"><i class="ic-light"></i></span>
+<span class="button button-mg button-chat"><i class="ic-chat"></i></span>
+<span class="button button-mg button-chart"><i class="ic-chart"></i></span>
+<span class="button button-mg button-close"><i class="ic-close"></i></span>
+<div class="money-types">
+<span class="money-type gold active"></span>
+<span class="money-type silver"></span>
+</div>
+<div class="turn-bar" id="mainTurnTx">
+</div>
+<div class="left">
+<span class="bet-name" id="gateOver"></span>
+<span class="total" id="totalbetOver"></span>
+<span class="input"><input id="txtbetpersonOver" type="text" onkeyup="gameLuckyDice.onChangeInputValidate(this);" onfocus="gameLuckyDice.onFocus(this);" onblur="gameLuckyDice.onBlur(this);" value="0"></span>
+<span class="bet" id="betpersonOver">0</span>
+<span class="persons" id="personOver">(0)</span>
+</div>
+<div class="right">
+<span class="bet-name" id="gateUnder"></span>
+<span class="total" id="totalbetUnder"></span>
+<span class="input"><input type="text" id="txtbetpersonUnder" maxlength="10" onkeyup="gameLuckyDice.onChangeInputValidate(this);" onfocus="gameLuckyDice.onFocus(this);" onblur="gameLuckyDice.onBlur(this);" value="0"></span>
+<span class="bet" id="betpersonUnder">0</span>
+<span class="persons" id="personUnder">(0)</span>
+</div>
+<div class="center">
+<div class="dice">
+<canvas id="cv-ld"></canvas>
+</div>
+<div class="countdown show" id="txtTimerBet">00:00</div>
+<span class="button-hide show" id="btnNan"></span>
+<span class="hide" id="diskHide"></span>
+<span class="result-circle" id="totalDice" style="display: none;">19</span>
+<span class="result-circle timer" id="txtTimerHide" style="display: none;"></span>
+<div class="tip-bet"></div>
+</div>
+<div class="message"></div>
+</div>
+<div class="chat">
+<span class="button button-close" onclick="gameLuckyDice.showChat();"></span>
+<span id="ld-scroll-b">...</span>
+<div class="messages dropup-scroll-container" id="msg-chat-tx">
+</div>
+<div class="input">
+<input type="text" placeholder="Nhập nội dung">
+<span class="button button-send">Gửi</span>
+</div>
+</div>
+<div class="game-pad">
+<div class="quick active">
+<div class="bets">
+</div>
+<div class="actions">
+<span class="button-green" id="txCloseQuick"></span>
+<span class="button-yellow" id="txtBet"></span>
+<span class="button-orange button-close-game-pad" id="txtCancelQuick"></span>
+</div>
+</div>
+
+</div>
+<div id="statistic-tx"></div>
+</div>

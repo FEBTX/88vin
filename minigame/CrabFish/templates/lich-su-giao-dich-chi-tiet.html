@@ -1,0 +1,62 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('hi40')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types" style="background: none; -webkit-box-shadow: none; box-shadow:none">
+</div>
+<div class="list-tabs">
+<div id="txInfo" style="top: 60px;line-height:28px;">
+{Message.GetMessage('hi08')} #<span>{$T.GameSessionID} / {gameCrabFish.getRoomValue($T.RoomID,$T.BetType)}</span><br />
+<span>{libs.Util.formDateTimehms($T.StartTime)}</span><br />
+{Message.GetMessage('hi11')}
+</div>
+<div id="baucuaResult">
+{#foreach $T.ResultData.DiceData.split(',') as item}
+<span class="num-{$T.item}"></span>
+{#/for}
+</div>
+<div align="center">
+<table class="table" style="width: 100%">
+<thead>
+<tr>
+<th style="text-align:center;width:45px;">{Message.GetMessage('hi10')}</th>
+<th style="text-align:center;width:70px;">{Message.GetMessage('hi12')}</th>
+<th style="text-align: center; width: 60px;">{Message.GetMessage('hi14')}</th>
+</tr>
+</thead>
+<tbody id="itemHis">
+<tr>
+<td align="center">{Message.GetMessage('bc7')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,1))}
+</tr>
+<tr>
+<td align="center">{Message.GetMessage('bc8')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,2))}
+</tr>
+<tr>
+<td align="center">{Message.GetMessage('bc9')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,3))}
+</tr>
+<tr>
+<td align="center">{Message.GetMessage('bc10')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,4))}
+</tr>
+<tr>
+<td align="center">{Message.GetMessage('bc11')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,5))}
+</tr>
+<tr>
+<td align="center">{Message.GetMessage('bc12')}</td>
+{gameCrabFish.hTMLentities(gameCrabFish.drawHtml($T.BetData,6))}
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="phantrang">
+<li><a href="javascript:gameCrabFish.binderHistory(gameCrabFish.currentPage,{$T.BetType});">{Message.GetMessage('se28')}</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>

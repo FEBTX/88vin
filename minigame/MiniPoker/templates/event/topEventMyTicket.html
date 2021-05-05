@@ -1,0 +1,25 @@
+<div class="popup popup-tx-event popup-mini-event show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('ev1')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" onclick="gameMiniPoker.showTopEvent('bxh1')"><span>{Message.GetMessage('ev1')}</span></span>
+<span class="type" onclick="gameMiniPoker.showTopEvent('bxh2')"><span>{Message.GetMessage('ev2')}</span></span>
+<span class="type active" onclick="gameMiniPoker.showTopEvent('thanhtich')"><span>{Message.GetMessage('ev3')}</span></span>
+<span class="type" onclick="gameMiniPoker.showTopEvent('thele')"><span>{Message.GetMessage('ev4')}</span></span>
+</div>
+<div class="list-tabs">
+<div class="scroll-tx">
+<h3>
+<span class="select-tx">
+<select id="eventMonthSelect"></select>
+<select id="eventDateSelect"></select>
+</span>
+</h3>
+<div id="topEven1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>

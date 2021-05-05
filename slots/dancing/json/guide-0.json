@@ -1,0 +1,76 @@
+{"frames": {
+
+"dancing-guide-en-1.png":
+{
+	"frame": {"x":1,"y":1,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-en-2.png":
+{
+	"frame": {"x":953,"y":1,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-km-2.png":
+{
+	"frame": {"x":1,"y":432,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-km-3.png":
+{
+	"frame": {"x":953,"y":432,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-vi-3.png":
+{
+	"frame": {"x":1,"y":863,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-vi-4.png":
+{
+	"frame": {"x":953,"y":863,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-zh-4.png":
+{
+	"frame": {"x":1,"y":1294,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+},
+"dancing-guide-zh-5.png":
+{
+	"frame": {"x":953,"y":1294,"w":950,"h":429},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":950,"h":429},
+	"sourceSize": {"w":950,"h":429}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/guide-0.png",
+	"format": "RGBA8888",
+	"size": {"w":1904,"h":1724},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:636e66210c3f197a764f31c49229d02e:04cc2338b4371ffbca12e0ba0dd3b874:461db2c84d190fd0e7a3094fd5ff1dc2$"
+}
+}

@@ -1,0 +1,892 @@
+{"frames": {
+
+"dealer-rung-nguc-5.png":
+{
+	"frame": {"x":1,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-1.png":
+{
+	"frame": {"x":1629,"y":831,"w":142,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":38,"w":142,"h":165},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-2.png":
+{
+	"frame": {"x":888,"y":997,"w":142,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":38,"w":142,"h":165},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-3.png":
+{
+	"frame": {"x":1032,"y":997,"w":141,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":38,"w":141,"h":166},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-4.png":
+{
+	"frame": {"x":1323,"y":997,"w":141,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":39,"w":141,"h":167},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-5.png":
+{
+	"frame": {"x":1615,"y":998,"w":140,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":39,"w":140,"h":169},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-6.png":
+{
+	"frame": {"x":1757,"y":1130,"w":137,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":39,"w":137,"h":169},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-7.png":
+{
+	"frame": {"x":1,"y":1163,"w":136,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":39,"w":136,"h":170},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-8.png":
+{
+	"frame": {"x":1773,"y":959,"w":135,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":40,"w":135,"h":169},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-9.png":
+{
+	"frame": {"x":1775,"y":788,"w":134,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":40,"w":134,"h":169},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-10.png":
+{
+	"frame": {"x":1776,"y":612,"w":133,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":40,"w":133,"h":174},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-11.png":
+{
+	"frame": {"x":1203,"y":1166,"w":133,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":39,"w":133,"h":183},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-12.png":
+{
+	"frame": {"x":1777,"y":1,"w":132,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":40,"w":132,"h":193},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-13.png":
+{
+	"frame": {"x":1777,"y":196,"w":132,"h":204},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":40,"w":132,"h":204},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-chia-bai-14.png":
+{
+	"frame": {"x":1777,"y":402,"w":132,"h":208},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":40,"w":132,"h":208},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-1.png":
+{
+	"frame": {"x":149,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-2.png":
+{
+	"frame": {"x":1175,"y":997,"w":146,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":166},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-3.png":
+{
+	"frame": {"x":289,"y":1163,"w":148,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":39,"w":148,"h":171},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-4.png":
+{
+	"frame": {"x":591,"y":1163,"w":150,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":39,"w":150,"h":174},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-5.png":
+{
+	"frame": {"x":896,"y":1165,"w":151,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":39,"w":151,"h":179},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-6.png":
+{
+	"frame": {"x":1338,"y":1166,"w":152,"h":184},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":184},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-7.png":
+{
+	"frame": {"x":1646,"y":1301,"w":152,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":185},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-8.png":
+{
+	"frame": {"x":309,"y":1339,"w":152,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":186},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-9.png":
+{
+	"frame": {"x":925,"y":1349,"w":151,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":151,"h":187},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-10.png":
+{
+	"frame": {"x":463,"y":1339,"w":152,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":187},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-11.png":
+{
+	"frame": {"x":617,"y":1343,"w":152,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":187},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-12.png":
+{
+	"frame": {"x":771,"y":1346,"w":152,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":187},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-13.png":
+{
+	"frame": {"x":1,"y":1336,"w":152,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":186},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-14.png":
+{
+	"frame": {"x":155,"y":1336,"w":152,"h":186},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":186},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-15.png":
+{
+	"frame": {"x":1492,"y":1169,"w":152,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":185},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-16.png":
+{
+	"frame": {"x":1049,"y":1165,"w":152,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":39,"w":152,"h":182},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-17.png":
+{
+	"frame": {"x":743,"y":1164,"w":151,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":39,"w":151,"h":177},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-18.png":
+{
+	"frame": {"x":439,"y":1163,"w":150,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":39,"w":150,"h":174},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-19.png":
+{
+	"frame": {"x":139,"y":1163,"w":148,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":39,"w":148,"h":171},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-20.png":
+{
+	"frame": {"x":1466,"y":997,"w":147,"h":167},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":39,"w":147,"h":167},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-21.png":
+{
+	"frame": {"x":297,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-22.png":
+{
+	"frame": {"x":445,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-23.png":
+{
+	"frame": {"x":593,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-moi-choi-24.png":
+{
+	"frame": {"x":741,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-1.png":
+{
+	"frame": {"x":889,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-2.png":
+{
+	"frame": {"x":741,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-3.png":
+{
+	"frame": {"x":593,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-4.png":
+{
+	"frame": {"x":445,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-5.png":
+{
+	"frame": {"x":148,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-6.png":
+{
+	"frame": {"x":296,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-7.png":
+{
+	"frame": {"x":444,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-8.png":
+{
+	"frame": {"x":592,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-9.png":
+{
+	"frame": {"x":740,"y":665,"w":145,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":145,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-10.png":
+{
+	"frame": {"x":1037,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-11.png":
+{
+	"frame": {"x":1185,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-12.png":
+{
+	"frame": {"x":1333,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-13.png":
+{
+	"frame": {"x":1481,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-14.png":
+{
+	"frame": {"x":1629,"y":1,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-15.png":
+{
+	"frame": {"x":1,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-16.png":
+{
+	"frame": {"x":149,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-17.png":
+{
+	"frame": {"x":297,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-18.png":
+{
+	"frame": {"x":445,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-19.png":
+{
+	"frame": {"x":593,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-20.png":
+{
+	"frame": {"x":889,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-21.png":
+{
+	"frame": {"x":1037,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-22.png":
+{
+	"frame": {"x":1185,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-23.png":
+{
+	"frame": {"x":1333,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-24.png":
+{
+	"frame": {"x":1481,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-25.png":
+{
+	"frame": {"x":1629,"y":167,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-26.png":
+{
+	"frame": {"x":1,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-27.png":
+{
+	"frame": {"x":149,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-28.png":
+{
+	"frame": {"x":297,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-29.png":
+{
+	"frame": {"x":445,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-30.png":
+{
+	"frame": {"x":741,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-31.png":
+{
+	"frame": {"x":889,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-32.png":
+{
+	"frame": {"x":1037,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-33.png":
+{
+	"frame": {"x":1185,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-34.png":
+{
+	"frame": {"x":1333,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-35.png":
+{
+	"frame": {"x":1481,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-36.png":
+{
+	"frame": {"x":1629,"y":333,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-37.png":
+{
+	"frame": {"x":1,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-38.png":
+{
+	"frame": {"x":149,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-39.png":
+{
+	"frame": {"x":297,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-40.png":
+{
+	"frame": {"x":593,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-41.png":
+{
+	"frame": {"x":741,"y":499,"w":145,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":145,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-42.png":
+{
+	"frame": {"x":888,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-43.png":
+{
+	"frame": {"x":1036,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-44.png":
+{
+	"frame": {"x":1184,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-45.png":
+{
+	"frame": {"x":1332,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-46.png":
+{
+	"frame": {"x":1480,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-47.png":
+{
+	"frame": {"x":1628,"y":499,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-normal-48.png":
+{
+	"frame": {"x":1,"y":665,"w":145,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":145,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-1.png":
+{
+	"frame": {"x":887,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-2.png":
+{
+	"frame": {"x":741,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-3.png":
+{
+	"frame": {"x":1,"y":997,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-4.png":
+{
+	"frame": {"x":149,"y":997,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-6.png":
+{
+	"frame": {"x":297,"y":997,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-7.png":
+{
+	"frame": {"x":445,"y":997,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-8.png":
+{
+	"frame": {"x":593,"y":997,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-9.png":
+{
+	"frame": {"x":741,"y":997,"w":145,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":145,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-10.png":
+{
+	"frame": {"x":1035,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-11.png":
+{
+	"frame": {"x":1183,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-12.png":
+{
+	"frame": {"x":1331,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-13.png":
+{
+	"frame": {"x":1479,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-14.png":
+{
+	"frame": {"x":1627,"y":665,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-15.png":
+{
+	"frame": {"x":1,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-16.png":
+{
+	"frame": {"x":149,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-17.png":
+{
+	"frame": {"x":297,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-18.png":
+{
+	"frame": {"x":445,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-19.png":
+{
+	"frame": {"x":593,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-20.png":
+{
+	"frame": {"x":889,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-21.png":
+{
+	"frame": {"x":1037,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-22.png":
+{
+	"frame": {"x":1185,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-23.png":
+{
+	"frame": {"x":1333,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+},
+"dealer-rung-nguc-24.png":
+{
+	"frame": {"x":1481,"y":831,"w":146,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":39,"w":146,"h":164},
+	"sourceSize": {"w":200,"h":300}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "dealer.png",
+	"format": "RGBA8888",
+	"size": {"w":1910,"h":1537},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c58f1dadc3bd96a88c0fc1d969a2755e:8a30b3108b105d5af3823576dcc19310:b327f78718bc382b61e275e6d8ed5062$"
+}
+}

@@ -1,0 +1,11 @@
+{#foreach $T as item}
+					<tr>
+						<td align="center">{$T.item.GameSessionID}</td>
+						<td align="center">{libs.Util.formDateTimehms($T.item.StartTime)}</td>
+						<td align="center">{Message.GetMessage('tx' + (45 - parseInt($T.item.LocationName)))}</td>
+						<td align="center">{$T.item.Result}</td>
+                        <td align="right" class="money-gold">{libs.Util.ParseMoney($T.item.TotalBetValue)}</td>
+                        <td align="right" class="money-gold">{#if $T.item.Result}{libs.Util.ParseMoney($T.item.RefundValue)}{#/if}</td>
+                        <td align="right" class="money-gold">{#if $T.item.Result}{libs.Util.ParseMoney($T.item.PrizeValue)}{#/if}</td>
+					</tr>
+				{#/for}  

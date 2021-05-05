@@ -1,0 +1,10 @@
+
+{#foreach $T as item}
+<tr>
+    <td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+    <td align="center" {#if ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID)}style="color: #ff0"{#/if}>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+    <td align="right" class="{#if LkwGame.typeHis == 1}money-1{#else}money-2{#/if}">{gameLuckyWild.getRoomValue($T.item.RoomID)}</td>
+    <td align="right" class="{#if LkwGame.typeHis == 1}money-1{#else}money-2{#/if}">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>    
+    <td align="center">{gameLuckyWild.GetItemResult($T.item.SlotData.substring(6,11))} (x{$T.item.WildMultiplier})</td>    
+</tr>
+{#/for}  

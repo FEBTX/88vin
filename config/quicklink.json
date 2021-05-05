@@ -1,0 +1,73 @@
+{
+    "vqmm": {
+        "name": "na32",
+        "href": "javascript:;",
+        "tooltip": "na32",
+        "cssClass": "ic-lw",
+        "enable" : true,
+        "style":  {"top": "60px", "left": "450px"}
+    },
+    "miniPoker": {
+        "name": "na22",
+        "href": "javascript:libs.MiniGame.showhide('gameMiniPoker');",
+        "tooltip": "na22",
+        "cssClass": "ic-mp",
+        "enable" : true,
+        "style":  {"top": "210px", "left": "710px"}
+    },
+    "taixiu": {
+        "name": "na21",
+        "href": "javascript:libs.MiniGame.showhide('gameLuckyDice');",
+        "tooltip": "na21",
+        "cssClass": "ic-tx",
+        "enable" : true,
+        "style":  {"top": "430px", "left": "780px"}
+    },
+    "highlow": {
+        "name": "na25",
+        "href": "javascript:libs.MiniGame.showhide('gameHighLow');",
+        "tooltip": "na25",
+        "cssClass": "ic-hl",
+        "enable" : true,
+        "style":  {"top": "670px", "left": "660px"}
+    },
+    "crabfish": {
+        "name": "na24",
+        "href": "javascript:libs.MiniGame.showhide('gameCrabFish');",
+        "tooltip": "na24",
+        "cssClass": "ic-bc",
+        "enable" : true,
+        "style":  {"top": "770px", "left": "440px"}
+    },
+    "ott": {
+        "name": "na26",
+        "href": "javascript:libs.MiniGame.showhide('OttGame');",
+        "tooltip": "na26",
+        "cssClass": "menuItem ott",
+        "enable" : false
+    },
+    "phucsinh": {
+        "name": "na23",
+        "href": "javascript:libs.MiniGame.showhide('gameSlotGod');",
+        "tooltip": "na23",
+        "cssClass": "ic-ps",
+        "enable" : true,
+        "style":  {"top": "660px", "left": "150px"}
+    },
+    "luckywild": {
+        "name": "na27",
+        "href": "javascript:libs.MiniGame.showhide('gameLuckyWild');",
+        "tooltip": "na27",
+        "cssClass": "ic-lwi",
+        "enable" : true,
+        "style":  {"top": "450px", "left": "70px"}
+    },
+    "loto": {
+        "name": "na28",
+        "href": "javascript:libs.MiniGame.showhide('gameLottery');",
+        "tooltip": "na28",
+        "cssClass": "ic-xs",
+        "enable" : true,
+        "style":  {"top": "180px", "left": "170px"}
+    }
+}

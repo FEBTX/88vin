@@ -1,0 +1,108 @@
+<div class="session-watch left show" id="statistic-left-tx">
+<span class="button button-close"></span>
+<div class="sesstion-stats s1">
+<span class="black">{Message.GetMessage('tx1')}: {$T.Type1Location2}</span>
+<span class="white">{Message.GetMessage('tx2')}: {$T.Type1Location1}</span>
+</div>
+<div class="stats-rects">
+<ul>
+{#foreach $T.Type1 as item}
+{#if ($T.item$index % 6 == 0) }
+<li>
+{#/if}
+<div class="rect">
+{#if ($T.item.GameSessionID)}
+<span class="{#if ($T.item.LocationIDWin == 2) }black{#/if}{#if ($T.item.LocationIDWin == 1) }white{#/if} {#if ($T.item.GameSessionID == $T.LastSession.GameSessionID) }current{#/if}">{$T.item.DiceSum}</span>
+<p>
+{Message.GetMessage('tx4')} #{$T.item.GameSessionID}<br>
+<b>
+{#if ($T.item.LocationIDWin == 2) }{Message.GetMessage('tx1')}{#/if}
+{#if ($T.item.LocationIDWin == 1) }{Message.GetMessage('tx2')}{#/if}
+({$T.item.Dice1}-{$T.item.Dice2}-{$T.item.Dice3})
+</b>
+</p>
+{#/if}
+</div>
+{#if ($T.item$index % 6 == 5) }
+</li>
+{#/if}
+{#/for}
+</ul>
+</div>
+<div class="sesstion-stats s2">
+<span class="black">{Message.GetMessage('tx1')}: {$T.Type2Location2}</span>
+<span class="white">{Message.GetMessage('tx2')}: {$T.Type2Location1}</span>
+</div>
+<div class="stats-rects">
+<ul>
+{#foreach $T.Type2 as item}
+{#if ($T.item$index % 6 == 0) }
+<li>
+{#/if}
+<div class="rect">
+{#if ($T.item.GameSessionID > 0)}
+<i class="{#if ($T.item.LocationIDWin == 2) }black{#/if}{#if ($T.item.LocationIDWin == 1) }white{#/if} {#if ($T.item.GameSessionID == $T.LastSession.GameSessionID) }current{#/if}"></i>
+<p>
+{Message.GetMessage('tx4')} #{$T.item.GameSessionID}<br>
+<b>
+{#if ($T.item.LocationIDWin == 2) }{Message.GetMessage('tx1')}{#/if}
+{#if ($T.item.LocationIDWin == 1) }{Message.GetMessage('tx2')}{#/if}
+({$T.item.Dice1}-{$T.item.Dice2}-{$T.item.Dice3})
+</b>
+</p>
+{#/if}
+</div>
+{#if ($T.item$index % 6 == 5) }
+</li>
+{#/if}
+{#/for}
+</ul>
+</div>
+</div>
+<div class="session-watch right show" id="statistic-right-tx">
+<span class="button button-close"></span>
+<div class="sw-head">{Message.GetMessage('tx39')} (#{$T.LastSession.GameSessionID}) -
+{#if ($T.LastSession.LocationIDWin == 2) }{Message.GetMessage('tx1')}{#/if}
+{#if ($T.LastSession.LocationIDWin == 1) }{Message.GetMessage('tx2')}{#/if}
+{$T.LastSession.DiceSum} ({$T.LastSession.Dice1}-{$T.LastSession.Dice2}-{$T.LastSession.Dice3})</div>
+<div class="swc-filters">
+<div class="filter">
+<input type="checkbox" id="txf-all" checked="checked" data-value="0">
+<label for="txf-all" class="all">{Message.GetMessage('tx33')}</label>
+</div>
+<div class="filter">
+<input type="checkbox" id="txf-d1" checked="checked" data-value="1">
+<label for="txf-d1" class="d1">{Message.GetMessage('tx34')}</label>
+</div>
+<div class="filter">
+<input type="checkbox" id="txf-d2" checked="checked" data-value="2">
+<label for="txf-d2" class="d2">{Message.GetMessage('tx35')}</label>
+</div>
+<div class="filter">
+<input type="checkbox" id="txf-d3" checked="checked" data-value="3">
+ <label for="txf-d3" class="d3">{Message.GetMessage('tx36')}</label>
+</div>
+</div>
+<div class="chart chart-1" id="chart-tx1">
+</div>
+<div class="chart chart-2" id="chart-tx2">
+</div>
+<div class="note-chart">
+<div class="all">
+<span class="label"></span>
+<span class="text">{Message.GetMessage('tx33')}</span>
+</div>
+<div class="d1">
+<span class="label"></span>
+<span class="text">{Message.GetMessage('tx34')}</span>
+</div>
+<div class="d2">
+<span class="label"></span>
+<span class="text">{Message.GetMessage('tx35')}</span>
+</div>
+<div class="d3">
+<span class="label"></span>
+<span class="text">{Message.GetMessage('tx36')}</span>
+</div>
+</div>
+</div>

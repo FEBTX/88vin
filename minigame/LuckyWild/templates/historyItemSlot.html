@@ -1,0 +1,10 @@
+{#foreach $T as item}
+<tr>
+    <td align="center">{$T.item.SpinID}</td>
+    <td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+    <td align="right" class="{#if gameLuckyWild.typeHis == 1}money-1{#else}money-2{#/if}">{libs.Util.ParseMoney($T.item.BetValue)}</td>
+    <td align="right" class="{#if gameLuckyWild.typeHis == 1}money-1{#else}money-2{#/if}">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+    <td align="right">{gameLuckyWild.GetItemResult($T.item.SlotData.substring(6,11))}</td>
+
+</tr>
+{#/for}

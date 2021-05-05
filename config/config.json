@@ -1,0 +1,552 @@
+{
+    "PortalID": 1,
+    "PortalName": "G88",
+    "PortalHost": "G88.vin",
+    "LanguageDefault": "vi",
+    "LanguageAvailable": ["en", "vi", "zh", "km", "th", "id"],
+    "LogoutReload": true,
+    "IsConnectedChat": false,
+    "IsConnectingChat": false,
+    "ChangeLanguageReload": true,
+    "OTP": {
+        "EnableTeleSafe": true,
+        "EnalbeAppOTP": false,
+        "EnableSmsOTP": true,
+		"Max_Length" : 15
+    },
+	"TOPUP_BANK": true,
+    "TOPUP_BANK_TH": false,
+    "VIPPOINT_RATE": 27000000,
+    "TIME_CHECK_AUTHEN": 120000,
+	"TIME_CHECK_V": 300000,
+	"TIME_COUNT_JACKPOT_LOBBY": 3500,
+    "TIME_COUNT_GET_EVENT_X": 5000,
+    "TIME_COUNT_GET_EVENT_X_LOBBY": 5000,
+	"EnableTimerSportAccount": true,
+    "TimerSportAccount": 30000,
+	"TOPUP_DATA": [
+        { "id": 1, "name": "iap07", "img": "G.png", "style": "cl-card", "p": "TOPUP_CARD", "pro" : 0, "show": true },
+        { "id": 2, "name": "iap43", "img": "G.png", "style": "cl-bank-vi", "p": "TOPUP_BANK", "code": "VND", "pro" : 10, "show": true },
+        { "id": 3, "name": "iap48", "img": "G.png", "style": "cl-bank-th", "p": "TOPUP_BANK_THB", "code": "THB", "pro": 0, "show": false }
+    ],
+	"BUY_DATA": [
+        { "id": 1, "name": "pr43", "img": "G.png", "style": "cl-card", "p": "BUY_CARD", "pro" : 0, "show": true },
+        { "id": 2, "name": "iap49", "img": "G.png", "style": "cl-bank-vi", "p": "BUY_BANK", "code": "VND", "pro" : 0, "show": false },
+        { "id": 3, "name": "iap50", "img": "G.png", "style": "cl-bank-th", "p": "BUY_BANK_THB", "code": "THB", "pro": 0, "show": false }
+    ],
+	"EnableXEvent": true,
+    "EnableMinigame": true,
+	"EnableVIP": false,
+    "Moneys": ["VND", "USD"],
+    "MoneyText": ["Xu", "G-Vin"],				   
+	"MiniGame": {
+        "listGame": ["gameLuckyDice", "gameMiniPoker", "gameHighLow", "gameSlotGod", "gameCrabFish", "gameLuckyWild", "gameLottery"],
+        "listGameLibrary": ["luckydice", "minipoker", "highlow", "slotgod", "crabfish", "luckywild", "lottery"],
+        "listServer": ["//minigame1.v88.vin/", "//minigame2.v88.vin/"],
+		"listServerLuckyDice": ["//minigame3.v88.vin/", "//minigame4.v88.vin/"],
+        "OttServers": ["//minigame.v88.vin"],
+        "miniApiUrl": "//vin88client.herokuapp.com/",
+		"miniApiUrlLuckyDice": "",
+        "alwayShowGame": ["gameLuckyDice"],
+        "autoShowGame": ["gameLuckyDice", "gameMinipoker"],
+		"useOwnHub": true
+    },
+	"EnableTour": true,
+    "LinkTour": "",
+    "TargetTour": "",
+    "Tour": {
+        "poker" : {
+			"id": 401,
+            "api": "//vin88client.herokuapp.com/api/PokerTour/",
+            "register": [
+                "//vin88client.herokuapp.com/api/gameapi/p1/Register",
+                "//vin88client.herokuapp.com/api/gameapi/p2/Register",
+                "//vin88client.herokuapp.com/api/gameapi/p3/Register",
+                "//vin88client.herokuapp.com/api/gameapi/p4/Register",
+                "//vin88client.herokuapp.com/api/gameapi/p5/Register",
+				"//vin88client.herokuapp.com/api/gameapi/p6/Register",
+				"//vin88client.herokuapp.com/api/gameapi/p7/Register",
+				"//vin88client.herokuapp.com/api/gameapi/p8/Register"
+            ],
+            "hub" : [
+                "//p1.v88.vin/gameHub",
+                "//p2.v88.vin/gameHub",
+                "//p3.v88.vin/gameHub",
+                "//p4.v88.vin/gameHub",
+                "//p5.v88.vin/gameHub",
+				"//p6.v88.vin/gameHub",
+				"//p7.v88.vin/gameHub",
+				"//p8.v88.vin/gameHub"
+            ],
+            "value": [ 50000, 100000, 200000, 10000, 500000, 20000, 2000, 5000 ],
+			"prize": [16000000, 255500000]
+        },
+		"tlmn" : {
+            "id": 403,
+            "api": "//vin88client.herokuapp.com/api/GoonsoloTour/",
+            "register": [
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t1/Register",
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t2/Register",
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t3/Register",
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t4/Register",
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t5/Register",
+                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t6/Register",
+				"//vin88client.herokuapp.com/api/TLMNSoloAPI/t7/Register",
+				"//vin88client.herokuapp.com/api/TLMNSoloAPI/t8/Register"
+            ],
+            "hub" : [
+                "//t1.v88.vin/gameHub",
+                "//t2.v88.vin/gameHub",
+                "//t3.v88.vin/gameHub",
+                "//t4.v88.vin/gameHub",
+                "//t5.v88.vin/gameHub",
+                "//t6.v88.vin/gameHub",
+				"//t7.v88.vin/gameHub",
+				"//t8.v88.vin/gameHub"
+            ],
+            "value": [ 50000, 100000, 200000, 10000, 500000, 20000, 2000, 5000 ],
+			"prize": [15600000, 247200000]
+        },
+        "sam" : {
+            "id": 405,
+            "api": "//toursamapi.v88.vin/api/SamSoloTour/",
+            "register": [
+                "//s1.g88.vin/api/SamSoloAPI/Register",
+                "//s2.g88.vin/api/SamSoloAPI/Register",
+                "//s3.g88.vin/api/SamSoloAPI/Register",
+                "//s4.g88.vin/api/SamSoloAPI/Register",
+                "//s5.g88.vin/api/SamSoloAPI/Register",
+                "//s6.g88.vin/api/SamSoloAPI/Register",
+				"//s7.g88.vin/api/SamSoloAPI/Register",
+				"//s8.g88.vin/api/SamSoloAPI/Register"
+            ],
+            "hub" : [
+                "//s1.v88.vin/gameHub",
+                "//s2.v88.vin/gameHub",
+                "//s3.v88.vin/gameHub",
+                "//s4.v88.vin/gameHub",
+                "//s5.v88.vin/gameHub",
+                "//s6.v88.vin/gameHub",
+				"//s7.v88.vin/gameHub",
+				"//s8.v88.vin/gameHub"
+            ],
+            "value": [ 50000, 100000, 200000, 10000, 500000, 20000, 2000, 5000 ],
+            "prize": [15600000, 247200000]
+        },
+		"ott" : {
+            "id": 407,
+            "api": "//vin88client.herokuapp.com/api/ott/",
+            "value": [ 50000, 100000, 200000, 10000, 500000, 20000, 2000, 5000 ],
+            "prize": [15600000, 247200000]
+        }
+    },
+	"VERSION": "1.0.0.06",
+    "MAIL": "2win88@global88.org",
+
+    "STATIC_URL": "//vin88client.herokuapp.com/",
+    "ACCOUNT_API": "https://vin88client.herokuapp.com/api/Account/",
+    "PROFILE_API": "https://vin88client.herokuapp.com/api/profile/",
+    "PAYMENT_API": "https://vin88client.herokuapp.com/api/payment/",
+    "TRANSFER_PORTAL": { "88VIN": [[1, 2, 3, 5, 9], ["g88", "m88", "r88", "w88", "v88"]], "365WIN": [[4, 6, 7, 8],["m365", "w365", "g365", "r365"]] },
+    "MONEY_PORTAL": ["G-VIN", "M-VIN", "R-VIN", "M-WIN", "W-VIN" , "W-WIN", "G-WIN", "R-WIN", "V-VIN"],
+    "PAYMENT_TOPUP_API": "https://vin88client.herokuapp.com/api/payment/",
+    "PAYMENT_TOPUP_CAPTCHA_API": "https://profile.g88.vin/api/Captcha/",
+    "GAME_API": "https://vin88client.herokuapp.com/api/GameAPI/",
+    "OPENID_URL": "https://id.g88.vin/api/openid/",
+    "ACCOUNNT_CAPTCHA_API": "https://vin88client.herokuapp.com/api/Captcha/",
+    "PROFILE_CAPTCHA_API": "https://profile.g88.vin/api/Captcha/",
+    "GAME_CAPTCHA_API": "https://gameapi.g88.vin/api/Captcha/",
+    "LUCKY_WHEEL_URL": "https://vin88client.herokuapp.com/api/luckywheel/",
+    "MAINTAIN_URL": "",
+
+	"SITE_KEY": "6LdWsL0UAAAAAF-kM42G6UCWCqsAcxgwMlmRDdpY",
+	"SITE_KEY_V2": "6LdWsL0UAAAAAF-kM42G6UCWCqsAcxgwMlmRDdpY",
+    "SITE_KEY_V3": "6LcMm78UAAAAANo2RUE6XJCkIdHwUYo4oQMWiBOZ",
+	"LOTTERY_API": "//vin88client.herokuapp.com/",
+    "LOTTERY_CONFIG" : {
+        "Ticket" : { "powerball": 1, "megamillion": 2 },
+		"GameID" : { "powerball": 503, "megamillion": 504 },														   
+        "CharTicket" : ["A", "B", "C", "D", "E", "F", "G", "H", "I", "K"],
+        "BetValue": 1000        
+    },
+	"BETS_URL": "//sportsbook.bet88.vin/js/partnerinit.js?containerID=bcsportsbookcontainer&callbackName=bettingCB&oddsType=decimal&page={3}&UserId={0}&AuthToken={1}&lang={2}",
+	"ULTRA_URL": "https://esports.r365.win/UI/ExternalLogin?loginToken={0}&deviceType=desktop&lang={1}&oddformat=decimal&returnURL=/sport",
+	"ULTRA_MAINTAIN" : {
+        "FROM": "2021-02-23 7:00:00.000",
+        "TO": "2021-02-23 11:00:00.000"
+    },
+	"EBET_API": "//vin88client.herokuapp.com/",
+	"FANTASY": { 
+        "url": "https://global88-scripts.assets.scoutgg.net/global88-client/application.js",
+        "label": "g88vin",
+        "environment": "production",
+        "currency": "XXX",
+        "lang": "vi",
+		"HOWTOPLAY": {
+            "vi" : "<ol class=\"list-map\"><li><a href=\"#list-map-1\">Hướng Dẫn Cách Chơi</a></li><li><a href=\"#list-map-2\">Xem lịch sử tham gia giải đấu</a></li><li><a href=\"#list-map-3\">Xem thống kê và các trận đấu của tôi</a></li><li><a href=\"#list-map-4\">Hủy hay thay đổi sự lựa chọn các cầu thủ</a></li></ol><ul class=\"list-content\"><li id=\"list-map-1\"><p class=\"list-title\">1. Hướng dẫn cách chơi</p><p>Các bước xây dựng đội bóng của mình để bắt đầu tham gia giải đấu.</p><p class=\"p-step\"><strong>Bước 1: Chọn môn thể thao và giải đấu mà mình yêu thích</strong></p><p>- Người chơi sẽ chọn cho mình một môn thể thao mà mình ưa thích để lựa chọn các giải đấu sẽ tham gia.</p><p>- Chọn phòng chơi sẽ tham gia, một giải đấu có thể có nhiều phòng chơi ứng với phí tham gia giải đấu</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g1.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 2: Tạo đội bóng mà mình yêu thích</strong></p><p>- Sau khi chọn cho mình 1 giải đấu yêu thích, người chơi bắt đầu tạo cho mình 1 đội bóng gồm các cầu thủ có tiềm năng ghi điểm lớn nhất để tham gia tranh tài.</p><p>- Chú ý bạn chỉ có thể chọn 1 số lượng cầu thủ nhất định trong 1 ngân sách cho phép</p><p>- Bạn có thể để hệ thống tự chọn bằng click trên button “Tự động hoàn tất”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g2.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g3.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 3: Chọn đội trưởng cho đội bóng</strong></p><p>Sau khi hoàn tất lựa chọn các cầu thủ cho đội bóng của mình, bạn phải chọn đội trưởng cho đội bóng.</p><p>- Click vào “Đặt làm đội trưởng” để chọn 1 cầu thủ trong danh sách đã chọn làm đội trưởng.</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g4.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 4: Tham gia giải đấu</strong></p><p>Để đội bóng vừa chọn bắt đầu tham gia giải đấu:</p><p>Click vào button “Tham gia giải đấu”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g5.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g6.png\" alt=\"\"></p></li><li id=\"list-map-2\"><p class=\"list-title\">2. Xem lịch sử tham gia giải đấu</p><p>- Click chọn vào Tab “Lịch sử”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g7.png\" alt=\"\"></p><p>- Xem lại đội hình thi đấu đã chọn</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g8.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g9.png\" alt=\"\"></p><p>- Xem bảng xếp hạng thi đấu => Click trên button “Leaderboard”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g10.png\" alt=\"\"></p></li><li id=\"list-map-3\"><p class=\"list-title\">3. Xem thống kê và các trận đấu của tôi</p><p>Click trên Tab “Trận đấu của tôi”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g11.png\" alt=\"\"></p></li><li id=\"list-map-4\"><p class=\"list-title\">4. Hủy hay thay đổi lựa chọn các cầu thủ</p><p>- Bạn có thể hủy toàn bộ sự lựa chọn bằng cách click vào button Remove, hoặc click trên vị trí của từng cầu thủ</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g12.png\" alt=\"\"></p></li></ul>",
+            "en" : "<ol class=\"list-map\"><li><a href=\"#list-map-1\">Hướng Dẫn Cách Chơi</a></li><li><a href=\"#list-map-2\">Xem lịch sử tham gia giải đấu</a></li><li><a href=\"#list-map-3\">Xem thống kê và các trận đấu của tôi</a></li><li><a href=\"#list-map-4\">Hủy hay thay đổi sự lựa chọn các cầu thủ</a></li></ol><ul class=\"list-content\"><li id=\"list-map-1\"><p class=\"list-title\">1. Hướng dẫn cách chơi</p><p>Các bước xây dựng đội bóng của mình để bắt đầu tham gia giải đấu.</p><p class=\"p-step\"><strong>Bước 1: Chọn môn thể thao và giải đấu mà mình yêu thích</strong></p><p>- Người chơi sẽ chọn cho mình một môn thể thao mà mình ưa thích để lựa chọn các giải đấu sẽ tham gia.</p><p>- Chọn phòng chơi sẽ tham gia, một giải đấu có thể có nhiều phòng chơi ứng với phí tham gia giải đấu</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g1.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 2: Tạo đội bóng mà mình yêu thích</strong></p><p>- Sau khi chọn cho mình 1 giải đấu yêu thích, người chơi bắt đầu tạo cho mình 1 đội bóng gồm các cầu thủ có tiềm năng ghi điểm lớn nhất để tham gia tranh tài.</p><p>- Chú ý bạn chỉ có thể chọn 1 số lượng cầu thủ nhất định trong 1 ngân sách cho phép</p><p>- Bạn có thể để hệ thống tự chọn bằng click trên button “Tự động hoàn tất”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g2.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g3.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 3: Chọn đội trưởng cho đội bóng</strong></p><p>Sau khi hoàn tất lựa chọn các cầu thủ cho đội bóng của mình, bạn phải chọn đội trưởng cho đội bóng.</p><p>- Click vào “Đặt làm đội trưởng” để chọn 1 cầu thủ trong danh sách đã chọn làm đội trưởng.</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g4.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 4: Tham gia giải đấu</strong></p><p>Để đội bóng vừa chọn bắt đầu tham gia giải đấu:</p><p>Click vào button “Tham gia giải đấu”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g5.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g6.png\" alt=\"\"></p></li><li id=\"list-map-2\"><p class=\"list-title\">2. Xem lịch sử tham gia giải đấu</p><p>- Click chọn vào Tab “Lịch sử”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g7.png\" alt=\"\"></p><p>- Xem lại đội hình thi đấu đã chọn</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g8.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g9.png\" alt=\"\"></p><p>- Xem bảng xếp hạng thi đấu => Click trên button “Leaderboard”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g10.png\" alt=\"\"></p></li><li id=\"list-map-3\"><p class=\"list-title\">3. Xem thống kê và các trận đấu của tôi</p><p>Click trên Tab “Trận đấu của tôi”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g11.png\" alt=\"\"></p></li><li id=\"list-map-4\"><p class=\"list-title\">4. Hủy hay thay đổi lựa chọn các cầu thủ</p><p>- Bạn có thể hủy toàn bộ sự lựa chọn bằng cách click vào button Remove, hoặc click trên vị trí của từng cầu thủ</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g12.png\" alt=\"\"></p></li></ul>",
+            "zh" : "<ol class=\"list-map\"><li><a href=\"#list-map-1\">Hướng Dẫn Cách Chơi</a></li><li><a href=\"#list-map-2\">Xem lịch sử tham gia giải đấu</a></li><li><a href=\"#list-map-3\">Xem thống kê và các trận đấu của tôi</a></li><li><a href=\"#list-map-4\">Hủy hay thay đổi sự lựa chọn các cầu thủ</a></li></ol><ul class=\"list-content\"><li id=\"list-map-1\"><p class=\"list-title\">1. Hướng dẫn cách chơi</p><p>Các bước xây dựng đội bóng của mình để bắt đầu tham gia giải đấu.</p><p class=\"p-step\"><strong>Bước 1: Chọn môn thể thao và giải đấu mà mình yêu thích</strong></p><p>- Người chơi sẽ chọn cho mình một môn thể thao mà mình ưa thích để lựa chọn các giải đấu sẽ tham gia.</p><p>- Chọn phòng chơi sẽ tham gia, một giải đấu có thể có nhiều phòng chơi ứng với phí tham gia giải đấu</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g1.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 2: Tạo đội bóng mà mình yêu thích</strong></p><p>- Sau khi chọn cho mình 1 giải đấu yêu thích, người chơi bắt đầu tạo cho mình 1 đội bóng gồm các cầu thủ có tiềm năng ghi điểm lớn nhất để tham gia tranh tài.</p><p>- Chú ý bạn chỉ có thể chọn 1 số lượng cầu thủ nhất định trong 1 ngân sách cho phép</p><p>- Bạn có thể để hệ thống tự chọn bằng click trên button “Tự động hoàn tất”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g2.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g3.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 3: Chọn đội trưởng cho đội bóng</strong></p><p>Sau khi hoàn tất lựa chọn các cầu thủ cho đội bóng của mình, bạn phải chọn đội trưởng cho đội bóng.</p><p>- Click vào “Đặt làm đội trưởng” để chọn 1 cầu thủ trong danh sách đã chọn làm đội trưởng.</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g4.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 4: Tham gia giải đấu</strong></p><p>Để đội bóng vừa chọn bắt đầu tham gia giải đấu:</p><p>Click vào button “Tham gia giải đấu”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g5.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g6.png\" alt=\"\"></p></li><li id=\"list-map-2\"><p class=\"list-title\">2. Xem lịch sử tham gia giải đấu</p><p>- Click chọn vào Tab “Lịch sử”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g7.png\" alt=\"\"></p><p>- Xem lại đội hình thi đấu đã chọn</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g8.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g9.png\" alt=\"\"></p><p>- Xem bảng xếp hạng thi đấu => Click trên button “Leaderboard”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g10.png\" alt=\"\"></p></li><li id=\"list-map-3\"><p class=\"list-title\">3. Xem thống kê và các trận đấu của tôi</p><p>Click trên Tab “Trận đấu của tôi”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g11.png\" alt=\"\"></p></li><li id=\"list-map-4\"><p class=\"list-title\">4. Hủy hay thay đổi lựa chọn các cầu thủ</p><p>- Bạn có thể hủy toàn bộ sự lựa chọn bằng cách click vào button Remove, hoặc click trên vị trí của từng cầu thủ</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g12.png\" alt=\"\"></p></li></ul>",
+            "km" : "<ol class=\"list-map\"><li><a href=\"#list-map-1\">Hướng Dẫn Cách Chơi</a></li><li><a href=\"#list-map-2\">Xem lịch sử tham gia giải đấu</a></li><li><a href=\"#list-map-3\">Xem thống kê và các trận đấu của tôi</a></li><li><a href=\"#list-map-4\">Hủy hay thay đổi sự lựa chọn các cầu thủ</a></li></ol><ul class=\"list-content\"><li id=\"list-map-1\"><p class=\"list-title\">1. Hướng dẫn cách chơi</p><p>Các bước xây dựng đội bóng của mình để bắt đầu tham gia giải đấu.</p><p class=\"p-step\"><strong>Bước 1: Chọn môn thể thao và giải đấu mà mình yêu thích</strong></p><p>- Người chơi sẽ chọn cho mình một môn thể thao mà mình ưa thích để lựa chọn các giải đấu sẽ tham gia.</p><p>- Chọn phòng chơi sẽ tham gia, một giải đấu có thể có nhiều phòng chơi ứng với phí tham gia giải đấu</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g1.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 2: Tạo đội bóng mà mình yêu thích</strong></p><p>- Sau khi chọn cho mình 1 giải đấu yêu thích, người chơi bắt đầu tạo cho mình 1 đội bóng gồm các cầu thủ có tiềm năng ghi điểm lớn nhất để tham gia tranh tài.</p><p>- Chú ý bạn chỉ có thể chọn 1 số lượng cầu thủ nhất định trong 1 ngân sách cho phép</p><p>- Bạn có thể để hệ thống tự chọn bằng click trên button “Tự động hoàn tất”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g2.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g3.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 3: Chọn đội trưởng cho đội bóng</strong></p><p>Sau khi hoàn tất lựa chọn các cầu thủ cho đội bóng của mình, bạn phải chọn đội trưởng cho đội bóng.</p><p>- Click vào “Đặt làm đội trưởng” để chọn 1 cầu thủ trong danh sách đã chọn làm đội trưởng.</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g4.png\" alt=\"\"></p><p class=\"p-step\"><strong>Bước 4: Tham gia giải đấu</strong></p><p>Để đội bóng vừa chọn bắt đầu tham gia giải đấu:</p><p>Click vào button “Tham gia giải đấu”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g5.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g6.png\" alt=\"\"></p></li><li id=\"list-map-2\"><p class=\"list-title\">2. Xem lịch sử tham gia giải đấu</p><p>- Click chọn vào Tab “Lịch sử”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g7.png\" alt=\"\"></p><p>- Xem lại đội hình thi đấu đã chọn</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g8.png\" alt=\"\"></p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g9.png\" alt=\"\"></p><p>- Xem bảng xếp hạng thi đấu => Click trên button “Leaderboard”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g10.png\" alt=\"\"></p></li><li id=\"list-map-3\"><p class=\"list-title\">3. Xem thống kê và các trận đấu của tôi</p><p>Click trên Tab “Trận đấu của tôi”</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g11.png\" alt=\"\"></p></li><li id=\"list-map-4\"><p class=\"list-title\">4. Hủy hay thay đổi lựa chọn các cầu thủ</p><p>- Bạn có thể hủy toàn bộ sự lựa chọn bằng cách click vào button Remove, hoặc click trên vị trí của từng cầu thủ</p><p class=\"p-img\"><img src=\"/assets/images/gameplay/g12.png\" alt=\"\"></p></li></ul>"
+        },
+        "FeedBack": "https://docs.google.com/forms/d/e/1FAIpQLSe7ucRbNar2f2-jSxroHO32rInXyOMxNO5fRxle-cRqTz42pA/viewform"
+    },
+    "USE_FB_SDK": false,
+    "FB_ID": 901299290221098,
+    "FB_POPUP": true,
+	"FB_FANPAGE": "http://tiny.cc/bwdutz",
+    "FB_MSG_OPTION": 2,
+
+    "DOWNLOAD_URL": "//download.g88.vin/",
+    "ASSET_URL": "/assets/images/",
+	"REDIRECT_URL": "",
+	
+    "SLOT_API_URL": "//vin88client.herokuapp.com/api/GameAPI/",
+
+    "CHAT_URL": "wss://chat.gabivesole.info/chatHub",
+    "CHAT_CHANNELID": "b25d20c1-0904-4731-ae97-299b0de149e2",
+
+    "VOICE_CHAT_HOST": "vchat.gabivesole.info",
+    "VOICE_CHAT_PORT": 5000,
+    "VOICE_CHAT_API_URL": "//api.gabivesole.info/voicechat/api/Communication/",
+
+    "DRAGON_KING_URL": "//vin88client.herokuapp.com/dragonfish/",
+    "FISH_HUNTER_URL": "//vin88client.herokuapp.com/fishhunter/",
+    "THE_SHARK_URL": "//vin88client.herokuapp.com/shark/",
+	"SORTIE_URL": "//vin88client.herokuapp.com/sortie/",
+	"OTT_URL": "//static.g88.vin/ott/",
+	"RandomPos": true,
+	"GamesPos": [
+        [ 201, 605, 203, 603, 205, 47, 13, 35, 33, 207, 607, 1, 9, 211, 601, 213, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 205, 601, 207, 47, 13, 35, 33, 211, 605, 1, 9, 213, 603, 203, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 207, 603, 211, 47, 13, 35, 33, 213, 607, 1, 9, 203, 601, 205, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 211, 601, 213, 47, 13, 35, 33, 203, 605, 1, 9, 205, 603, 207, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 213, 603, 203, 47, 13, 35, 33, 205, 607, 1, 9, 207, 601, 211, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 203, 601, 205, 47, 13, 35, 33, 207, 605, 1, 9, 211, 603, 213, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 205, 603, 207, 47, 13, 35, 33, 211, 607, 1, 9, 213, 601, 203, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 207, 601, 211, 47, 13, 35, 33, 213, 605, 1, 9, 203, 603, 205, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 211, 603, 213, 47, 13, 35, 33, 203, 607, 1, 9, 205, 601, 207, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 213, 601, 203, 47, 13, 35, 33, 205, 605, 1, 9, 207, 603, 211, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 203, 603, 205, 47, 13, 35, 33, 207, 607, 1, 9, 211, 601, 213, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 205, 601, 207, 47, 13, 35, 33, 211, 605, 1, 9, 213, 603, 203, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 207, 603, 211, 47, 13, 35, 33, 213, 607, 1, 9, 203, 601, 205, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 211, 601, 213, 47, 13, 35, 33, 203, 605, 1, 9, 205, 603, 207, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 213, 603, 203, 47, 13, 35, 33, 205, 607, 1, 9, 207, 601, 211, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 203, 601, 205, 47, 13, 35, 33, 207, 605, 1, 9, 211, 603, 213, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 205, 603, 207, 47, 13, 35, 33, 211, 607, 1, 9, 213, 601, 203, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 207, 601, 211, 47, 13, 35, 33, 213, 605, 1, 9, 203, 603, 205, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 211, 603, 213, 47, 13, 35, 33, 203, 607, 1, 9, 205, 601, 207, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 213, 601, 203, 47, 13, 35, 33, 205, 605, 1, 9, 207, 603, 211, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 203, 603, 205, 47, 13, 35, 33, 207, 607, 1, 9, 211, 601, 213, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 205, 601, 207, 47, 13, 35, 33, 211, 605, 1, 9, 213, 603, 203, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 605, 207, 603, 211, 47, 13, 35, 33, 213, 607, 1, 9, 203, 601, 205, 45, 403, 401, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405],
+        [ 201, 607, 211, 601, 213, 47, 13, 35, 33, 203, 605, 1, 9, 205, 603, 207, 45, 401, 403, 57, 209, 53, 49, 51, 43, 15, 7, 103, 101, 109, 105, 111, 107, 115, 405]
+    ],
+    "FooterPos": ["poker", "tlmn", "ott"],
+    "ConfigGames": {
+        "bacay": {
+            "name": "bacay",
+            "gameName": "na1",
+            "files": [
+                "/cards/bacay/js/bacay.min.js"
+            ],
+            "hubName": "baCayUrl",
+            "url": "//bacay.v88.vin/",
+            "element": "bacay-cvs"
+        },
+        "tlmn": {
+            "name": "tlmn",
+            "gameName": "na3",
+            "files": [
+                "/cards/tlmn/js/tlmn.min.js"
+            ],
+            "hubName": "tlmnUrl",
+            "url": "//tlmn.v88.vin/",
+            "element": "tlmn-cvs"
+        },
+        "tlmn_solo": {
+            "name": "tlmn_solo",
+            "gameName": "na5",
+            "files": [
+                "/cards/tlmn_solo/js/tlmn_solo.min.js"
+            ],
+            "hubName": "tlmnUrl",
+            "url": "//tlmnsolo.v88.vin/",
+            "element": "tlmn_solo-cvs"
+        },
+        "poker": {
+            "name": "poker",
+            "gameName": "na2",
+            "showBuyIn": true,
+            "files": [
+                "/cards/poker/js/poker.min.js"
+            ],
+            "hubName": "pokerUrl",
+            "url": "//poker.v88.vin/",
+            "element": "poker-cvs"
+        },
+        "loc": {
+            "name": "samloc",
+            "gameName": "na4",
+            "files": [
+                "/cards/samloc/js/samloc.min.js"
+            ],
+            "hubName": "locUrl",
+            "url": "//loc.v88.vin/",
+            "element": "samloc-cvs"
+        },
+        "loc_solo": {
+            "name": "samloc_solo",
+            "gameName": "na6",
+            "files": [
+                "/cards/samloc_solo/js/samloc_solo.min.js"
+            ],
+            "hubName": "locSoloUrl",
+            "url": "//locsolo.v88.vin/",
+            "element": "samloc_solo-cvs"
+        },
+        "maubinh": {
+            "name": "maubinh",
+            "gameName": "na7",
+            "files": [
+                "/cards/maubinh/js/maubinh.min.js"
+            ],
+            "hubName": "maubinhUrl",
+            "url": "//maubinh.v88.vin/",
+            "element": "maubinh-cvs"
+        },
+        "catte": {
+            "name": "catte",
+            "gameName": "na30",
+            "files": [
+                "/cards/catte/js/catte.min.js"
+            ],
+            "hubName": "catteUrl",
+            "url": "//catte.v88.vin/",
+            "element": "catte-cvs"
+        },
+
+        "xocdia": {
+            "name": "xocdia",
+            "gameName": "na13",
+            "files": [
+                "/casinos/xocdia/js/xocdia.min.js"
+            ],
+            "hubName": "sedieUrl",
+            "url": "//sedie.v88.vin/",
+            "element": "xocdia-cvs"
+        },
+        "blackjack": {
+            "name": "blackjack",
+            "gameName": "na14",
+            "files": [
+                "/casinos/blackjack/js/blackjack.min.js"
+            ],
+            "hubName": "blackjackUrl",
+            "url": "//blackjack.v88.vin/",
+            "element": "blackjack-cvs"
+        },
+        "sicbo": {
+            "name": "sicbo",
+            "gameName": "na17",
+            "files": [
+                "/casinos/sicbo/js/sicbo.min.js"
+            ],
+            "hubName": "sicboUrl",
+            "url": "//sicbo.v88.vin/",
+            "element": "sicbo-cvs"
+        }
+        ,
+        "dragontiger": {
+            "name": "dragontiger",
+            "gameName": "na18",
+            "files": [
+                "/casinos/dragontiger/js/dragontiger.min.js"
+            ],
+            "hubName": "dragonTigerUrl",
+            "url": "//dragontiger.v88.vin/",
+            "element": "dragontiger-cvs"
+        },
+        "roulette": {
+            "name": "roulette",
+            "gameName": "na16",
+            "files": [
+                "/casinos/roulette/js/roulette.min.js"
+            ],
+            "hubName": "rouletteUrl",
+            "url": "//roulette.v88.vin/",
+            "element": "roulette-cvs"
+        },
+        "baccarat": {
+            "name": "baccarat",
+            "gameName": "na15",
+            "files": [
+                "/casinos/baccarat/js/baccarat.min.js"
+            ],
+            "hubName": "baccaratUrl",
+            "url": "//baccarat.v88.vin/",
+            "element": "baccarat-cvs"
+        },
+        "kingdom": {
+            "name": "kingdom",
+            "url": "//vin88client.herokuapp.com/kingdom/",
+			"hub": ["//kingdom.v88.vin/"]
+        },
+        "ocean": {
+            "name": "ocean",
+            "url": "//vin88client.herokuapp.com/oceanapi/",
+			"hub": ["//ocean.v88.vin/"]
+        },
+        "oracle": {
+            "name": "oracle",
+            "url": "//vin88client.herokuapp.com/oracleapi/",
+			"hub": ["//oracle.v88.vin/"]
+        },
+        "dancing": {
+            "name": "dancing",
+            "url": "//vin88client.herokuapp.com/dancingapi/",
+			"hub": ["//dancing.v88.vin/"]
+        },
+		"forest": {
+            "name": "forest",
+            "url": "//vin88client.herokuapp.com/forestapi/",
+			"hub": ["//forest.v88.vin/"]
+        },
+		"fortune": {
+            "name": "fortune",
+            "url": "//vin88client.herokuapp.com/fortuneapi/",
+			"hub": ["//fortune.v88.vin/"]
+        },
+        "predict": {
+            "name": "predict",
+            "url": "//vin88client.herokuapp.com/predictapi/",
+			"hub": ["//predict.v88.vin/"]
+        }
+    },
+    "GUIDE_BETS" : {
+        "vi" : {
+            "FAQs": "FAQs-vn.html",
+            "Bóng đá" : "Football-vn.html",
+            "Bóng sàn" : "Floorball-vn.html",
+            "Khúc côn cầu" : "Fieldhockey-vn.html",
+            "Bóng bầu dục Mỹ" : "AmericanFootball-vn.html",
+            "Bóng bầu dục Úc" : "Australianfootball-vn.html",
+            "Cầu lông" : "Badminton-vn.html",
+            "Bandy" : "Bandy-vn.html",
+            "Bóng chày" : "Baseball-vn.html",
+            "Bóng rổ" : "Basketball-vn.html",
+            "Bóng đá bãi biển" : "Beach-soccer-vn.html",
+            "Bóng chuyền bãi biển" : "Beach-Volleyball-vn.html",
+            "Quyền Anh" : "Boxing-vn.html",
+            "Cờ Vua" : "Chess-vn.html",
+            "Đua xe đạp" : "Cycle-racing-vn.html",
+            "Phi tiêu" : "Dart-vn.html",
+            "Thể thao điện tử" : "Electronic-Sports-vn.html",
+            "Bóng đá trong nhà" : "Futsal-vn.html",
+            "Bóng đá Gaelic" : "Gaelic-football-vn.html",
+            "Bóng ném" : "Handball-vn.html",
+            "Khúc côn cầu trên băng" : "Ice-Hockey-vn.html",
+            "Motor racing" : "Motor-racing-vn.html",
+            "Bóng bầu dục" : "Ruqby-vn.html",
+            "Bi-a" : "Snooker-vn.html",
+            "Bóng bàn" : "Table-Tennis-vn.html",
+            "Tennis" : "Tennis-vn.html",
+            "Đua ngựa Anh và Ailen" : "UK-and-Irish-horce-racing-vn.html",
+            "Bóng chuyền" : "Volleyball-vn.html",
+            "Bóng nước" : "Water-polo-vn.html",
+            "Thể thao mùa đông" : "Winter-sports-vn.html",
+            "Giao dịch" : "Exchange-vn.html"
+        },
+        "en" : {
+            "FAQs": "FAQs.html",
+            "Football" : "Football.html",
+            "Floorball" : "Floorball.html",
+            "Fieldhockey" : "Fieldhockey.html",
+            "American Football" : "AmericanFootball.html",
+            "Australian Football" : "Australianfootball.html",
+            "Badminton" : "Badminton.html",
+            "Bandy" : "Bandy.html",
+            "Baseball" : "Baseball.html",
+            "Basketball" : "Basketball.html",
+            "Beach soccer" : "Beach-soccer.html",
+            "Beach Volleyball" : "Beach-Volleyball.html",
+            "Boxing" : "Boxing.html",
+            "Chess" : "Chess.html",
+            "Cycle racing" : "Cycle-racing.html",
+            "Dart" : "Dart.html",
+            "Electronic Sports" : "Electronic-Sports.html",
+            "Futsal" : "Futsal.html",
+            "Gaelic football" : "Gaelic-football.html",
+            "Handball" : "Handball.html",
+            "Ice Hockey" : "Ice-Hockey.html",
+            "Motor racing" : "Motor-racing.html",
+            "Ruqby" : "Ruqby.html",
+            "Snooker" : "Snooker.html",
+            "Table Tennis" : "Table-Tennis.html",
+            "Tennis" : "Tennis.html",
+            "UK and Irish horce racing" : "UK-and-Irish-horce-racing.html",
+            "Volleyball" : "Volleyball.html",
+            "Water polo" : "Water-polo.html",
+            "Winter sports" : "Winter-sports.html",
+            "Exchange" : "Exchange.html"
+        },
+        "zh" : {
+            "FAQs": "FAQs.html",
+            "Football" : "Football.html",
+            "Floorball" : "Floorball.html",
+            "Fieldhockey" : "Fieldhockey.html",
+            "American Football" : "AmericanFootball.html",
+            "Australian Football" : "Australianfootball.html",
+            "Badminton" : "Badminton.html",
+            "Bandy" : "Bandy.html",
+            "Baseball" : "Baseball.html",
+            "Basketball" : "Basketball.html",
+            "Beach soccer" : "Beach-soccer.html",
+            "Beach Volleyball" : "Beach-Volleyball.html",
+            "Boxing" : "Boxing.html",
+            "Chess" : "Chess.html",
+            "Cycle racing" : "Cycle-racing.html",
+            "Electronic Sports" : "Electronic-Sports.html",
+            "Futsal" : "Futsal.html",
+            "Gaelic football" : "Gaelic-football.html",
+            "Handball" : "Handball.html",
+            "Ice Hockey" : "Ice-Hockey.html",
+            "Motor racing" : "Motor-racing.html",
+            "Ruqby" : "Ruqby.html",
+            "Snooker" : "Snooker.html",
+            "Table Tennis" : "Table-Tennis.html",
+            "Tennis" : "Tennis.html",
+            "UK and Irish horce racing" : "UK-and-Irish-horce-racing.html",
+            "Volleyball" : "Volleyball.html",
+            "Water polo" : "Water-polo.html",
+            "Winter sports" : "Winter-sports.html",
+            "Exchange" : "Exchange.html"
+        }
+    },
+	"GUIDE_FANS" : {
+        "vi" : {
+			"Thể thao Fantasy": "the-thao.html",
+            "Bóng đá Fantasy" : "bong-da.html",
+            "Hockey Fantasy" : "hockey.html",
+            "Bóng rổ Fantasy" : "bong-ro.html"
+        },
+        "en" : {
+			"Thể thao Fantasy": "the-thao.html",
+            "Bóng đá Fantasy" : "bong-da.html",
+            "Hockey Fantasy" : "hockey.html",
+            "Bóng rổ Fantasy" : "bong-ro.html"
+        },
+        "zh" : {
+			"Thể thao Fantasy": "the-thao.html",
+            "Bóng đá Fantasy" : "bong-da.html",
+            "Hockey Fantasy" : "hockey.html",
+            "Bóng rổ Fantasy" : "bong-ro.html"
+        }
+    },
+	"USE_JACKPOT_API": false,
+	"ENABLE_MAIL": false,
+	"TIME_GET_JACKPOT_LOBBY": 2.5,
+    "FOOTER_LINK": {
+        "SHOW": true,
+        "LINK": "//88vin.pro.vn"
+    }
+}

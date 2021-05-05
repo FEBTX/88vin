@@ -1,0 +1,38 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn2')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type" id="t1rank"><span>{Config.MoneyText[1]}</span></span>
+<span class="type" id="t2rank"><span>{Config.MoneyText[0]}</span></span>
+</div>
+<div class="list-tabs">
+<table class="table" style="width:100%">
+<thead>
+<tr>
+<th align="center">{Message.GetMessage('hi02')}</th>
+<th align="center">{Message.GetMessage('hi21')}</th>
+<th align="center">{Message.GetMessage('hi34')}</th>
+<th align="center">{Message.GetMessage('hi17')}</th>
+<th align="center">{Message.GetMessage('hi41')}</th>
+</tr>
+</thead>
+<tbody>
+{#foreach $T.data as item}
+<tr>
+<td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+<td align="center" {#if ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID)}style="color: #ff0"{#/if}>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+<td align="center" class="{#if gameSlotGod.historyType == 1}money-gold{#else}money-coin{#/if}">{gameSlotGod.getRoomName($T.item.RoomID)}</td>
+<td align="center" class="{#if gameSlotGod.historyType == 1}money-gold{#else}money-coin{#/if}">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+<td align="center">{Message.GetMessage('mn15')}{#if $T.item.IsX2} (X2){#/if}</td>
+</tr>
+{#/for}
+</tbody>
+</table>
+<div class="page-ljp pages" id="pager">
+</div>
+</div>
+</div>
+</div>
+</div>

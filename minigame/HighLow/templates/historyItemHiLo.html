@@ -1,0 +1,11 @@
+{#foreach $T as item}
+<tr>
+    <td align="center">{$T.item.TurnID}</td>
+    <td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+    <td align="center" class="money-gold">{libs.Util.ParseMoney($T.item.BetValue)}</td>
+    <td align="center">{$T.item.Step}</td>
+    <td align="center">{gameHighLow.displayCard($T.item.CardID)}</td>
+    <td align="center">{if($T.item.Step > 1) Message.GetMessage(($T.item.LocationID == 1) ?'hl13':'hl14')}</td>
+    <td align="right" class="money-gold">{if($T.item.Step == 1) "-"}{libs.Util.ParseMoney($T.item.PrizeValue)}</td>
+</tr>
+{#/for}

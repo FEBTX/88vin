@@ -1,0 +1,14 @@
+<h3> <span>XS {$P.LocationName}</span>,
+{#if $T.Status==0}
+{Message.GetMessage('xs65')},
+{#/if}
+{#if $T.Status==1}
+{Message.GetMessage('xs66')},
+{#/if}
+{#if $T.Status==2}
+{Message.GetMessage('xs67')},
+{#/if}
+{Message.GetMessage('xs3')}</h3>
+<span id="countup" {#if $T.Status==2}style="color: #666"{#/if}>
+<span id="days" style="display:none" >--</span><span id="hours">--</span>:<span id="minutes">--</span>:<span id="seconds">--</span>
+</span>

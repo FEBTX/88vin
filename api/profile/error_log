@@ -1,0 +1,6 @@
+[02-Mar-2021 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: auth in /home/kurynno4/codegamvip.online/api/profile/UpdateSecurityInfo.php on line 3
+[02-Mar-2021 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/profile/UpdateSecurityInfo.php on line 6
+[02-Mar-2021 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/profile/UpdateSecurityInfo.php on line 7
+[02-Mar-2021 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/profile/UpdateSecurityInfo.php on line 8
+[02-Mar-2021 00:43:20 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/profile/UpdateSecurityInfo.php on line 9
+[02-Mar-2021 03:49:07 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: auth in /home/kurynno4/codegamvip.online/api/profile/GetLeaderBoard.php on line 3

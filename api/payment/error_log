@@ -1,0 +1,40 @@
+[24-Feb-2021 23:36:02 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/go88vn.tv/api/config.php on line 3
+[24-Feb-2021 23:36:02 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/go88vn.tv/api/config.php on line 41
+[24-Feb-2021 23:36:02 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/go88vn.tv/api/config.php on line 41
+[26-Feb-2021 04:30:31 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:30:32 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:30:32 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:36:47 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:36:48 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:36:48 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:37:00 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:37:00 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:37:00 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:39:19 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected end of file in /home/kurynno4/codegamvip.online/api/payment/TransferAccout.php on line 64
+[26-Feb-2021 04:39:38 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:39:39 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:39:39 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:39:42 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:39:42 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:39:42 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:04 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:40:04 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:04 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:06 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:40:06 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:06 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:22 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:40:22 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:22 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:22 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: message in /home/kurynno4/codegamvip.online/api/payment/TransferAccout.php on line 35
+[26-Feb-2021 04:40:23 Asia/Ho_Chi_Minh] PHP Warning:  file_get_contents(https://api.telegram.org/bot1698347134:AAFuXkzAfE-0q89KY2iNSb6hK7SVXJgAwRM/sendMessage?chat_id=-418265377&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/kurynno4/codegamvip.online/api/config.php on line 17
+[26-Feb-2021 04:40:40 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:40:40 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:40:40 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:43:13 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:43:13 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:43:13 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:53:44 Asia/Ho_Chi_Minh] PHP Warning:  fopen(loginotp/listacc.txt): failed to open stream: No such file or directory in /home/kurynno4/codegamvip.online/api/config.php on line 3
+[26-Feb-2021 04:53:45 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41
+[26-Feb-2021 04:53:45 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/kurynno4/codegamvip.online/api/config.php on line 41

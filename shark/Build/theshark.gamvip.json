@@ -1,0 +1,14 @@
+{
+"companyName": "DefaultCompany",
+"productName": "FishingWorldWebGL",
+"dataUrl": "theshark.gamvip.data.unityweb",
+"wasmCodeUrl": "theshark.gamvip.wasm.code.unityweb",
+"wasmFrameworkUrl": "theshark.gamvip.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "theshark.gamvip.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"}
+}

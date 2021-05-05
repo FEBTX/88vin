@@ -1,0 +1,415 @@
+{"frames": {
+
+"lucky-wheel-symbol-.png":
+{
+	"frame": {"x":180,"y":566,"w":177,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":31,"w":177,"h":107},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-1-vi.png":
+{
+	"frame": {"x":278,"y":1170,"w":118,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":65,"w":118,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-1.png":
+{
+	"frame": {"x":278,"y":1290,"w":118,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":65,"w":118,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2-vi.png":
+{
+	"frame": {"x":451,"y":1237,"w":97,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":65,"w":97,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2.png":
+{
+	"frame": {"x":451,"y":1336,"w":97,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":65,"w":97,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-3-vi.png":
+{
+	"frame": {"x":231,"y":1542,"w":97,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":65,"w":97,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-3.png":
+{
+	"frame": {"x":310,"y":1443,"w":97,"h":38},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":65,"w":97,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4-vi.png":
+{
+	"frame": {"x":330,"y":1542,"w":88,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":65,"w":88,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4.png":
+{
+	"frame": {"x":420,"y":1542,"w":88,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":65,"w":88,"h":38},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5-vi.png":
+{
+	"frame": {"x":350,"y":1474,"w":66,"h":37},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":89,"y":66,"w":66,"h":37},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5.png":
+{
+	"frame": {"x":389,"y":1474,"w":66,"h":37},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":89,"y":66,"w":66,"h":37},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6-vi.png":
+{
+	"frame": {"x":436,"y":1435,"w":67,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":65,"w":67,"h":37},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6.png":
+{
+	"frame": {"x":428,"y":1474,"w":67,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":65,"w":67,"h":37},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-18-vi.png":
+{
+	"frame": {"x":318,"y":1364,"w":77,"h":116},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":14,"w":77,"h":116},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-18.png":
+{
+	"frame": {"x":231,"y":1428,"w":77,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":14,"w":77,"h":112},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2012-vi.png":
+{
+	"frame": {"x":170,"y":1044,"w":165,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":32,"w":165,"h":124},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2012.png":
+{
+	"frame": {"x":402,"y":1,"w":134,"h":108},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":30,"w":134,"h":108},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2032-vi.png":
+{
+	"frame": {"x":1,"y":349,"w":177,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":27,"w":177,"h":129},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2032.png":
+{
+	"frame": {"x":203,"y":119,"w":194,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":31,"w":194,"h":107},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2052-vi.png":
+{
+	"frame": {"x":356,"y":728,"w":154,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":25,"w":154,"h":131},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2052.png":
+{
+	"frame": {"x":1,"y":130,"w":192,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":32,"w":192,"h":106},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2072-vi.png":
+{
+	"frame": {"x":377,"y":414,"w":177,"h":133},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":23,"w":177,"h":133},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2072.png":
+{
+	"frame": {"x":1,"y":1450,"w":127,"h":113},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":25,"w":127,"h":113},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2112-vi.png":
+{
+	"frame": {"x":1,"y":958,"w":167,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":27,"w":167,"h":129},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2134-vi.png":
+{
+	"frame": {"x":359,"y":593,"w":141,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":23,"w":141,"h":133},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-2134.png":
+{
+	"frame": {"x":195,"y":228,"w":190,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":30,"w":190,"h":110},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4011-vi.png":
+{
+	"frame": {"x":1,"y":591,"w":176,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":27,"w":176,"h":125},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4011.png":
+{
+	"frame": {"x":203,"y":1,"w":197,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":35,"w":197,"h":116},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4031-vi.png":
+{
+	"frame": {"x":179,"y":675,"w":175,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":26,"w":175,"h":126},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4031.png":
+{
+	"frame": {"x":141,"y":1170,"w":135,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":22,"w":135,"h":129},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4051-vi.png":
+{
+	"frame": {"x":178,"y":917,"w":173,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":27,"w":173,"h":125},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4051.png":
+{
+	"frame": {"x":1,"y":718,"w":175,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":27,"w":175,"h":124},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4071-vi.png":
+{
+	"frame": {"x":355,"y":861,"w":152,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":23,"w":152,"h":129},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-4071.png":
+{
+	"frame": {"x":1,"y":1,"w":200,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":24,"w":200,"h":127},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5043-vi.png":
+{
+	"frame": {"x":318,"y":1237,"w":131,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":16,"w":131,"h":125},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5043.png":
+{
+	"frame": {"x":136,"y":1301,"w":130,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":16,"w":130,"h":125},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5033-vi.png":
+{
+	"frame": {"x":1,"y":1089,"w":138,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":17,"w":138,"h":124},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5033.png":
+{
+	"frame": {"x":337,"y":1111,"w":138,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":17,"w":138,"h":124},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5091-vi.png":
+{
+	"frame": {"x":180,"y":454,"w":177,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":31,"w":177,"h":110},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-5091.png":
+{
+	"frame": {"x":1,"y":480,"w":177,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":31,"w":177,"h":109},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6015-vi.png":
+{
+	"frame": {"x":1,"y":1215,"w":133,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":24,"w":133,"h":116},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6015.png":
+{
+	"frame": {"x":178,"y":803,"w":175,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":25,"w":175,"h":112},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6035-vi.png":
+{
+	"frame": {"x":192,"y":340,"w":183,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":28,"w":183,"h":112},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6035.png":
+{
+	"frame": {"x":1,"y":238,"w":189,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":28,"w":189,"h":109},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6055-vi.png":
+{
+	"frame": {"x":1,"y":1333,"w":128,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":25,"w":128,"h":115},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6055.png":
+{
+	"frame": {"x":1,"y":844,"w":175,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":25,"w":175,"h":112},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6075-vi.png":
+{
+	"frame": {"x":353,"y":992,"w":156,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":23,"w":156,"h":117},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6075.png":
+{
+	"frame": {"x":116,"y":1450,"w":123,"h":113},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":24,"w":123,"h":113},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6095-vi.png":
+{
+	"frame": {"x":387,"y":295,"w":123,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":23,"w":123,"h":117},
+	"sourceSize": {"w":246,"h":171}
+},
+"lucky-wheel-symbol-6095.png":
+{
+	"frame": {"x":399,"y":137,"w":156,"h":111},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":26,"w":156,"h":111},
+	"sourceSize": {"w":246,"h":171}
+}},
+"animations": {
+	"lucky-wheel-symbol": ["lucky-wheel-symbol-1.png","lucky-wheel-symbol-2.png","lucky-wheel-symbol-3.png","lucky-wheel-symbol-4.png","lucky-wheel-symbol-5.png","lucky-wheel-symbol-6.png","lucky-wheel-symbol-18.png","lucky-wheel-symbol-2012.png","lucky-wheel-symbol-2032.png","lucky-wheel-symbol-2052.png","lucky-wheel-symbol-2072.png","lucky-wheel-symbol-2134.png","lucky-wheel-symbol-4011.png","lucky-wheel-symbol-4031.png","lucky-wheel-symbol-4051.png","lucky-wheel-symbol-4071.png","lucky-wheel-symbol-5033.png","lucky-wheel-symbol-5043.png","lucky-wheel-symbol-5091.png","lucky-wheel-symbol-6015.png","lucky-wheel-symbol-6035.png","lucky-wheel-symbol-6055.png","lucky-wheel-symbol-6075.png","lucky-wheel-symbol-6095.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "lucky-wheel-symbol.png",
+	"format": "RGBA8888",
+	"size": {"w":511,"h":1581},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4b1555fde8570063d65ed79d313d10d0:5df0b0185148e14c3f10d537e4c4ccc9:1a587924e574402e0e4fe4950f18c468$"
+}
+}

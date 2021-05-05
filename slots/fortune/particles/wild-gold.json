@@ -1,0 +1,54 @@
+{
+	"alpha": {
+		"start": 1,
+		"end": 0
+	},
+	"scale": {
+		"start": 0.1,
+		"end": 1,
+		"minimumScaleMultiplier": 1
+	},
+	"color": {
+		"start": "#fffcab",
+		"end": "#ffab3d"
+	},
+	"speed": {
+		"start": 20,
+		"end": 20,
+		"minimumSpeedMultiplier": 1
+	},
+	"acceleration": {
+		"x": 0,
+		"y": 0
+	},
+	"maxSpeed": 0,
+	"startRotation": {
+		"min": 0,
+		"max": 360
+	},
+	"noRotation": false,
+	"rotationSpeed": {
+		"min": 20,
+		"max": 100
+	},
+	"lifetime": {
+		"min": 0.5,
+		"max": 0.5
+	},
+	"blendMode": "add",
+	"frequency": 0.005,
+	"emitterLifetime": 1,
+	"maxParticles": 130,
+	"pos": {
+		"x": 0,
+		"y": 0
+	},
+	"addAtBack": false,
+	"spawnType": "ring",
+	"spawnCircle": {
+		"x": 0,
+		"y": 0,
+		"r": 150,
+		"minR": 0
+	}
+}

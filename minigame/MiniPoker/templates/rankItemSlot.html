@@ -1,0 +1,10 @@
+
+{#foreach $T as item}
+<tr>
+    <td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+    <td align="center" {#if ($T.item.AccountID == $P.AccountID && $T.item.PortalID == $P.PortalID)}style="color: #ff0"{#/if}>{libs.Util.getNameSetStyle($T.item.Nickname)}</td>
+    <td align="right" class="money-gold">{libs.Util.ParseMoney($T.item.BetValue)}</td>
+    <td align="right" class="money-gold">{libs.Util.ParseMoney($T.item.PrizeValue)}</td>    
+    <td align="center">{gameMiniPoker.displayBai($T.item.CardTypeID)}</td>    
+</tr>
+{#/for}  

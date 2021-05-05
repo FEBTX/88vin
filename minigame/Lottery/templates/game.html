@@ -1,0 +1,31 @@
+<div id="gameLottery" class="mg-xs show" style="top: 50px;left: 50px; display: none;">
+<div class="bg-mesh"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<span class="button button-close"></span>
+<span class="button button-guide"></span>
+<div class="content">
+<div class="left" id="xs-btn-tab">
+<span class="button button-choose active" id="TabID1"
+                onclick="gameLottery.ChonSo()">{Message.GetMessage('xs1')}</span>
+<span class="button button-result" id="TabID2"
+                onclick="gameLottery.KetQua()">{Message.GetMessage('hi11')}</span>
+<span class="button button-history" id="TabID3"
+                onclick="gameLottery.LichSu()">{Message.GetMessage('pr1')}</span>
+<span class="button button-achievement" id="TabID4"
+                onclick="gameLottery.BangXepHang(1);">{Message.GetMessage('tx15')}</span>
+</div>
+<div class="right">
+<div class="tabs" id="xs-tabs">
+</div>
+</div>
+</div>
+<div class="popup-mini show" id="divThongBao" style="display:none;">
+<p class="tit" id="legTitle">{Message.GetMessage('xs30')}</p>
+<div class="content" id="legMess">
+</div>
+<div class="confirm">
+<span class="button button-confirm" id="actThongBao">{Message.GetMessage('cm03')}</span>
+<span class="button button-cancel"
+                onclick="gameLottery.closeAllPopup()">{Message.GetMessage('cm02')}</span>
+</div>
+</div>
+</div>

@@ -1,0 +1,44 @@
+{"frames": {
+
+"btn-hide.png":
+{
+	"frame": {"x":1,"y":23,"w":106,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":47},
+	"sourceSize": {"w":106,"h":47}
+},
+"hide-en.png":
+{
+	"frame": {"x":1,"y":1,"w":32,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":13},
+	"sourceSize": {"w":32,"h":13}
+},
+"hide-vi.png":
+{
+	"frame": {"x":55,"y":1,"w":23,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":20},
+	"sourceSize": {"w":23,"h":20}
+},
+"icon-hide.png":
+{
+	"frame": {"x":35,"y":1,"w":18,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":16},
+	"sourceSize": {"w":18,"h":16}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "../assets/images/hide.png",
+	"format": "RGBA8888",
+	"size": {"w":108,"h":71},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5f28a9cff0032f7c66ac2236da9bc2c5:8b13dc66bca7c519c5d249c05eb72d8e:00fa10f493660039a5d11f2430d8bc40$"
+}
+}

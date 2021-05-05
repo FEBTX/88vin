@@ -1,0 +1,30 @@
+<div class="popup popup-tx-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn22')}</div>
+<div class="popup-body">
+<p>
+Bước 1: Chọn nút Dự đoán Tài hoặc Xỉu *<br>
+Bước 2: Nhập số {Config.MoneyText[1]}/{Config.MoneyText[0]} muốn dự đoán <br>
+Bước 3: Chọn nút Đồng ý để xác nhận **<br>
+Bước 4: Theo dõi kết quả để biết Thắng hay Thua.***<br>
+<br>
+(*) Tài: >= 11 điểm; Xỉu: <=10 điểm. <br>
+(**) Cách chơi game : <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Tham gia dự đoán phiên chơi về tài hoặc xỉu. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Khi kết thúc thời gian lựa chọn, nếu số {Config.MoneyText[1]}/{Config.MoneyText[0]} 2 bên chênh lệch, số chênh lệch sẽ được hoàn trả cho người chơi (ưu tiên người chơi dự đoán sớm hơn) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Người chơi dự đoán tối thiểu là 100 và tối đa là số dư tài khoản.<br>
+(***) Trả thưởng khi có kết quả: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Hệ thống sẽ tính phí 2% (5%) số {Config.MoneyText[1]}/{Config.MoneyText[0]} dựa trên tiền thắng. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Có thể chọn nút (!) để xem lịch sử giao dịch.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;+ Có thể chọn cúp để xem bảng xếp hạng. <br>
+</p>
+<p>
+VD: khi game có 1000 {Config.MoneyText[1]} bên {Config.MoneyText[1]} – 900 {Config.MoneyText[1]} bên Xỉu<br>
+</p>
+<p>
+<span>
+A chọn 200 {Config.MoneyText[1]} bên Xỉu, sau đó B chọn 200 {Config.MoneyText[1]} bên Xỉu -> hết giờ chọn cược hệ thống trả lại 200 {Config.MoneyText[1]} cho B, 100 {Config.MoneyText[1]} cho A (để tổng {Config.MoneyText[1]} 2 bên đạt 1000 {Config.MoneyText[1]}. Kết quả ra 9 - bên Xỉu -> A thắng, nhận được (100x2) – (100x2%) = 198 {Config.MoneyText[1]}.
+</span>
+</p>
+</div>
+</div>

@@ -1,0 +1,24 @@
+ {#if $P.TabID == 1}
+<h3>{Message.GetMessage('xs54')}</h3>
+<div class="list-status-lottery-app" id="description4">
+
+    <ul style="overflow-x:hidden;overflow-y:scroll;height:100%">
+        {#foreach $T as item}
+        <li>
+            {$T.item.Nickname} - {lotteryLibs.CountTimeToNow($T.item.TotalSecond)}
+            <span class="pink-lottery">{commonGame.parseMoney($T.item.BetValue)}</span>
+            <span class="yellow-lottery">(XS {gameLottery.GetLocationName($T.item.LocationID)})</span>
+            - {gameLottery.GetBetType($T.item.BetType)}
+            <span class="blue-lottery">({$T.item.BetData})</span>
+        </li>
+        {#/for}
+    </ul>
+</div>
+{#/if}
+{#if $P.TabID == 2}
+<div class="search-lottery-app">
+    <p>{Message.GetMessage('xs55')}</p>
+    <input type="text">
+    <p><a href="#" class="btn-lottery">{Message.GetMessage('xs56')}</a></p>
+</div>
+{#/if}

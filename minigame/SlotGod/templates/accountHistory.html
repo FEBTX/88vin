@@ -1,0 +1,44 @@
+<div class="popup popup-mini-guide show">
+<span class="button button-close" onclick="libs.MiniGame.closePopupParent()"></span>
+<div class="title">{Message.GetMessage('mn1')}</div>
+<div class="body-tabs">
+<div class="body-tab active">
+<div class="money-types">
+<span class="type active" id="t1History"><span>{Config.MoneyText[1]}</span></span>
+<span class="type"  id="t2History"><span>{Config.MoneyText[0]}</span></span>
+</div>
+<div class="list-tabs">
+<table class="table" style="width:100%">
+<thead>
+<tr>
+<th>{Message.GetMessage('hi08')}</th>
+<th>{Message.GetMessage('hi09')}</th>
+<th>{Message.GetMessage('hi34')}</th>
+<th>{Message.GetMessage('hi36')}</th>
+<th>{Message.GetMessage('hi12')}</th>
+<th>{Message.GetMessage('hi38')}</th>
+<th>{Message.GetMessage('hi14')}</th>
+<th>{Message.GetMessage('hi07')}</th>
+</tr>
+</thead>
+<tbody>
+{#foreach $T.data as item}
+<tr>
+<td align="center">{$T.item.SpinID}</td>
+<td align="center">{libs.Util.formDateTimehms($T.item.CreatedTime)}</td>
+<td align="center" class="{#if gameSlotGod.historyType == 1}money-gold{#else}money-coin{#/if}">{libs.Util.ParseMoney($T.item.BetValue)}</td>
+<td align="center">{gameSlotGod.getTotalBetLine($T.item.LineData)}</td>
+<td align="center">{libs.Util.ParseMoney($T.item.TotalBetValue)}</td>
+<td align="center" style="max-width:18px;  overflow: hidden;white-space: nowrap;text-overflow: ellipsis;">{$T.item.PrizeLine}</td>
+<td align="center" class="{#if gameSlotGod.historyType ==1}money-gold{#else}money-coin{#/if}">{libs.Util.ParseMoney($T.item.TotalPrizeValue)}</td>
+<td align="center"><a onclick="gameSlotGod.historyDetail({$T.item.SpinID},{$T.item.RoomID})">{Message.GetMessage('hi07')}</a></td>
+</tr>
+{#/for}
+</tbody>
+</table>
+<div class="page-ljp pages" id="pager">
+</div>
+</div>
+</div>
+</div>
+</div>
