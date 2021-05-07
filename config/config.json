@@ -45,7 +45,7 @@
         "listServer": ["//minigame1.v88.vin/", "//minigame2.v88.vin/"],
 		"listServerLuckyDice": ["//minigame3.v88.vin/", "//minigame4.v88.vin/"],
         "OttServers": ["//minigame.v88.vin"],
-        "miniApiUrl": "//vin88client.herokuapp.com/",
+        "miniApiUrl": "//88vin.poker/",
 		"miniApiUrlLuckyDice": "",
         "alwayShowGame": ["gameLuckyDice"],
         "autoShowGame": ["gameLuckyDice", "gameMinipoker"],
@@ -57,16 +57,16 @@
     "Tour": {
         "poker" : {
 			"id": 401,
-            "api": "//vin88client.herokuapp.com/api/PokerTour/",
+            "api": "//88vin.poker/api/PokerTour/",
             "register": [
-                "//vin88client.herokuapp.com/api/gameapi/p1/Register",
-                "//vin88client.herokuapp.com/api/gameapi/p2/Register",
-                "//vin88client.herokuapp.com/api/gameapi/p3/Register",
-                "//vin88client.herokuapp.com/api/gameapi/p4/Register",
-                "//vin88client.herokuapp.com/api/gameapi/p5/Register",
-				"//vin88client.herokuapp.com/api/gameapi/p6/Register",
-				"//vin88client.herokuapp.com/api/gameapi/p7/Register",
-				"//vin88client.herokuapp.com/api/gameapi/p8/Register"
+                "//88vin.poker/api/gameapi/p1/Register",
+                "//88vin.poker/api/gameapi/p2/Register",
+                "//88vin.poker/api/gameapi/p3/Register",
+                "//88vin.poker/api/gameapi/p4/Register",
+                "//88vin.poker/api/gameapi/p5/Register",
+				"//88vin.poker/api/gameapi/p6/Register",
+				"//88vin.poker/api/gameapi/p7/Register",
+				"//88vin.poker/api/gameapi/p8/Register"
             ],
             "hub" : [
                 "//p1.v88.vin/gameHub",
@@ -83,16 +83,16 @@
         },
 		"tlmn" : {
             "id": 403,
-            "api": "//vin88client.herokuapp.com/api/GoonsoloTour/",
+            "api": "//88vin.poker/api/GoonsoloTour/",
             "register": [
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t1/Register",
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t2/Register",
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t3/Register",
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t4/Register",
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t5/Register",
-                "//vin88client.herokuapp.com/api/TLMNSoloAPI/t6/Register",
-				"//vin88client.herokuapp.com/api/TLMNSoloAPI/t7/Register",
-				"//vin88client.herokuapp.com/api/TLMNSoloAPI/t8/Register"
+                "//88vin.poker/api/TLMNSoloAPI/t1/Register",
+                "//88vin.poker/api/TLMNSoloAPI/t2/Register",
+                "//88vin.poker/api/TLMNSoloAPI/t3/Register",
+                "//88vin.poker/api/TLMNSoloAPI/t4/Register",
+                "//88vin.poker/api/TLMNSoloAPI/t5/Register",
+                "//88vin.poker/api/TLMNSoloAPI/t6/Register",
+				"//88vin.poker/api/TLMNSoloAPI/t7/Register",
+				"//88vin.poker/api/TLMNSoloAPI/t8/Register"
             ],
             "hub" : [
                 "//t1.v88.vin/gameHub",
@@ -135,7 +135,7 @@
         },
 		"ott" : {
             "id": 407,
-            "api": "//vin88client.herokuapp.com/api/ott/",
+            "api": "//88vin.poker/api/ott/",
             "value": [ 50000, 100000, 200000, 10000, 500000, 20000, 2000, 5000 ],
             "prize": [15600000, 247200000]
         }
@@ -143,26 +143,26 @@
 	"VERSION": "1.0.0.06",
     "MAIL": "2win88@global88.org",
 
-    "STATIC_URL": "//vin88client.herokuapp.com/",
-    "ACCOUNT_API": "https://vin88client.herokuapp.com/api/Account/",
-    "PROFILE_API": "https://vin88client.herokuapp.com/api/profile/",
-    "PAYMENT_API": "https://vin88client.herokuapp.com/api/payment/",
+    "STATIC_URL": "//88vin.poker/",
+    "ACCOUNT_API": "https://88vin.poker/api/Account/",
+    "PROFILE_API": "https://88vin.poker/api/profile/",
+    "PAYMENT_API": "https://88vin.poker/api/payment/",
     "TRANSFER_PORTAL": { "88VIN": [[1, 2, 3, 5, 9], ["g88", "m88", "r88", "w88", "v88"]], "365WIN": [[4, 6, 7, 8],["m365", "w365", "g365", "r365"]] },
     "MONEY_PORTAL": ["G-VIN", "M-VIN", "R-VIN", "M-WIN", "W-VIN" , "W-WIN", "G-WIN", "R-WIN", "V-VIN"],
-    "PAYMENT_TOPUP_API": "https://vin88client.herokuapp.com/api/payment/",
+    "PAYMENT_TOPUP_API": "https://88vin.poker/api/payment/",
     "PAYMENT_TOPUP_CAPTCHA_API": "https://profile.g88.vin/api/Captcha/",
-    "GAME_API": "https://vin88client.herokuapp.com/api/GameAPI/",
+    "GAME_API": "https://88vin.poker/api/GameAPI/",
     "OPENID_URL": "https://id.g88.vin/api/openid/",
-    "ACCOUNNT_CAPTCHA_API": "https://vin88client.herokuapp.com/api/Captcha/",
+    "ACCOUNNT_CAPTCHA_API": "https://88vin.poker/api/Captcha/",
     "PROFILE_CAPTCHA_API": "https://profile.g88.vin/api/Captcha/",
     "GAME_CAPTCHA_API": "https://gameapi.g88.vin/api/Captcha/",
-    "LUCKY_WHEEL_URL": "https://vin88client.herokuapp.com/api/luckywheel/",
+    "LUCKY_WHEEL_URL": "https://88vin.poker/api/luckywheel/",
     "MAINTAIN_URL": "",
 
 	"SITE_KEY": "6LdWsL0UAAAAAF-kM42G6UCWCqsAcxgwMlmRDdpY",
 	"SITE_KEY_V2": "6LdWsL0UAAAAAF-kM42G6UCWCqsAcxgwMlmRDdpY",
     "SITE_KEY_V3": "6LcMm78UAAAAANo2RUE6XJCkIdHwUYo4oQMWiBOZ",
-	"LOTTERY_API": "//vin88client.herokuapp.com/",
+	"LOTTERY_API": "//88vin.poker/",
     "LOTTERY_CONFIG" : {
         "Ticket" : { "powerball": 1, "megamillion": 2 },
 		"GameID" : { "powerball": 503, "megamillion": 504 },														   
@@ -175,7 +175,7 @@
         "FROM": "2021-02-23 7:00:00.000",
         "TO": "2021-02-23 11:00:00.000"
     },
-	"EBET_API": "//vin88client.herokuapp.com/",
+	"EBET_API": "//88vin.poker/",
 	"FANTASY": { 
         "url": "https://global88-scripts.assets.scoutgg.net/global88-client/application.js",
         "label": "g88vin",
@@ -200,7 +200,7 @@
     "ASSET_URL": "/assets/images/",
 	"REDIRECT_URL": "",
 	
-    "SLOT_API_URL": "//vin88client.herokuapp.com/api/GameAPI/",
+    "SLOT_API_URL": "//88vin.poker/api/GameAPI/",
 
     "CHAT_URL": "wss://chat.gabivesole.info/chatHub",
     "CHAT_CHANNELID": "b25d20c1-0904-4731-ae97-299b0de149e2",
@@ -209,10 +209,10 @@
     "VOICE_CHAT_PORT": 5000,
     "VOICE_CHAT_API_URL": "//api.gabivesole.info/voicechat/api/Communication/",
 
-    "DRAGON_KING_URL": "//vin88client.herokuapp.com/dragonfish/",
-    "FISH_HUNTER_URL": "//vin88client.herokuapp.com/fishhunter/",
-    "THE_SHARK_URL": "//vin88client.herokuapp.com/shark/",
-	"SORTIE_URL": "//vin88client.herokuapp.com/sortie/",
+    "DRAGON_KING_URL": "//88vin.poker/dragonfish/",
+    "FISH_HUNTER_URL": "//88vin.poker/fishhunter/",
+    "THE_SHARK_URL": "//88vin.poker/shark/",
+	"SORTIE_URL": "//88vin.poker/sortie/",
 	"OTT_URL": "//static.g88.vin/ott/",
 	"RandomPos": true,
 	"GamesPos": [
@@ -388,37 +388,37 @@
         },
         "kingdom": {
             "name": "kingdom",
-            "url": "//vin88client.herokuapp.com/kingdom/",
+            "url": "//88vin.poker/kingdom/",
 			"hub": ["//kingdom.v88.vin/"]
         },
         "ocean": {
             "name": "ocean",
-            "url": "//vin88client.herokuapp.com/oceanapi/",
+            "url": "//88vin.poker/oceanapi/",
 			"hub": ["//ocean.v88.vin/"]
         },
         "oracle": {
             "name": "oracle",
-            "url": "//vin88client.herokuapp.com/oracleapi/",
+            "url": "//88vin.poker/oracleapi/",
 			"hub": ["//oracle.v88.vin/"]
         },
         "dancing": {
             "name": "dancing",
-            "url": "//vin88client.herokuapp.com/dancingapi/",
+            "url": "//88vin.poker/dancingapi/",
 			"hub": ["//dancing.v88.vin/"]
         },
 		"forest": {
             "name": "forest",
-            "url": "//vin88client.herokuapp.com/forestapi/",
+            "url": "//88vin.poker/forestapi/",
 			"hub": ["//forest.v88.vin/"]
         },
 		"fortune": {
             "name": "fortune",
-            "url": "//vin88client.herokuapp.com/fortuneapi/",
+            "url": "//88vin.poker/fortuneapi/",
 			"hub": ["//fortune.v88.vin/"]
         },
         "predict": {
             "name": "predict",
-            "url": "//vin88client.herokuapp.com/predictapi/",
+            "url": "//88vin.poker/predictapi/",
 			"hub": ["//predict.v88.vin/"]
         }
     },
