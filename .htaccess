@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteCond %{HTTP} On
-RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteCond %{HTTPS} On
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 #////
 RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
