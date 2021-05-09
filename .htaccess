@@ -9,15 +9,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*?)/?$ $1.php [NC,L]
 ErrorDocument 404 https://gamvip88.net
-gzip on;
-gzip_disable "msie6";
-
-gzip_vary on;
-gzip_proxied any;
-gzip_comp_level 6;
-gzip_buffers 16 8k;
-gzip_http_version 1.1;
-gzip_min_length 256;
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
