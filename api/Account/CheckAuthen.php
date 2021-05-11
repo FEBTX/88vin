@@ -22,7 +22,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
     "Authorization: Bearer $auth_token",
-      "authority: id.g88.vin",
+    "authority: id.g88.vin",
     'Cookie: __cfduid=dd341756b5068a99ffa3138703308a1b81612025870'
   ),
 ));
