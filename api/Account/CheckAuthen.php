@@ -1,6 +1,6 @@
 <?php
 session_start();
-//$auth_token = $_SESSION["auth"];
+$auth_token = $_SESSION["auth"];
 $auth_token = $_SERVER["HTTP_AUTHORIZATION"];
 
 $response = checkauth($auth_token);
@@ -21,10 +21,9 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'GET',
   CURLOPT_HTTPHEADER => array(
-   // "Authorization: Bearer $auth_token",
-   "Authorization: $auth_token",
-    'authority: id.g88.vin'
-    
+    "Authorization: Bearer $auth_token",
+      "authority: id.g88.vin",
+    'Cookie: __cfduid=dd341756b5068a99ffa3138703308a1b81612025870'
   ),
 ));
 

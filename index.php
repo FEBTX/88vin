@@ -99,6 +99,6 @@ Nội dung sẽ được cập nhật…
     <script type="text/javascript" src="/lib/libs.min.js"></script>
     <script type="text/javascript" src="/lib/fingerprint2.min.js"></script>
     <script type="text/javascript" src="/lib/slick.min.js"></script>
-    <script type="text/javascript" src="/static/js/main.fe5eaadb.js?v=66"></script>
+    <script type="text/javascript" src="/static/js/main.fe5eaadb.js?v=66" async></script>
     </body>
     </html>
